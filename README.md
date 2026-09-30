@@ -29,6 +29,7 @@ Historical names are interpretations of those positions, not genetic outputs.
 - [Script reference](#script-reference)
 - [Sources and retrieval](Data/docs/FREQUENCY_SOURCES.md)
 - [Troubleshooting and verification](#troubleshooting-and-verification)
+- [Citing this project](#citing-this-project)
 - [Archiving and reuse](#archiving-and-reuse)
 
 ## Start here
@@ -548,12 +549,25 @@ the same provenance metadata or byte hash as an archived output.
 Result provenance uses repository-relative paths. The seven executable
 configurations are under `Data/models/runs/`.
 
+## Citing this project
+
+Author: Thomas Minzenmay, [ORCID 0009-0007-1730-4528](https://orcid.org/0009-0007-1730-4528).
+The [CITATION.cff](CITATION.cff) file supplies GitHub's citation metadata.
+The matching [.zenodo.json](.zenodo.json) supplies the deposit metadata used
+by the Zenodo integration; Zenodo gives that file precedence over the CFF.
+Both are prepared for the first release, version `1.0.0`.
+
+No Zenodo DOI or release date is claimed before the deposit exists. Once
+available, cite the version-specific Zenodo DOI for the calculations used,
+rather than the mutable `main` branch. A later version should receive its own
+release metadata and version-specific citation.
+
 ## Archiving and reuse
 
 This computational archive can be inspected and reproduced independently of
-an article. A GitHub release and Zenodo DOI will be added after archiving is configured;
-no DOI is claimed here. Cite the final version-specific archived record when
-it becomes available, rather than a mutable branch alone.
+an article. The GitHub repository is connected to Zenodo. Publishing the
+first GitHub release will request an archived deposit; its DOI will be added
+here after the record has been verified.
 
 The Python software is licensed under [MIT](LICENSE). Original documentation
 and protectable contributions to result presentations are licensed under

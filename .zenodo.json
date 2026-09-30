@@ -1,0 +1,22 @@
+{
+  "title": "Amarna Pedigree Analysis",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Minzenmay, Thomas",
+      "orcid": "0009-0007-1730-4528"
+    }
+  ],
+  "description": "<p>Reproducible exact full-pedigree likelihood calculations for eight published nuclear STR loci from the Amarna royal mummies. This self-contained computational archive contains Python software, documented JSON inputs, numerical results and validation checks.</p><p>Five unique scored genetic structures, represented by six labelled model forms, are compared using a normalised dropout-and-background-error observation model. Hawass-derived and Belmonte represent one scored structure in the likelihood normalisation. Founder-prior sensitivity and locus-omission tests document the stability and limitations of the results. Historical names are interpretations of sampled pedigree positions, not genetic outputs. The calculations are conditional on published observations and do not independently authenticate the samples.</p><p>The software is licensed under MIT. Original documentation and protectable contributions to result presentations are licensed under CC BY 4.0, with attribution to Thomas Minzenmay. Third-party observations and reference-frequency data are explicitly excluded from these licence grants; LICENSING.md documents the scope and source attribution. Published STR calls are transcribed observations, not laboratory raw data. Complete source webpages, article PDFs and publication artwork are not distributed.</p><p>The README provides navigable links to the results, interpretation guidance and commands for verification and reproduction. Source retrieval instructions accompany the extracted reference frequencies. Repository: <a href=\"https://github.com/mintho/amarna-pedigree-analysis\">amarna-pedigree-analysis</a>.</p>",
+  "keywords": [
+    "Amarna",
+    "pedigree likelihood",
+    "short tandem repeats",
+    "kinship inference",
+    "reproducible research"
+  ]
+}

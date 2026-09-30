@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite the version-specific Zenodo record when available; otherwise use this repository's citation metadata."
+type: software
+title: "Amarna Pedigree Analysis"
+version: "1.0.0"
+authors:
+  - family-names: "Minzenmay"
+    given-names: "Thomas"
+    orcid: "https://orcid.org/0009-0007-1730-4528"
+repository-code: "https://github.com/mintho/amarna-pedigree-analysis"
+url: "https://github.com/mintho/amarna-pedigree-analysis"
+license: MIT
+abstract: >-
+  Reproducible exact full-pedigree likelihood calculations for eight published
+  nuclear STR loci from the Amarna royal mummies. The archive contains Python
+  software, documented JSON inputs, numerical results and validation checks.
+  Five unique scored structures are compared using a normalised
+  dropout-and-background-error observation model, with founder-prior
+  sensitivity and locus-omission tests. Historical names are interpretations
+  of sampled pedigree positions, not genetic outputs. The software is MIT
+  licensed; original documentation and protectable result presentations are
+  CC BY 4.0. Third-party observations and reference-frequency data are excluded
+  from these grants; see LICENSING.md for scope and source attribution.
+keywords:
+  - Amarna
+  - pedigree likelihood
+  - short tandem repeats
+  - kinship inference
+  - reproducible research
