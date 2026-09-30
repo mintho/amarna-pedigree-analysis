@@ -555,19 +555,23 @@ Author: Thomas Minzenmay, [ORCID 0009-0007-1730-4528](https://orcid.org/0009-000
 The [CITATION.cff](CITATION.cff) file supplies GitHub's citation metadata.
 The matching [.zenodo.json](.zenodo.json) supplies the deposit metadata used
 by the Zenodo integration; Zenodo gives that file precedence over the CFF.
-Both are prepared for the first release, version `1.0.0`.
+Version `1.0.0` is archived on Zenodo:
+[10.5281/zenodo.23064916](https://doi.org/10.5281/zenodo.23064916).
 
-No Zenodo DOI or release date is claimed before the deposit exists. Once
-available, cite the version-specific Zenodo DOI for the calculations used,
-rather than the mutable `main` branch. A later version should receive its own
-release metadata and version-specific citation.
+Cite: Minzenmay, Thomas (2026). *Amarna Pedigree Analysis* (version 1.0.0)
+[Software]. Zenodo. https://doi.org/10.5281/zenodo.23064916
+
+Use this version-specific DOI for the archived calculations rather than the
+mutable `main` branch. The [concept DOI](https://doi.org/10.5281/zenodo.23064915)
+represents the project across versions. A later software version should receive
+its own release metadata and version-specific citation.
 
 ## Archiving and reuse
 
 This computational archive can be inspected and reproduced independently of
-an article. The GitHub repository is connected to Zenodo. Publishing the
-first GitHub release will request an archived deposit; its DOI will be added
-here after the record has been verified.
+an article. The GitHub repository is connected to Zenodo. The published
+archive was verified file-for-file against release `v1.0.0`; the release tag
+and deposited files remain unchanged when citation documentation is updated.
 
 The Python software is licensed under [MIT](LICENSE). Original documentation
 and protectable contributions to result presentations are licensed under

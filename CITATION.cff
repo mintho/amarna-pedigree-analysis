@@ -1,8 +1,10 @@
 cff-version: 1.2.0
-message: "Please cite the version-specific Zenodo record when available; otherwise use this repository's citation metadata."
+message: "Please cite this software using the version-specific Zenodo DOI and citation metadata below."
 type: software
 title: "Amarna Pedigree Analysis"
 version: "1.0.0"
+date-released: 2026-09-30
+doi: "10.5281/zenodo.23064916"
 authors:
   - family-names: "Minzenmay"
     given-names: "Thomas"
