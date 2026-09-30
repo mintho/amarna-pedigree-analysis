@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "id": "reference_allele_frequencies",
+  "description": "Operational reference frequencies with verified locus-specific repeat-count coding and the documented zero-frequency floor.",
+  "source": {
+    "frequency_data": "allele_frequencies.duesseldorf_egypt.json",
+    "verified_key": "color_to_str_allele.duesseldorf_egypt.json",
+    "archive_cache": "source_cache/duesseldorf_archive"
+  },
+  "parameters": {
+    "allele_floor_epsilon0": 1e-05,
+    "observation_epsilon": 0.001,
+    "genotype_state_floor_min_hap": 1e-12,
+    "other_policy": "The listed table priors often sum to less than 1. The remaining mass is stored as allele 'other' after replacing raw zero priors with allele_floor_epsilon0."
+  },
+  "loci": {
+    "Locus1": {
+      "label": "L1",
+      "marker": "D13S317",
+      "alleles": [
+        {
+          "length": 9,
+          "color": "yellow",
+          "prior_raw": 0.0788,
+          "prior_operational": 0.0788,
+          "source_table_allele": "9"
+        },
+        {
+          "length": 12,
+          "color": "blue",
+          "prior_raw": 0.2855,
+          "prior_operational": 0.2855,
+          "source_table_allele": "12"
+        },
+        {
+          "length": 11,
+          "color": "red",
+          "prior_raw": 0.2928,
+          "prior_operational": 0.2928,
+          "source_table_allele": "11"
+        },
+        {
+          "length": 13,
+          "color": "cyan",
+          "prior_raw": 0.1056,
+          "prior_operational": 0.1056,
+          "source_table_allele": "13"
+        },
+        {
+          "length": 10,
+          "color": "green",
+          "prior_raw": 0.0631,
+          "prior_operational": 0.0631,
+          "source_table_allele": "10"
+        },
+        {
+          "length": 16,
+          "color": "pink",
+          "prior_raw": 0.0,
+          "prior_operational": 1e-05,
+          "source_table_allele": "16"
+        }
+      ],
+      "other_prior_operational": 0.17419000000000007
+    },
+    "Locus2": {
+      "label": "L2",
+      "marker": "D7S820",
+      "alleles": [
+        {
+          "length": 6,
+          "color": "green",
+          "prior_raw": 0.0,
+          "prior_operational": 1e-05,
+          "source_table_allele": "6/6.2/6.3"
+        },
+        {
+          "length": 10,
+          "color": "blue",
+          "prior_raw": 0.2985,
+          "prior_operational": 0.2985,
+          "source_table_allele": "10/10.3"
+        },
+        {
+          "length": 15,
+          "color": "red",
+          "prior_raw": 0.0,
+          "prior_operational": 1e-05,
+          "source_table_allele": "15"
+        },
+        {
+          "length": 13,
+          "color": "cyan",
+          "prior_raw": 0.0132,
+          "prior_operational": 0.0132,
+          "source_table_allele": "13"
+        }
+      ],
+      "other_prior_operational": 0.68828
+    },
+    "Locus3": {
+      "label": "L3",
+      "marker": "D2S1338",
+      "alleles": [
+        {
+          "length": 19,
+          "color": "yellow",
+          "prior_raw": 0.1043,
+          "prior_operational": 0.1043,
+          "source_table_allele": "19"
+        },
+        {
+          "length": 26,
+          "color": "blue",
+          "prior_raw": 0.0153,
+          "prior_operational": 0.0153,
+          "source_table_allele": "26"
+        },
+        {
+          "length": 22,
+          "color": "red",
+          "prior_raw": 0.0245,
+          "prior_operational": 0.0245,
+          "source_table_allele": "22"
+        },
+        {
+          "length": 27,
+          "color": "cyan",
+          "prior_raw": 0.0031,
+          "prior_operational": 0.0031,
+          "source_table_allele": "27"
+        },
+        {
+          "length": 16,
+          "color": "green",
+          "prior_raw": 0.0399,
+          "prior_operational": 0.0399,
+          "source_table_allele": "16"
+        },
+        {
+          "length": "17",
+          "color": "pink",
+          "prior_raw": 0.2822,
+          "prior_operational": 0.2822,
+          "source_table_allele": "17"
+        }
+      ],
+      "other_prior_operational": 0.5307
+    },
+    "Locus4": {
+      "label": "L4",
+      "marker": "D21S11",
+      "alleles": [
+        {
+          "length": 35,
+          "color": "yellow",
+          "prior_raw": 0.011,
+          "prior_operational": 0.011,
+          "source_table_allele": "35"
+        },
+        {
+          "length": 26,
+          "color": "blue",
+          "prior_raw": 0.0,
+          "prior_operational": 1e-05,
+          "source_table_allele": "26"
+        },
+        {
+          "length": 29,
+          "color": "red",
+          "prior_raw": 0.325,
+          "prior_operational": 0.325,
+          "source_table_allele": "29"
+        },
+        {
+          "length": 34,
+          "color": "cyan",
+          "prior_raw": 0.004,
+          "prior_operational": 0.004,
+          "source_table_allele": "34"
+        },
+        {
+          "length": 25,
+          "color": "green",
+          "prior_raw": 0.004,
+          "prior_operational": 0.004,
+          "source_table_allele": "25"
+        }
+      ],
+      "other_prior_operational": 0.65599
+    },
+    "Locus5": {
+      "label": "L5",
+      "marker": "D16S539",
+      "alleles": [
+        {
+          "length": 13,
+          "color": "yellow",
+          "prior_raw": 0.125,
+          "prior_operational": 0.125,
+          "source_table_allele": "13"
+        },
+        {
+          "length": 11,
+          "color": "blue",
+          "prior_raw": 0.308,
+          "prior_operational": 0.308,
+          "source_table_allele": "11"
+        },
+        {
+          "length": 6,
+          "color": "red",
+          "prior_raw": 0.0,
+          "prior_operational": 1e-05,
+          "source_table_allele": "6"
+        },
+        {
+          "length": 10,
+          "color": "cyan",
+          "prior_raw": 0.067,
+          "prior_operational": 0.067,
+          "source_table_allele": "10"
+        },
+        {
+          "length": 8,
+          "color": "green",
+          "prior_raw": 0.033,
+          "prior_operational": 0.033,
+          "source_table_allele": "8"
+        }
+      ],
+      "other_prior_operational": 0.46699
+    },
+    "Locus6": {
+      "label": "L6",
+      "marker": "D18S51",
+      "alleles": [
+        {
+          "length": 8,
+          "color": "yellow",
+          "prior_raw": 0.0,
+          "prior_operational": 1e-05,
+          "source_table_allele": "<10"
+        },
+        {
+          "length": 19,
+          "color": "blue",
+          "prior_raw": 0.011,
+          "prior_operational": 0.011,
+          "source_table_allele": "19"
+        },
+        {
+          "length": 22,
+          "color": "red",
+          "prior_raw": 0.0,
+          "prior_operational": 1e-05,
+          "source_table_allele": "22"
+        },
+        {
+          "length": 12,
+          "color": "cyan",
+          "prior_raw": 0.236,
+          "prior_operational": 0.236,
+          "source_table_allele": "12"
+        },
+        {
+          "length": 16,
+          "color": "green",
+          "prior_raw": 0.093,
+          "prior_operational": 0.093,
+          "source_table_allele": "16"
+        },
+        {
+          "length": 10,
+          "color": "pink",
+          "prior_raw": 0.011,
+          "prior_operational": 0.011,
+          "source_table_allele": "10"
+        }
+      ],
+      "other_prior_operational": 0.64898
+    },
+    "Locus7": {
+      "label": "L7",
+      "marker": "CSF1PO",
+      "alleles": [
+        {
+          "length": 7,
+          "color": "yellow",
+          "prior_raw": 0.0071,
+          "prior_operational": 0.0071,
+          "source_table_allele": "7"
+        },
+        {
+          "length": 12,
+          "color": "blue",
+          "prior_raw": 0.2901,
+          "prior_operational": 0.2901,
+          "source_table_allele": "12"
+        },
+        {
+          "length": 9,
+          "color": "red",
+          "prior_raw": 0.016,
+          "prior_operational": 0.016,
+          "source_table_allele": "9"
+        },
+        {
+          "length": 6,
+          "color": "green",
+          "prior_raw": 0.0,
+          "prior_operational": 1e-05,
+          "source_table_allele": "6"
+        }
+      ],
+      "other_prior_operational": 0.68679
+    },
+    "Locus8": {
+      "label": "L8",
+      "marker": "FGA",
+      "alleles": [
+        {
+          "length": 24,
+          "color": "yellow",
+          "prior_raw": 0.1713,
+          "prior_operational": 0.1713,
+          "source_table_allele": "24"
+        },
+        {
+          "length": 26,
+          "color": "blue",
+          "prior_raw": 0.0396,
+          "prior_operational": 0.0396,
+          "source_table_allele": "26"
+        },
+        {
+          "length": 20,
+          "color": "red",
+          "prior_raw": 0.1084,
+          "prior_operational": 0.1084,
+          "source_table_allele": "20"
+        },
+        {
+          "length": 25,
+          "color": "cyan",
+          "prior_raw": 0.0762,
+          "prior_operational": 0.0762,
+          "source_table_allele": "25"
+        },
+        {
+          "length": 23,
+          "color": "green",
+          "prior_raw": 0.1628,
+          "prior_operational": 0.1628,
+          "source_table_allele": "23"
+        },
+        {
+          "length": 31,
+          "color": "pink",
+          "prior_raw": 0.0035,
+          "prior_operational": 0.0035,
+          "source_table_allele": ">29"
+        }
+      ],
+      "other_prior_operational": 0.43820000000000003
+    }
+  },
+  "allele_frequencies": {
+    "Locus1": {
+      "yellow": 0.0788,
+      "blue": 0.2855,
+      "red": 0.2928,
+      "cyan": 0.1056,
+      "green": 0.0631,
+      "pink": 1e-05,
+      "other": 0.17419000000000007
+    },
+    "Locus2": {
+      "green": 1e-05,
+      "blue": 0.2985,
+      "red": 1e-05,
+      "cyan": 0.0132,
+      "other": 0.68828
+    },
+    "Locus3": {
+      "yellow": 0.1043,
+      "blue": 0.0153,
+      "red": 0.0245,
+      "cyan": 0.0031,
+      "green": 0.0399,
+      "pink": 0.2822,
+      "other": 0.5307
+    },
+    "Locus4": {
+      "yellow": 0.011,
+      "blue": 1e-05,
+      "red": 0.325,
+      "cyan": 0.004,
+      "green": 0.004,
+      "other": 0.65599
+    },
+    "Locus5": {
+      "yellow": 0.125,
+      "blue": 0.308,
+      "red": 1e-05,
+      "cyan": 0.067,
+      "green": 0.033,
+      "other": 0.46699
+    },
+    "Locus6": {
+      "yellow": 1e-05,
+      "blue": 0.011,
+      "red": 1e-05,
+      "cyan": 0.236,
+      "green": 0.093,
+      "pink": 0.011,
+      "other": 0.64898
+    },
+    "Locus7": {
+      "yellow": 0.0071,
+      "blue": 0.2901,
+      "red": 0.016,
+      "green": 1e-05,
+      "other": 0.68679
+    },
+    "Locus8": {
+      "yellow": 0.1713,
+      "blue": 0.0396,
+      "red": 0.1084,
+      "cyan": 0.0762,
+      "green": 0.1628,
+      "pink": 0.0035,
+      "other": 0.43820000000000003
+    }
+  }
+}

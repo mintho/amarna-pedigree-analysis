@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "comparison": "full_pedigree_L2_sparse_vs_accelerated",
+      "pedigree": "../pedigrees/hawass_v2_scenario_c_all_loci.json",
+      "accelerated_log_likelihood": -64.2054789003174,
+      "sparse_log_likelihood": -64.2054789003174,
+      "absolute_difference": 0.0
+    },
+    {
+      "comparison": "full_pedigree_L2_sparse_vs_accelerated",
+      "pedigree": "../pedigrees/belmonte_v1_scenario_c_all_loci.json",
+      "accelerated_log_likelihood": -64.2054789003174,
+      "sparse_log_likelihood": -64.2054789003174,
+      "absolute_difference": 0.0
+    },
+    {
+      "comparison": "full_pedigree_L2_sparse_vs_accelerated",
+      "pedigree": "../pedigrees/dodson_v2_scenario_c_all_loci.json",
+      "accelerated_log_likelihood": -66.76691535576602,
+      "sparse_log_likelihood": -66.76691535576602,
+      "absolute_difference": 0.0
+    },
+    {
+      "comparison": "full_pedigree_L2_sparse_vs_accelerated",
+      "pedigree": "../pedigrees/phizackerley_v2_scenario_c_all_loci.json",
+      "accelerated_log_likelihood": -65.40123096127722,
+      "sparse_log_likelihood": -65.40123096127722,
+      "absolute_difference": 0.0
+    },
+    {
+      "comparison": "full_pedigree_L2_sparse_vs_accelerated",
+      "pedigree": "../pedigrees/tawfik_v1_scenario_c_all_loci.json",
+      "accelerated_log_likelihood": -65.40122049184068,
+      "sparse_log_likelihood": -65.40122049184068,
+      "absolute_difference": 0.0
+    },
+    {
+      "comparison": "full_pedigree_L2_sparse_vs_accelerated",
+      "pedigree": "../pedigrees/variant_e1_scenario_c_all_loci.json",
+      "accelerated_log_likelihood": -69.27189441054516,
+      "sparse_log_likelihood": -69.27189441054516,
+      "absolute_difference": 0.0
+    },
+    {
+      "comparison": "focused_trio_enumeration_vs_factors",
+      "pedigree": "focused_yuya_thuya_tiye_trio_l1_l2_relationships",
+      "factor_log_likelihood": -35.83667067861336,
+      "enumeration_log_likelihood": -35.83667067861336,
+      "absolute_difference": 0.0
+    },
+    {
+      "comparison": "focused_trio_enumeration_vs_factors",
+      "pedigree": "focused_yuya_thuya_tiye_trio_l1_l2_independent",
+      "factor_log_likelihood": -46.87789913663017,
+      "enumeration_log_likelihood": -46.87789913663017,
+      "absolute_difference": 0.0
+    }
+  ],
+  "tolerance": 1e-09
+}

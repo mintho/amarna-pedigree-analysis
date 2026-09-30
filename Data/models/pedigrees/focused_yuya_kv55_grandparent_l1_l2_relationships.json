@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "focused_yuya_kv55_grandparent_l1_l2_relationships",
+  "description": "Grandparent excerpt: Yuya/Thuya -> Tiye and Amenhotep/Tiye -> KV55, L1/L2.",
+  "relationships": [
+    {
+      "child": "Tiye",
+      "father": "Yuya",
+      "mother": "Thuya"
+    },
+    {
+      "child": "KV55",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "dodson_v2_scenario_d_all_loci",
+  "description": "Dodson_v2 scenario_d, primary comparison input derived from Dodson_v2.json.",
+  "relationships": [
+    {
+      "child": "Tiye",
+      "father": "Yuya",
+      "mother": "Thuya"
+    },
+    {
+      "child": "Nefertiti",
+      "father": "Ay",
+      "mother": "Iuy"
+    },
+    {
+      "child": "KV35YL",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "Akhenaten",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "Smenkhkare",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "Tutankhamun",
+      "father": "Akhenaten",
+      "mother": "Nefertiti"
+    },
+    {
+      "child": "Ankhesenamun",
+      "father": "Akhenaten",
+      "mother": "Nefertiti"
+    },
+    {
+      "child": "Fetus1",
+      "father": "Tutankhamun",
+      "mother": "Ankhesenamun"
+    },
+    {
+      "child": "Fetus2",
+      "father": "Tutankhamun",
+      "mother": "Ankhesenamun"
+    }
+  ]
+}

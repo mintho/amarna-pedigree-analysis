@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "focused_amenhotep_tiye_children_l1_l2_founders",
+  "description": "Founder scenario for focused_amenhotep_tiye_children_l1_l2.",
+  "allele_frequency_source": "data/allele_frequencies.reference.json",
+  "allele_frequency_parameters": {
+    "allele_floor_epsilon0": 1e-05,
+    "observation_epsilon": 0.001,
+    "genotype_state_floor_min_hap": 1e-12,
+    "other_policy": "The listed table priors often sum to less than 1. The remaining mass is stored as allele 'other' after replacing raw zero priors with allele_floor_epsilon0."
+  },
+  "allele_frequencies": {
+    "Locus1": {
+      "yellow": 0.0788,
+      "blue": 0.2855,
+      "red": 0.2928,
+      "cyan": 0.1056,
+      "green": 0.0631,
+      "pink": 1e-05,
+      "other": 0.17419000000000007
+    },
+    "Locus2": {
+      "green": 1e-05,
+      "blue": 0.2985,
+      "red": 1e-05,
+      "cyan": 0.0132,
+      "other": 0.68828
+    }
+  },
+  "explicit_founder_priors": {}
+}

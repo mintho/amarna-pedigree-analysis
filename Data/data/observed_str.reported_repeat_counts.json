@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "source": "Hawass et al. 2010, figure 1, page 641; reference transcription reproduced in Supplementary Table S1.",
+  "description": "Reported repeat counts, not laboratory raw data. KV21B is documentary only and is not scored.",
+  "observations": {
+    "Yuya": {
+      "Locus1": [
+        11,
+        13
+      ],
+      "Locus2": [
+        6,
+        15
+      ],
+      "Locus3": [
+        22,
+        27
+      ],
+      "Locus4": [
+        29,
+        34
+      ],
+      "Locus5": [
+        6,
+        10
+      ],
+      "Locus6": [
+        12,
+        22
+      ],
+      "Locus7": [
+        9,
+        12
+      ],
+      "Locus8": [
+        20,
+        25
+      ]
+    },
+    "Thuya": {
+      "Locus1": [
+        9,
+        12
+      ],
+      "Locus2": [
+        10,
+        13
+      ],
+      "Locus3": [
+        19,
+        26
+      ],
+      "Locus4": [
+        26,
+        35
+      ],
+      "Locus5": [
+        11,
+        13
+      ],
+      "Locus6": [
+        8,
+        19
+      ],
+      "Locus7": [
+        7,
+        12
+      ],
+      "Locus8": [
+        24,
+        26
+      ]
+    },
+    "Amenhotep III": {
+      "Locus1": [
+        10,
+        16
+      ],
+      "Locus2": [
+        6,
+        15
+      ],
+      "Locus3": [
+        16,
+        27
+      ],
+      "Locus4": [
+        25,
+        34
+      ],
+      "Locus5": [
+        8,
+        13
+      ],
+      "Locus6": [
+        16,
+        22
+      ],
+      "Locus7": [
+        6,
+        9
+      ],
+      "Locus8": [
+        23,
+        31
+      ]
+    },
+    "Tiye": {
+      "Locus1": [
+        11,
+        12
+      ],
+      "Locus2": [
+        10,
+        15
+      ],
+      "Locus3": [
+        22,
+        26
+      ],
+      "Locus4": [
+        26,
+        29
+      ],
+      "Locus5": [
+        6,
+        11
+      ],
+      "Locus6": [
+        19,
+        22
+      ],
+      "Locus7": [
+        9,
+        12
+      ],
+      "Locus8": [
+        20,
+        26
+      ]
+    },
+    "KV55": {
+      "Locus1": [
+        10,
+        12
+      ],
+      "Locus2": [
+        15,
+        15
+      ],
+      "Locus3": [
+        16,
+        26
+      ],
+      "Locus4": [
+        29,
+        34
+      ],
+      "Locus5": [
+        11,
+        13
+      ],
+      "Locus6": [
+        16,
+        19
+      ],
+      "Locus7": [
+        9,
+        12
+      ],
+      "Locus8": [
+        20,
+        23
+      ]
+    },
+    "KV35YL": {
+      "Locus1": [
+        10,
+        12
+      ],
+      "Locus2": [
+        6,
+        10
+      ],
+      "Locus3": [
+        16,
+        26
+      ],
+      "Locus4": [
+        25,
+        29
+      ],
+      "Locus5": [
+        8,
+        11
+      ],
+      "Locus6": [
+        16,
+        19
+      ],
+      "Locus7": [
+        6,
+        12
+      ],
+      "Locus8": [
+        20,
+        23
+      ]
+    },
+    "Tutankhamun": {
+      "Locus1": [
+        10,
+        12
+      ],
+      "Locus2": [
+        10,
+        15
+      ],
+      "Locus3": [
+        16,
+        26
+      ],
+      "Locus4": [
+        29,
+        34
+      ],
+      "Locus5": [
+        8,
+        13
+      ],
+      "Locus6": [
+        19,
+        19
+      ],
+      "Locus7": [
+        6,
+        12
+      ],
+      "Locus8": [
+        23,
+        23
+      ]
+    },
+    "KV21A": {
+      "Locus1": [
+        10,
+        16
+      ],
+      "Locus2": [],
+      "Locus3": [
+        26
+      ],
+      "Locus4": [
+        35
+      ],
+      "Locus5": [
+        8
+      ],
+      "Locus6": [
+        10
+      ],
+      "Locus7": [
+        12
+      ],
+      "Locus8": [
+        23
+      ]
+    },
+    "KV21B": {
+      "Locus1": [
+        10
+      ],
+      "Locus2": [],
+      "Locus3": [
+        17,
+        26
+      ],
+      "Locus4": [],
+      "Locus5": [
+        11,
+        13
+      ],
+      "Locus6": [],
+      "Locus7": [
+        12
+      ],
+      "Locus8": []
+    },
+    "Fetus 1": {
+      "Locus1": [
+        12,
+        16
+      ],
+      "Locus2": [
+        10,
+        13
+      ],
+      "Locus3": [
+        16
+      ],
+      "Locus4": [
+        29
+      ],
+      "Locus5": [
+        8
+      ],
+      "Locus6": [
+        19
+      ],
+      "Locus7": [
+        12
+      ],
+      "Locus8": [
+        23
+      ]
+    },
+    "Fetus 2": {
+      "Locus1": [
+        10
+      ],
+      "Locus2": [
+        6,
+        15
+      ],
+      "Locus3": [
+        26
+      ],
+      "Locus4": [
+        29,
+        35
+      ],
+      "Locus5": [
+        8,
+        13
+      ],
+      "Locus6": [
+        10,
+        19
+      ],
+      "Locus7": [
+        12
+      ],
+      "Locus8": [
+        23
+      ]
+    }
+  }
+}

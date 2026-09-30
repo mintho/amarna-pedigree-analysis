@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "scenario_a_primary_models_all_loci_generative_str",
+  "description": "primary model comparison for scenario_a using the normalized generative STR observation model; all 8 loci; KV21B excluded from the scored evidence set.",
+  "models": [
+    {
+      "label": "Hawass_v2_scenario_a",
+      "persons": "../../data/persons.hawass_v2_scenario_a_all_loci.json",
+      "observations": "../../data/observed_str.hawass_v2_scenario_a_all_loci.json",
+      "pedigree": "../pedigrees/hawass_v2_scenario_a_all_loci.json",
+      "founder_scenario": "../founder_scenarios/hawass_v2_scenario_a_all_loci.json",
+      "identity_hypothesis": "../identity_hypotheses/amarna_no_identity.json",
+      "structure_id": "shared_kv55_kv35yl_tutankhamun_structure"
+    },
+    {
+      "label": "Belmonte_v1_scenario_a",
+      "persons": "../../data/persons.belmonte_v1_scenario_a_all_loci.json",
+      "observations": "../../data/observed_str.belmonte_v1_scenario_a_all_loci.json",
+      "pedigree": "../pedigrees/belmonte_v1_scenario_a_all_loci.json",
+      "founder_scenario": "../founder_scenarios/belmonte_v1_scenario_a_all_loci.json",
+      "identity_hypothesis": "../identity_hypotheses/amarna_no_identity.json",
+      "structure_id": "shared_kv55_kv35yl_tutankhamun_structure"
+    },
+    {
+      "label": "Dodson_v2_scenario_a",
+      "persons": "../../data/persons.dodson_v2_scenario_a_all_loci.json",
+      "observations": "../../data/observed_str.dodson_v2_scenario_a_all_loci.json",
+      "pedigree": "../pedigrees/dodson_v2_scenario_a_all_loci.json",
+      "founder_scenario": "../founder_scenarios/dodson_v2_scenario_a_all_loci.json",
+      "identity_hypothesis": "../identity_hypotheses/amarna_no_identity.json"
+    },
+    {
+      "label": "Phizackerley_v2_scenario_a",
+      "persons": "../../data/persons.phizackerley_v2_scenario_a_all_loci.json",
+      "observations": "../../data/observed_str.phizackerley_v2_scenario_a_all_loci.json",
+      "pedigree": "../pedigrees/phizackerley_v2_scenario_a_all_loci.json",
+      "founder_scenario": "../founder_scenarios/phizackerley_v2_scenario_a_all_loci.json",
+      "identity_hypothesis": "../identity_hypotheses/amarna_no_identity.json"
+    },
+    {
+      "label": "Tawfik_v1_scenario_a",
+      "persons": "../../data/persons.tawfik_v1_scenario_a_all_loci.json",
+      "observations": "../../data/observed_str.tawfik_v1_scenario_a_all_loci.json",
+      "pedigree": "../pedigrees/tawfik_v1_scenario_a_all_loci.json",
+      "founder_scenario": "../founder_scenarios/tawfik_v1_scenario_a_all_loci.json",
+      "identity_hypothesis": "../identity_hypotheses/amarna_no_identity.json"
+    },
+    {
+      "label": "Variant_E1_scenario_a",
+      "persons": "../../data/persons.variant_e1_scenario_a_all_loci.json",
+      "observations": "../../data/observed_str.variant_e1_scenario_a_all_loci.json",
+      "pedigree": "../pedigrees/variant_e1_scenario_a_all_loci.json",
+      "founder_scenario": "../founder_scenarios/variant_e1_scenario_a_all_loci.json",
+      "identity_hypothesis": "../identity_hypotheses/amarna_no_identity.json"
+    }
+  ],
+  "observation_model": {
+    "type": "generative_str",
+    "dropout": 0.2,
+    "background_error": 0.001,
+    "background_source": "fixed_reference_frequencies",
+    "missing": "condition_on_call_available",
+    "background_frequency_file": "../../data/background_allele_frequencies.json"
+  }
+}

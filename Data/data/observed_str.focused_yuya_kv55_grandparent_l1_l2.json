@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "description": "Observed STR data for focused_yuya_kv55_grandparent_l1_l2.",
+  "loci": [
+    "Locus1",
+    "Locus2"
+  ],
+  "observations": {
+    "Yuya": {
+      "Locus1": {
+        "alleles": [
+          "red",
+          "cyan"
+        ],
+        "source": "focused robustness excerpt"
+      },
+      "Locus2": {
+        "alleles": [
+          "red",
+          "green"
+        ],
+        "source": "focused robustness excerpt"
+      }
+    },
+    "Thuya": {
+      "Locus1": {
+        "alleles": [
+          "yellow",
+          "blue"
+        ],
+        "source": "focused robustness excerpt"
+      },
+      "Locus2": {
+        "alleles": [
+          "blue",
+          "cyan"
+        ],
+        "source": "focused robustness excerpt"
+      }
+    },
+    "Tiye": {
+      "Locus1": {
+        "alleles": [
+          "red",
+          "blue"
+        ],
+        "source": "focused robustness excerpt"
+      },
+      "Locus2": {
+        "alleles": [
+          "red",
+          "blue"
+        ],
+        "source": "focused robustness excerpt"
+      }
+    },
+    "Amenhotep": {
+      "Locus1": {
+        "alleles": [
+          "green",
+          "pink"
+        ],
+        "source": "focused robustness excerpt"
+      },
+      "Locus2": {
+        "alleles": [
+          "red",
+          "green"
+        ],
+        "source": "focused robustness excerpt"
+      }
+    },
+    "KV55": {
+      "Locus1": {
+        "alleles": [
+          "green",
+          "blue"
+        ],
+        "source": "focused robustness excerpt"
+      },
+      "Locus2": {
+        "alleles": [
+          "red",
+          "red"
+        ],
+        "source": "focused robustness excerpt"
+      }
+    }
+  }
+}

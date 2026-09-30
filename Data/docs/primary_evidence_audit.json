@@ -1,0 +1,1150 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "runs": [
+    {
+      "run_config": "Data/models/runs/scenario_a_primary_models_all_loci_generative_str.json",
+      "primaryd": "scenario_a_primary_models_all_loci_generative_str",
+      "observation_model": {
+        "type": "generative_str",
+        "dropout": 0.2,
+        "background_error": 0.001,
+        "background_source": "fixed_reference_frequencies",
+        "missing": "condition_on_call_available",
+        "background_frequency_file": "../../data/background_allele_frequencies.json"
+      },
+      "status": "pass",
+      "failures": [],
+      "scored_profile_hashes": [
+        "002447d937fd",
+        "2f5c4929d86a",
+        "32b1a1e7fc2c",
+        "45699b6bcb0e",
+        "6a24102bc72b",
+        "7bdb711e6dff",
+        "9b9d3e77441a",
+        "db903c5e1af7",
+        "e98b4fe483e3",
+        "f2d3574662b7"
+      ],
+      "models": [
+        {
+          "label": "Hawass_v2_scenario_a",
+          "pedigree": "hawass_v2_scenario_a_all_loci",
+          "observations": "../../data/observed_str.hawass_v2_scenario_a_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Akhenaten",
+            "Amenhotep",
+            "Fetus1",
+            "Fetus2",
+            "KV21A",
+            "KV35YL",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "KV21A",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Belmonte_v1_scenario_a",
+          "pedigree": "belmonte_v1_scenario_a_all_loci",
+          "observations": "../../data/observed_str.belmonte_v1_scenario_a_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Baketaten",
+            "Fetus1",
+            "Fetus2",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Dodson_v2_scenario_a",
+          "pedigree": "dodson_v2_scenario_a_all_loci",
+          "observations": "../../data/observed_str.dodson_v2_scenario_a_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Fetus1",
+            "Fetus2",
+            "KV35YL",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Phizackerley_v2_scenario_a",
+          "pedigree": "phizackerley_v2_scenario_a_all_loci",
+          "observations": "../../data/observed_str.phizackerley_v2_scenario_a_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Fetus1",
+            "Fetus2",
+            "Meritaten",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Tawfik_v1_scenario_a",
+          "pedigree": "tawfik_v1_scenario_a_all_loci",
+          "observations": "../../data/observed_str.tawfik_v1_scenario_a_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Fetus1",
+            "Fetus2",
+            "Meritaten",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Variant_E1_scenario_a",
+          "pedigree": "variant_e1_scenario_a_all_loci",
+          "observations": "../../data/observed_str.variant_e1_scenario_a_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Fetus1",
+            "Fetus2",
+            "KV35YL",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        }
+      ]
+    },
+    {
+      "run_config": "Data/models/runs/scenario_b_primary_models_all_loci_generative_str.json",
+      "primaryd": "scenario_b_primary_models_all_loci_generative_str",
+      "observation_model": {
+        "type": "generative_str",
+        "dropout": 0.2,
+        "background_error": 0.001,
+        "background_source": "fixed_reference_frequencies",
+        "missing": "condition_on_call_available",
+        "background_frequency_file": "../../data/background_allele_frequencies.json"
+      },
+      "status": "pass",
+      "failures": [],
+      "scored_profile_hashes": [
+        "002447d937fd",
+        "2f5c4929d86a",
+        "32b1a1e7fc2c",
+        "45699b6bcb0e",
+        "6a24102bc72b",
+        "7bdb711e6dff",
+        "9b9d3e77441a",
+        "db903c5e1af7",
+        "e98b4fe483e3",
+        "f2d3574662b7"
+      ],
+      "models": [
+        {
+          "label": "Hawass_v2_scenario_b",
+          "pedigree": "hawass_v2_scenario_b_all_loci",
+          "observations": "../../data/observed_str.hawass_v2_scenario_b_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Akhenaten",
+            "Amenhotep",
+            "Fetus1",
+            "Fetus2",
+            "KV21A",
+            "KV35YL",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "KV21A",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Belmonte_v1_scenario_b",
+          "pedigree": "belmonte_v1_scenario_b_all_loci",
+          "observations": "../../data/observed_str.belmonte_v1_scenario_b_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Baketaten",
+            "Fetus1",
+            "Fetus2",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Dodson_v2_scenario_b",
+          "pedigree": "dodson_v2_scenario_b_all_loci",
+          "observations": "../../data/observed_str.dodson_v2_scenario_b_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Fetus1",
+            "Fetus2",
+            "KV35YL",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Phizackerley_v2_scenario_b",
+          "pedigree": "phizackerley_v2_scenario_b_all_loci",
+          "observations": "../../data/observed_str.phizackerley_v2_scenario_b_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Fetus1",
+            "Fetus2",
+            "Meritaten",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Tawfik_v1_scenario_b",
+          "pedigree": "tawfik_v1_scenario_b_all_loci",
+          "observations": "../../data/observed_str.tawfik_v1_scenario_b_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Fetus1",
+            "Fetus2",
+            "Meritaten",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Variant_E1_scenario_b",
+          "pedigree": "variant_e1_scenario_b_all_loci",
+          "observations": "../../data/observed_str.variant_e1_scenario_b_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Fetus1",
+            "Fetus2",
+            "KV35YL",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        }
+      ]
+    },
+    {
+      "run_config": "Data/models/runs/scenario_c_primary_models_all_loci_generative_str.json",
+      "primaryd": "scenario_c_primary_models_all_loci_generative_str",
+      "observation_model": {
+        "type": "generative_str",
+        "dropout": 0.2,
+        "background_error": 0.001,
+        "background_source": "fixed_reference_frequencies",
+        "missing": "condition_on_call_available",
+        "background_frequency_file": "../../data/background_allele_frequencies.json"
+      },
+      "status": "pass",
+      "failures": [],
+      "scored_profile_hashes": [
+        "002447d937fd",
+        "2f5c4929d86a",
+        "32b1a1e7fc2c",
+        "45699b6bcb0e",
+        "6a24102bc72b",
+        "7bdb711e6dff",
+        "9b9d3e77441a",
+        "db903c5e1af7",
+        "e98b4fe483e3",
+        "f2d3574662b7"
+      ],
+      "models": [
+        {
+          "label": "Hawass_v2_scenario_c",
+          "pedigree": "hawass_v2_scenario_c_all_loci",
+          "observations": "../../data/observed_str.hawass_v2_scenario_c_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Akhenaten",
+            "Amenhotep",
+            "Fetus1",
+            "Fetus2",
+            "KV21A",
+            "KV35YL",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "KV21A",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Belmonte_v1_scenario_c",
+          "pedigree": "belmonte_v1_scenario_c_all_loci",
+          "observations": "../../data/observed_str.belmonte_v1_scenario_c_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Baketaten",
+            "Fetus1",
+            "Fetus2",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Dodson_v2_scenario_c",
+          "pedigree": "dodson_v2_scenario_c_all_loci",
+          "observations": "../../data/observed_str.dodson_v2_scenario_c_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Fetus1",
+            "Fetus2",
+            "KV35YL",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Phizackerley_v2_scenario_c",
+          "pedigree": "phizackerley_v2_scenario_c_all_loci",
+          "observations": "../../data/observed_str.phizackerley_v2_scenario_c_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Fetus1",
+            "Fetus2",
+            "Meritaten",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Tawfik_v1_scenario_c",
+          "pedigree": "tawfik_v1_scenario_c_all_loci",
+          "observations": "../../data/observed_str.tawfik_v1_scenario_c_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Fetus1",
+            "Fetus2",
+            "Meritaten",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Variant_E1_scenario_c",
+          "pedigree": "variant_e1_scenario_c_all_loci",
+          "observations": "../../data/observed_str.variant_e1_scenario_c_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Fetus1",
+            "Fetus2",
+            "KV35YL",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        }
+      ]
+    },
+    {
+      "run_config": "Data/models/runs/scenario_d_primary_models_all_loci_generative_str.json",
+      "primaryd": "scenario_d_primary_models_all_loci_generative_str",
+      "observation_model": {
+        "type": "generative_str",
+        "dropout": 0.2,
+        "background_error": 0.001,
+        "background_source": "fixed_reference_frequencies",
+        "missing": "condition_on_call_available",
+        "background_frequency_file": "../../data/background_allele_frequencies.json"
+      },
+      "status": "pass",
+      "failures": [],
+      "scored_profile_hashes": [
+        "002447d937fd",
+        "2f5c4929d86a",
+        "32b1a1e7fc2c",
+        "45699b6bcb0e",
+        "6a24102bc72b",
+        "7bdb711e6dff",
+        "9b9d3e77441a",
+        "db903c5e1af7",
+        "e98b4fe483e3",
+        "f2d3574662b7"
+      ],
+      "models": [
+        {
+          "label": "Hawass_v2_scenario_d",
+          "pedigree": "hawass_v2_scenario_d_all_loci",
+          "observations": "../../data/observed_str.hawass_v2_scenario_d_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Akhenaten",
+            "Amenhotep",
+            "Fetus1",
+            "Fetus2",
+            "KV21A",
+            "KV35YL",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "KV21A",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Belmonte_v1_scenario_d",
+          "pedigree": "belmonte_v1_scenario_d_all_loci",
+          "observations": "../../data/observed_str.belmonte_v1_scenario_d_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Baketaten",
+            "Fetus1",
+            "Fetus2",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Dodson_v2_scenario_d",
+          "pedigree": "dodson_v2_scenario_d_all_loci",
+          "observations": "../../data/observed_str.dodson_v2_scenario_d_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Fetus1",
+            "Fetus2",
+            "KV35YL",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Phizackerley_v2_scenario_d",
+          "pedigree": "phizackerley_v2_scenario_d_all_loci",
+          "observations": "../../data/observed_str.phizackerley_v2_scenario_d_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Fetus1",
+            "Fetus2",
+            "Meritaten",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Tawfik_v1_scenario_d",
+          "pedigree": "tawfik_v1_scenario_d_all_loci",
+          "observations": "../../data/observed_str.tawfik_v1_scenario_d_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Fetus1",
+            "Fetus2",
+            "Meritaten",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        },
+        {
+          "label": "Variant_E1_scenario_d",
+          "pedigree": "variant_e1_scenario_d_all_loci",
+          "observations": "../../data/observed_str.variant_e1_scenario_d_all_loci.json",
+          "loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "scored_profile_count": 10,
+          "scored_labels": [
+            "Amenhotep",
+            "Ankhesenamun",
+            "Fetus1",
+            "Fetus2",
+            "KV35YL",
+            "Smenkhkare",
+            "Thuya",
+            "Tiye",
+            "Tutankhamun",
+            "Yuya"
+          ],
+          "scored_profile_hashes": [
+            "002447d937fd",
+            "2f5c4929d86a",
+            "32b1a1e7fc2c",
+            "45699b6bcb0e",
+            "6a24102bc72b",
+            "7bdb711e6dff",
+            "9b9d3e77441a",
+            "db903c5e1af7",
+            "e98b4fe483e3",
+            "f2d3574662b7"
+          ],
+          "fetal_mother": "Ankhesenamun",
+          "fetal_mother_profile_hash": "002447d937fd",
+          "kv21b_mentions": []
+        }
+      ]
+    }
+  ]
+}

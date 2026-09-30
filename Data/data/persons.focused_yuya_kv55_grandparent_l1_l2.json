@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "description": "Grandparent excerpt: Yuya/Thuya -> Tiye and Amenhotep/Tiye -> KV55, L1/L2.",
+  "persons": [
+    {
+      "id": "Yuya",
+      "label": "Yuya",
+      "kind": "sample",
+      "notes": "Focused robustness excerpt used for the focused robustness analysis"
+    },
+    {
+      "id": "Thuya",
+      "label": "Thuya",
+      "kind": "sample",
+      "notes": "Focused robustness excerpt used for the focused robustness analysis"
+    },
+    {
+      "id": "Tiye",
+      "label": "Tiye",
+      "kind": "sample",
+      "notes": "Focused robustness excerpt used for the focused robustness analysis"
+    },
+    {
+      "id": "Amenhotep",
+      "label": "Amenhotep",
+      "kind": "sample",
+      "notes": "Focused robustness excerpt used for the focused robustness analysis"
+    },
+    {
+      "id": "KV55",
+      "label": "KV55",
+      "kind": "sample",
+      "notes": "Focused robustness excerpt used for the focused robustness analysis"
+    }
+  ]
+}

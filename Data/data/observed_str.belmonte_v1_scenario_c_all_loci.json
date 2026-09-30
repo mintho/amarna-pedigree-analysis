@@ -1,0 +1,713 @@
+{
+  "schema_version": 1,
+  "description": "Observed STR alleles for primary comparison input Belmonte_v1.json.",
+  "loci": [
+    "Locus1",
+    "Locus2",
+    "Locus3",
+    "Locus4",
+    "Locus5",
+    "Locus6",
+    "Locus7",
+    "Locus8"
+  ],
+  "observations": {
+    "Thuya": {
+      "Locus1": {
+        "alleles": [
+          "yellow",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus2": {
+        "alleles": [
+          "blue",
+          "cyan"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus3": {
+        "alleles": [
+          "yellow",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus4": {
+        "alleles": [
+          "yellow",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus5": {
+        "alleles": [
+          "yellow",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus6": {
+        "alleles": [
+          "yellow",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus7": {
+        "alleles": [
+          "yellow",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus8": {
+        "alleles": [
+          "yellow",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      }
+    },
+    "Yuya": {
+      "Locus1": {
+        "alleles": [
+          "red",
+          "cyan"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus2": {
+        "alleles": [
+          "red",
+          "green"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus3": {
+        "alleles": [
+          "red",
+          "cyan"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus4": {
+        "alleles": [
+          "red",
+          "cyan"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus5": {
+        "alleles": [
+          "red",
+          "cyan"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus6": {
+        "alleles": [
+          "red",
+          "cyan"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus7": {
+        "alleles": [
+          "red",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus8": {
+        "alleles": [
+          "red",
+          "cyan"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      }
+    },
+    "Tiye": {
+      "Locus1": {
+        "alleles": [
+          "red",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus2": {
+        "alleles": [
+          "red",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus3": {
+        "alleles": [
+          "red",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus4": {
+        "alleles": [
+          "red",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus5": {
+        "alleles": [
+          "red",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus6": {
+        "alleles": [
+          "red",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus7": {
+        "alleles": [
+          "red",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus8": {
+        "alleles": [
+          "red",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      }
+    },
+    "Amenhotep": {
+      "Locus1": {
+        "alleles": [
+          "green",
+          "pink"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus2": {
+        "alleles": [
+          "red",
+          "green"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus3": {
+        "alleles": [
+          "green",
+          "cyan"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus4": {
+        "alleles": [
+          "green",
+          "cyan"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus5": {
+        "alleles": [
+          "green",
+          "yellow"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus6": {
+        "alleles": [
+          "green",
+          "red"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus7": {
+        "alleles": [
+          "green",
+          "red"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus8": {
+        "alleles": [
+          "green",
+          "pink"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      }
+    },
+    "Iuy": {
+      "Locus1": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus2": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus3": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus4": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus5": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus6": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus7": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus8": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      }
+    },
+    "Ay": {
+      "Locus1": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus2": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus3": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus4": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus5": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus6": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus7": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus8": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      }
+    },
+    "Nefertiti": {
+      "Locus1": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus2": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus3": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus4": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus5": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus6": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus7": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus8": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      }
+    },
+    "Baketaten": {
+      "Locus1": {
+        "alleles": [
+          "green",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus2": {
+        "alleles": [
+          "blue",
+          "green"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus3": {
+        "alleles": [
+          "green",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus4": {
+        "alleles": [
+          "green",
+          "red"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus5": {
+        "alleles": [
+          "green",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus6": {
+        "alleles": [
+          "green",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus7": {
+        "alleles": [
+          "green",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus8": {
+        "alleles": [
+          "green",
+          "red"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      }
+    },
+    "Akhenaten": {
+      "Locus1": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus2": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus3": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus4": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus5": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus6": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus7": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus8": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      }
+    },
+    "Smenkhkare": {
+      "Locus1": {
+        "alleles": [
+          "green",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus2": {
+        "alleles": [
+          "red",
+          "red"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus3": {
+        "alleles": [
+          "green",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus4": {
+        "alleles": [
+          "cyan",
+          "red"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus5": {
+        "alleles": [
+          "blue",
+          "yellow"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus6": {
+        "alleles": [
+          "green",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus7": {
+        "alleles": [
+          "red",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus8": {
+        "alleles": [
+          "green",
+          "red"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      }
+    },
+    "Tutankhamun": {
+      "Locus1": {
+        "alleles": [
+          "green",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus2": {
+        "alleles": [
+          "red",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus3": {
+        "alleles": [
+          "green",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus4": {
+        "alleles": [
+          "cyan",
+          "red"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus5": {
+        "alleles": [
+          "green",
+          "yellow"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus6": {
+        "alleles": [
+          "blue",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus7": {
+        "alleles": [
+          "green",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus8": {
+        "alleles": [
+          "green",
+          "green"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      }
+    },
+    "Ankhesenamun": {
+      "Locus1": {
+        "alleles": [
+          "green",
+          "pink"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus2": {
+        "alleles": [],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus3": {
+        "alleles": [
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus4": {
+        "alleles": [
+          "yellow"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus5": {
+        "alleles": [
+          "green"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus6": {
+        "alleles": [
+          "pink"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus7": {
+        "alleles": [
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus8": {
+        "alleles": [
+          "green"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      }
+    },
+    "Fetus1": {
+      "Locus1": {
+        "alleles": [
+          "blue",
+          "pink"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus2": {
+        "alleles": [
+          "blue",
+          "cyan"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus3": {
+        "alleles": [
+          "green"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus4": {
+        "alleles": [
+          "red"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus5": {
+        "alleles": [
+          "green"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus6": {
+        "alleles": [
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus7": {
+        "alleles": [
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus8": {
+        "alleles": [
+          "green"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      }
+    },
+    "Fetus2": {
+      "Locus1": {
+        "alleles": [
+          "green"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus2": {
+        "alleles": [
+          "green",
+          "red"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus3": {
+        "alleles": [
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus4": {
+        "alleles": [
+          "yellow",
+          "red"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus5": {
+        "alleles": [
+          "green",
+          "yellow"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus6": {
+        "alleles": [
+          "pink",
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus7": {
+        "alleles": [
+          "blue"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      },
+      "Locus8": {
+        "alleles": [
+          "green"
+        ],
+        "source": "primary-comparison/Belmonte_v1.json"
+      }
+    }
+  }
+}

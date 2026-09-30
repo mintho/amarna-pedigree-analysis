@@ -1,0 +1,73 @@
+{
+  "primary": [
+    {
+      "scenario": "a",
+      "log_likelihood": -342.0779335443728,
+      "weight_percent": 99.91415935408462,
+      "gap": 7.468523790859081,
+      "ratio": 1752.0184300204633
+    },
+    {
+      "scenario": "b",
+      "log_likelihood": -346.19353709175834,
+      "weight_percent": 99.943459647795,
+      "gap": 7.851057623682152,
+      "ratio": 2568.449333690379
+    },
+    {
+      "scenario": "c",
+      "log_likelihood": -348.3634211380427,
+      "weight_percent": 99.97893933119104,
+      "gap": 8.536285134607908,
+      "ratio": 5096.37679869529
+    },
+    {
+      "scenario": "d",
+      "log_likelihood": -352.0995258435961,
+      "weight_percent": 99.99559365011406,
+      "gap": 10.049230812013434,
+      "ratio": 23137.982540640976
+    }
+  ],
+  "focused": [
+    {
+      "excerpt": "focused_yuya_thuya_tiye_trio_l1_l2",
+      "baseline_weight": 99.99839731398679,
+      "grid_min": 92.91820520733776,
+      "grid_max": 99.99840246665673,
+      "omissions": {
+        "Locus1": 99.9976063095502,
+        "Locus2": 59.89671056682722
+      }
+    },
+    {
+      "excerpt": "focused_amenhotep_tiye_children_l1_l2",
+      "baseline_weight": 99.99999999999997,
+      "grid_min": 99.97461581083074,
+      "grid_max": 99.99999999999997,
+      "omissions": {
+        "Locus1": 99.99999999999905,
+        "Locus2": 97.9595170226728
+      }
+    },
+    {
+      "excerpt": "focused_yuya_kv55_grandparent_l1_l2",
+      "baseline_weight": 99.99999999999991,
+      "grid_min": 99.94568305958168,
+      "grid_max": 99.99999999999991,
+      "omissions": {
+        "Locus1": 99.99999999999905,
+        "Locus2": 91.18314158970433
+      }
+    }
+  ],
+  "weakest_primary_omission": {
+    "scenario": "a",
+    "omitted_locus": "Locus6",
+    "shared_structure_top": "True",
+    "tie_delta_log_likelihood": "0.0",
+    "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+    "nearest_non_tied_delta_log_likelihood": "-5.389108083597591",
+    "nearest_non_tied_bayes_factor": "219.0079616227755"
+  }
+}

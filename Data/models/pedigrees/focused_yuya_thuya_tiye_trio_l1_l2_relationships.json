@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "id": "focused_yuya_thuya_tiye_trio_l1_l2_relationships",
+  "description": "Trio: Yuya and Thuya as parents of Tiye, Locus1/Locus2.",
+  "relationships": [
+    {
+      "child": "Tiye",
+      "father": "Yuya",
+      "mother": "Thuya"
+    }
+  ]
+}

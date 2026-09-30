@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "fixed_reference_background",
+  "description": "Fixed reference distribution for background calls in all comparisons. Founder sensitivity variants never modify this distribution.",
+  "allele_frequencies": {
+    "Locus1": {
+      "yellow": 0.0788,
+      "blue": 0.2855,
+      "red": 0.2928,
+      "cyan": 0.1056,
+      "green": 0.0631,
+      "pink": 1e-05,
+      "other": 0.17419000000000007
+    },
+    "Locus2": {
+      "green": 1e-05,
+      "blue": 0.2985,
+      "red": 1e-05,
+      "cyan": 0.0132,
+      "other": 0.68828
+    },
+    "Locus3": {
+      "yellow": 0.1043,
+      "blue": 0.0153,
+      "red": 0.0245,
+      "cyan": 0.0031,
+      "green": 0.0399,
+      "pink": 0.2822,
+      "other": 0.5307
+    },
+    "Locus4": {
+      "yellow": 0.011,
+      "blue": 1e-05,
+      "red": 0.325,
+      "cyan": 0.004,
+      "green": 0.004,
+      "other": 0.65599
+    },
+    "Locus5": {
+      "yellow": 0.125,
+      "blue": 0.308,
+      "red": 1e-05,
+      "cyan": 0.067,
+      "green": 0.033,
+      "other": 0.46699
+    },
+    "Locus6": {
+      "yellow": 1e-05,
+      "blue": 0.011,
+      "red": 1e-05,
+      "cyan": 0.236,
+      "green": 0.093,
+      "pink": 0.011,
+      "other": 0.64898
+    },
+    "Locus7": {
+      "yellow": 0.0071,
+      "blue": 0.2901,
+      "red": 0.016,
+      "green": 1e-05,
+      "other": 0.68679
+    },
+    "Locus8": {
+      "yellow": 0.1713,
+      "blue": 0.0396,
+      "red": 0.1084,
+      "cyan": 0.0762,
+      "green": 0.1628,
+      "pink": 0.0035,
+      "other": 0.43820000000000003
+    }
+  }
+}

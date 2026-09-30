@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "jackknife_files": [
+    "Results/Focused_Robustness/focused_yuya_thuya_tiye_trio_l1_l2/jackknife.json",
+    "Results/Focused_Robustness/focused_amenhotep_tiye_children_l1_l2/jackknife.json",
+    "Results/Focused_Robustness/focused_yuya_kv55_grandparent_l1_l2/jackknife.json"
+  ],
+  "runs": [
+    {
+      "jackknife_path": "Results/Focused_Robustness/focused_yuya_thuya_tiye_trio_l1_l2/jackknife.json",
+      "run_config": "Data/models/runs/focused_yuya_thuya_tiye_trio_l1_l2_run.json",
+      "engine": "factors",
+      "loci": [
+        "Locus1",
+        "Locus2"
+      ],
+      "baseline_best_model": "focused_yuya_thuya_tiye_trio_l1_l2_relationships / focused_yuya_thuya_tiye_trio_l1_l2_founders / amarna_no_identity",
+      "baseline_best_weight_percent": 99.99839731398679,
+      "rank_flip_count": 0,
+      "max_abs_weight_percent_change": 40.10168674715957,
+      "driving_loci": [
+        {
+          "omitted_locus": "Locus2",
+          "retained_loci": [
+            "Locus1"
+          ],
+          "best_model": "focused_yuya_thuya_tiye_trio_l1_l2_relationships / focused_yuya_thuya_tiye_trio_l1_l2_founders / amarna_no_identity",
+          "best_weight_percent": 59.89671056682722,
+          "rank_flip": false,
+          "rank_changes": [],
+          "max_abs_weight_percent_change": 40.10168674715957,
+          "largest_weight_changes": [
+            {
+              "model": "focused_yuya_thuya_tiye_trio_l1_l2_relationships / focused_yuya_thuya_tiye_trio_l1_l2_founders / amarna_no_identity",
+              "baseline_rank": 1,
+              "jackknife_rank": 1,
+              "rank_change": 0,
+              "baseline_weight_percent": 99.99839731398679,
+              "jackknife_weight_percent": 59.89671056682722,
+              "weight_percent_change": -40.10168674715957,
+              "baseline_log_likelihood": -35.83667067861336,
+              "jackknife_log_likelihood": -7.271891915209575,
+              "log_likelihood_change": 28.564778763403783
+            },
+            {
+              "model": "focused_yuya_thuya_tiye_trio_l1_l2_independent / focused_yuya_thuya_tiye_trio_l1_l2_founders / amarna_no_identity",
+              "baseline_rank": 2,
+              "jackknife_rank": 2,
+              "rank_change": 0,
+              "baseline_weight_percent": 0.001602686013213929,
+              "jackknife_weight_percent": 40.10328943317278,
+              "weight_percent_change": 40.10168674715957,
+              "baseline_log_likelihood": -46.87789913663017,
+              "jackknife_log_likelihood": -7.673055141710549,
+              "log_likelihood_change": 39.20484399491962
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus1",
+          "retained_loci": [
+            "Locus2"
+          ],
+          "best_model": "focused_yuya_thuya_tiye_trio_l1_l2_relationships / focused_yuya_thuya_tiye_trio_l1_l2_founders / amarna_no_identity",
+          "best_weight_percent": 99.9976063095502,
+          "rank_flip": false,
+          "rank_changes": [],
+          "max_abs_weight_percent_change": 0.0007910044365786462,
+          "largest_weight_changes": [
+            {
+              "model": "focused_yuya_thuya_tiye_trio_l1_l2_relationships / focused_yuya_thuya_tiye_trio_l1_l2_founders / amarna_no_identity",
+              "baseline_rank": 1,
+              "jackknife_rank": 1,
+              "rank_change": 0,
+              "baseline_weight_percent": 99.99839731398679,
+              "jackknife_weight_percent": 99.9976063095502,
+              "weight_percent_change": -0.0007910044365786462,
+              "baseline_log_likelihood": -35.83667067861336,
+              "jackknife_log_likelihood": -28.564778763403787,
+              "log_likelihood_change": 7.271891915209572
+            }
+          ]
+        }
+      ],
+      "leave_one_out": [
+        {
+          "omitted_locus": "Locus1",
+          "retained_loci": [
+            "Locus2"
+          ],
+          "best_model": "focused_yuya_thuya_tiye_trio_l1_l2_relationships / focused_yuya_thuya_tiye_trio_l1_l2_founders / amarna_no_identity",
+          "best_weight_percent": 99.9976063095502,
+          "rank_flip": false,
+          "rank_changes": [],
+          "max_abs_weight_percent_change": 0.0007910044365786462,
+          "largest_weight_changes": [
+            {
+              "model": "focused_yuya_thuya_tiye_trio_l1_l2_relationships / focused_yuya_thuya_tiye_trio_l1_l2_founders / amarna_no_identity",
+              "baseline_rank": 1,
+              "jackknife_rank": 1,
+              "rank_change": 0,
+              "baseline_weight_percent": 99.99839731398679,
+              "jackknife_weight_percent": 99.9976063095502,
+              "weight_percent_change": -0.0007910044365786462,
+              "baseline_log_likelihood": -35.83667067861336,
+              "jackknife_log_likelihood": -28.564778763403787,
+              "log_likelihood_change": 7.271891915209572
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus2",
+          "retained_loci": [
+            "Locus1"
+          ],
+          "best_model": "focused_yuya_thuya_tiye_trio_l1_l2_relationships / focused_yuya_thuya_tiye_trio_l1_l2_founders / amarna_no_identity",
+          "best_weight_percent": 59.89671056682722,
+          "rank_flip": false,
+          "rank_changes": [],
+          "max_abs_weight_percent_change": 40.10168674715957,
+          "largest_weight_changes": [
+            {
+              "model": "focused_yuya_thuya_tiye_trio_l1_l2_relationships / focused_yuya_thuya_tiye_trio_l1_l2_founders / amarna_no_identity",
+              "baseline_rank": 1,
+              "jackknife_rank": 1,
+              "rank_change": 0,
+              "baseline_weight_percent": 99.99839731398679,
+              "jackknife_weight_percent": 59.89671056682722,
+              "weight_percent_change": -40.10168674715957,
+              "baseline_log_likelihood": -35.83667067861336,
+              "jackknife_log_likelihood": -7.271891915209575,
+              "log_likelihood_change": 28.564778763403783
+            },
+            {
+              "model": "focused_yuya_thuya_tiye_trio_l1_l2_independent / focused_yuya_thuya_tiye_trio_l1_l2_founders / amarna_no_identity",
+              "baseline_rank": 2,
+              "jackknife_rank": 2,
+              "rank_change": 0,
+              "baseline_weight_percent": 0.001602686013213929,
+              "jackknife_weight_percent": 40.10328943317278,
+              "weight_percent_change": 40.10168674715957,
+              "baseline_log_likelihood": -46.87789913663017,
+              "jackknife_log_likelihood": -7.673055141710549,
+              "log_likelihood_change": 39.20484399491962
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jackknife_path": "Results/Focused_Robustness/focused_amenhotep_tiye_children_l1_l2/jackknife.json",
+      "run_config": "Data/models/runs/focused_amenhotep_tiye_children_l1_l2_run.json",
+      "engine": "factors",
+      "loci": [
+        "Locus1",
+        "Locus2"
+      ],
+      "baseline_best_model": "focused_amenhotep_tiye_children_l1_l2_relationships / focused_amenhotep_tiye_children_l1_l2_founders / amarna_no_identity",
+      "baseline_best_weight_percent": 99.99999999999997,
+      "rank_flip_count": 0,
+      "max_abs_weight_percent_change": 2.040482977327196,
+      "driving_loci": [
+        {
+          "omitted_locus": "Locus2",
+          "retained_loci": [
+            "Locus1"
+          ],
+          "best_model": "focused_amenhotep_tiye_children_l1_l2_relationships / focused_amenhotep_tiye_children_l1_l2_founders / amarna_no_identity",
+          "best_weight_percent": 97.9595170226728,
+          "rank_flip": false,
+          "rank_changes": [],
+          "max_abs_weight_percent_change": 2.040482977327196,
+          "largest_weight_changes": [
+            {
+              "model": "focused_amenhotep_tiye_children_l1_l2_independent / focused_amenhotep_tiye_children_l1_l2_founders / amarna_no_identity",
+              "baseline_rank": 2,
+              "jackknife_rank": 2,
+              "rank_change": 0,
+              "baseline_weight_percent": 1.9976467300469154e-14,
+              "jackknife_weight_percent": 2.040482977327216,
+              "weight_percent_change": 2.040482977327196,
+              "baseline_log_likelihood": -91.43432745802905,
+              "jackknife_log_likelihood": -22.018245517588554,
+              "log_likelihood_change": 69.41608194044049
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus1",
+          "retained_loci": [
+            "Locus2"
+          ],
+          "best_model": "focused_amenhotep_tiye_children_l1_l2_relationships / focused_amenhotep_tiye_children_l1_l2_founders / amarna_no_identity",
+          "best_weight_percent": 99.99999999999905,
+          "rank_flip": false,
+          "rank_changes": [],
+          "max_abs_weight_percent_change": 9.390538751807197e-13,
+          "largest_weight_changes": [
+            {
+              "model": "focused_amenhotep_tiye_children_l1_l2_independent / focused_amenhotep_tiye_children_l1_l2_founders / amarna_no_identity",
+              "baseline_rank": 2,
+              "jackknife_rank": 2,
+              "rank_change": 0,
+              "baseline_weight_percent": 1.9976467300469154e-14,
+              "jackknife_weight_percent": 9.59030342481189e-13,
+              "weight_percent_change": 9.390538751807197e-13,
+              "baseline_log_likelihood": -91.43432745802905,
+              "jackknife_log_likelihood": -69.41608194044049,
+              "log_likelihood_change": 22.018245517588554
+            }
+          ]
+        }
+      ],
+      "leave_one_out": [
+        {
+          "omitted_locus": "Locus1",
+          "retained_loci": [
+            "Locus2"
+          ],
+          "best_model": "focused_amenhotep_tiye_children_l1_l2_relationships / focused_amenhotep_tiye_children_l1_l2_founders / amarna_no_identity",
+          "best_weight_percent": 99.99999999999905,
+          "rank_flip": false,
+          "rank_changes": [],
+          "max_abs_weight_percent_change": 9.390538751807197e-13,
+          "largest_weight_changes": [
+            {
+              "model": "focused_amenhotep_tiye_children_l1_l2_independent / focused_amenhotep_tiye_children_l1_l2_founders / amarna_no_identity",
+              "baseline_rank": 2,
+              "jackknife_rank": 2,
+              "rank_change": 0,
+              "baseline_weight_percent": 1.9976467300469154e-14,
+              "jackknife_weight_percent": 9.59030342481189e-13,
+              "weight_percent_change": 9.390538751807197e-13,
+              "baseline_log_likelihood": -91.43432745802905,
+              "jackknife_log_likelihood": -69.41608194044049,
+              "log_likelihood_change": 22.018245517588554
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus2",
+          "retained_loci": [
+            "Locus1"
+          ],
+          "best_model": "focused_amenhotep_tiye_children_l1_l2_relationships / focused_amenhotep_tiye_children_l1_l2_founders / amarna_no_identity",
+          "best_weight_percent": 97.9595170226728,
+          "rank_flip": false,
+          "rank_changes": [],
+          "max_abs_weight_percent_change": 2.040482977327196,
+          "largest_weight_changes": [
+            {
+              "model": "focused_amenhotep_tiye_children_l1_l2_independent / focused_amenhotep_tiye_children_l1_l2_founders / amarna_no_identity",
+              "baseline_rank": 2,
+              "jackknife_rank": 2,
+              "rank_change": 0,
+              "baseline_weight_percent": 1.9976467300469154e-14,
+              "jackknife_weight_percent": 2.040482977327216,
+              "weight_percent_change": 2.040482977327196,
+              "baseline_log_likelihood": -91.43432745802905,
+              "jackknife_log_likelihood": -22.018245517588554,
+              "log_likelihood_change": 69.41608194044049
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jackknife_path": "Results/Focused_Robustness/focused_yuya_kv55_grandparent_l1_l2/jackknife.json",
+      "run_config": "Data/models/runs/focused_yuya_kv55_grandparent_l1_l2_run.json",
+      "engine": "factors",
+      "loci": [
+        "Locus1",
+        "Locus2"
+      ],
+      "baseline_best_model": "focused_yuya_kv55_grandparent_l1_l2_relationships / focused_yuya_kv55_grandparent_l1_l2_founders / amarna_no_identity",
+      "baseline_best_weight_percent": 99.99999999999991,
+      "rank_flip_count": 0,
+      "max_abs_weight_percent_change": 8.816858410295586,
+      "driving_loci": [
+        {
+          "omitted_locus": "Locus2",
+          "retained_loci": [
+            "Locus1"
+          ],
+          "best_model": "focused_yuya_kv55_grandparent_l1_l2_relationships / focused_yuya_kv55_grandparent_l1_l2_founders / amarna_no_identity",
+          "best_weight_percent": 91.18314158970433,
+          "rank_flip": false,
+          "rank_changes": [],
+          "max_abs_weight_percent_change": 8.816858410295586,
+          "largest_weight_changes": [
+            {
+              "model": "focused_yuya_kv55_grandparent_l1_l2_independent / focused_yuya_kv55_grandparent_l1_l2_founders / amarna_no_identity",
+              "baseline_rank": 2,
+              "jackknife_rank": 2,
+              "rank_change": 0,
+              "baseline_weight_percent": 9.276981907834418e-14,
+              "jackknife_weight_percent": 8.816858410295678,
+              "weight_percent_change": 8.816858410295586,
+              "baseline_log_likelihood": -109.14266718855748,
+              "jackknife_log_likelihood": -24.579268514316897,
+              "log_likelihood_change": 84.56339867424059
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus1",
+          "retained_loci": [
+            "Locus2"
+          ],
+          "best_model": "focused_yuya_kv55_grandparent_l1_l2_relationships / focused_yuya_kv55_grandparent_l1_l2_founders / amarna_no_identity",
+          "best_weight_percent": 99.99999999999905,
+          "rank_flip": false,
+          "rank_changes": [],
+          "max_abs_weight_percent_change": 8.668621376273222e-13,
+          "largest_weight_changes": [
+            {
+              "model": "focused_yuya_kv55_grandparent_l1_l2_relationships / focused_yuya_kv55_grandparent_l1_l2_founders / amarna_no_identity",
+              "baseline_rank": 1,
+              "jackknife_rank": 1,
+              "rank_change": 0,
+              "baseline_weight_percent": 99.99999999999991,
+              "jackknife_weight_percent": 99.99999999999905,
+              "weight_percent_change": -8.668621376273222e-13,
+              "baseline_log_likelihood": -74.52884196910472,
+              "jackknife_log_likelihood": -52.28577786653164,
+              "log_likelihood_change": 22.24306410257308
+            }
+          ]
+        }
+      ],
+      "leave_one_out": [
+        {
+          "omitted_locus": "Locus1",
+          "retained_loci": [
+            "Locus2"
+          ],
+          "best_model": "focused_yuya_kv55_grandparent_l1_l2_relationships / focused_yuya_kv55_grandparent_l1_l2_founders / amarna_no_identity",
+          "best_weight_percent": 99.99999999999905,
+          "rank_flip": false,
+          "rank_changes": [],
+          "max_abs_weight_percent_change": 8.668621376273222e-13,
+          "largest_weight_changes": [
+            {
+              "model": "focused_yuya_kv55_grandparent_l1_l2_relationships / focused_yuya_kv55_grandparent_l1_l2_founders / amarna_no_identity",
+              "baseline_rank": 1,
+              "jackknife_rank": 1,
+              "rank_change": 0,
+              "baseline_weight_percent": 99.99999999999991,
+              "jackknife_weight_percent": 99.99999999999905,
+              "weight_percent_change": -8.668621376273222e-13,
+              "baseline_log_likelihood": -74.52884196910472,
+              "jackknife_log_likelihood": -52.28577786653164,
+              "log_likelihood_change": 22.24306410257308
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus2",
+          "retained_loci": [
+            "Locus1"
+          ],
+          "best_model": "focused_yuya_kv55_grandparent_l1_l2_relationships / focused_yuya_kv55_grandparent_l1_l2_founders / amarna_no_identity",
+          "best_weight_percent": 91.18314158970433,
+          "rank_flip": false,
+          "rank_changes": [],
+          "max_abs_weight_percent_change": 8.816858410295586,
+          "largest_weight_changes": [
+            {
+              "model": "focused_yuya_kv55_grandparent_l1_l2_independent / focused_yuya_kv55_grandparent_l1_l2_founders / amarna_no_identity",
+              "baseline_rank": 2,
+              "jackknife_rank": 2,
+              "rank_change": 0,
+              "baseline_weight_percent": 9.276981907834418e-14,
+              "jackknife_weight_percent": 8.816858410295678,
+              "weight_percent_change": 8.816858410295586,
+              "baseline_log_likelihood": -109.14266718855748,
+              "jackknife_log_likelihood": -24.579268514316897,
+              "log_likelihood_change": 84.56339867424059
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

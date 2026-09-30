@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "focused_amenhotep_tiye_children_l1_l2_founders_broad_empirical_priors",
+  "description": "Broad empirical founder priors derived from focused_amenhotep_tiye_children_l1_l2_founders by shrinking each locus toward a uniform allele distribution. Explicit person-specific founder genotype priors are removed.",
+  "variant_type": "broad_empirical_priors",
+  "base_founder_scenario": "focused_amenhotep_tiye_children_l1_l2_founders",
+  "allele_frequency_source": "data/allele_frequencies.reference.json",
+  "allele_frequency_parameters": {
+    "allele_floor_epsilon0": 1e-05,
+    "observation_epsilon": 0.001,
+    "genotype_state_floor_min_hap": 1e-12,
+    "other_policy": "The listed table priors often sum to less than 1. The remaining mass is stored as allele 'other' after replacing raw zero priors with allele_floor_epsilon0.",
+    "variant_parameters": {
+      "uniform_blend": 0.5,
+      "explicit_founder_priors_policy": "removed"
+    }
+  },
+  "allele_frequencies": {
+    "Locus1": {
+      "blue": 0.2141785714285714,
+      "cyan": 0.12422857142857142,
+      "green": 0.10297857142857142,
+      "other": 0.15852357142857146,
+      "pink": 0.07143357142857143,
+      "red": 0.21782857142857143,
+      "yellow": 0.11082857142857142
+    },
+    "Locus2": {
+      "blue": 0.24925,
+      "cyan": 0.1066,
+      "green": 0.10000500000000001,
+      "other": 0.44414,
+      "red": 0.10000500000000001
+    }
+  },
+  "explicit_founder_priors": {}
+}

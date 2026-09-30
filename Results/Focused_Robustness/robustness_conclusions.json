@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "stability_report": "Results/Focused_Robustness/stability_report.json",
+  "classification_rules": {
+    "stabil": "rank_flip_count == 0 and baseline_best_fraction == 1.0",
+    "annahmeabhaengig": "rank flips occur, but baseline_best_fraction >= 0.5",
+    "instabil": "baseline_best_fraction < 0.5"
+  },
+  "conclusions": [
+    {
+      "run_config": "Data/models/runs/focused_yuya_thuya_tiye_trio_l1_l2_run.json",
+      "run_name": "focused_yuya_thuya_tiye_trio_l1_l2_run.json",
+      "classification": "stabil",
+      "baseline_best_model": "focused_yuya_thuya_tiye_trio_l1_l2_relationships / amarna_no_identity",
+      "baseline_best_fraction": 1.0,
+      "rank_flip_count": 0,
+      "total_matrix_points": 27,
+      "max_abs_weight_percent_change": 7.080192106649022,
+      "main_driver_axis": "keine",
+      "conclusion": "`focused_yuya_thuya_tiye_trio_l1_l2_relationships / amarna_no_identity` bleibt in allen 27 Matrixpunkten Rang 1. Das Ergebnis ist innerhalb des gerechneten Annahmeraums stabil."
+    },
+    {
+      "run_config": "Data/models/runs/focused_amenhotep_tiye_children_l1_l2_run.json",
+      "run_name": "focused_amenhotep_tiye_children_l1_l2_run.json",
+      "classification": "stabil",
+      "baseline_best_model": "focused_amenhotep_tiye_children_l1_l2_relationships / amarna_no_identity",
+      "baseline_best_fraction": 1.0,
+      "rank_flip_count": 0,
+      "total_matrix_points": 27,
+      "max_abs_weight_percent_change": 0.02538418916923413,
+      "main_driver_axis": "keine",
+      "conclusion": "`focused_amenhotep_tiye_children_l1_l2_relationships / amarna_no_identity` bleibt in allen 27 Matrixpunkten Rang 1. Das Ergebnis ist innerhalb des gerechneten Annahmeraums stabil."
+    },
+    {
+      "run_config": "Data/models/runs/focused_yuya_kv55_grandparent_l1_l2_run.json",
+      "run_name": "focused_yuya_kv55_grandparent_l1_l2_run.json",
+      "classification": "stabil",
+      "baseline_best_model": "focused_yuya_kv55_grandparent_l1_l2_relationships / amarna_no_identity",
+      "baseline_best_fraction": 1.0,
+      "rank_flip_count": 0,
+      "total_matrix_points": 27,
+      "max_abs_weight_percent_change": 0.05431694041824072,
+      "main_driver_axis": "keine",
+      "conclusion": "`focused_yuya_kv55_grandparent_l1_l2_relationships / amarna_no_identity` bleibt in allen 27 Matrixpunkten Rang 1. Das Ergebnis ist innerhalb des gerechneten Annahmeraums stabil."
+    }
+  ]
+}

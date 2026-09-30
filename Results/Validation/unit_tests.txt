@@ -1,0 +1,39 @@
+test_inventory_excludes_local_pages_and_publication_assets (test_bundle.BundleTests.test_inventory_excludes_local_pages_and_publication_assets) ... ok
+test_retained_inputs_and_calculation_code_have_no_html (test_bundle.BundleTests.test_retained_inputs_and_calculation_code_have_no_html) ... ok
+test_source_retrieval_uses_ignored_output_cache (test_bundle.BundleTests.test_source_retrieval_uses_ignored_output_cache) ... ok
+test_accelerated_contraction_matches_sparse_reference (test_fixed_background.FixedBackgroundTests.test_accelerated_contraction_matches_sparse_reference) ... ok
+test_current_runs_use_same_fixed_reference (test_fixed_background.FixedBackgroundTests.test_current_runs_use_same_fixed_reference) ... ok
+test_exact_engines_agree_with_distinct_background_and_founder (test_fixed_background.FixedBackgroundTests.test_exact_engines_agree_with_distinct_background_and_founder) ... ok
+test_founder_changes_do_not_change_observation_probability (test_fixed_background.FixedBackgroundTests.test_founder_changes_do_not_change_observation_probability) ... ok
+test_missing_fixed_background_locus_is_rejected (test_fixed_background.FixedBackgroundTests.test_missing_fixed_background_locus_is_rejected) ... ok
+test_authentic_scored_observation_distribution_normalizes (test_genetics.GeneticsTests.test_authentic_scored_observation_distribution_normalizes) ... ok
+test_authentic_scored_observation_distribution_normalizes_homozygote (test_genetics.GeneticsTests.test_authentic_scored_observation_distribution_normalizes_homozygote) ... ok
+test_authentic_scored_partial_distinguishes_homozygote_and_heterozygote (test_genetics.GeneticsTests.test_authentic_scored_partial_distinguishes_homozygote_and_heterozygote) ... ok
+test_background_call_distribution_normalizes (test_genetics.GeneticsTests.test_background_call_distribution_normalizes) ... ok
+test_background_call_distribution_uses_allele_frequencies (test_genetics.GeneticsTests.test_background_call_distribution_uses_allele_frequencies) ... ok
+test_canonical_genotype_sorts_alleles (test_genetics.GeneticsTests.test_canonical_genotype_sorts_alleles) ... ok
+test_dropout_observation_likelihood_full_heterozygote (test_genetics.GeneticsTests.test_dropout_observation_likelihood_full_heterozygote) ... ok
+test_dropout_observation_likelihood_partial_heterozygote (test_genetics.GeneticsTests.test_dropout_observation_likelihood_partial_heterozygote) ... ok
+test_dropout_observation_likelihood_partial_homozygote (test_genetics.GeneticsTests.test_dropout_observation_likelihood_partial_homozygote) ... ok
+test_dropout_observation_likelihood_unknown_stays_uninformative (test_genetics.GeneticsTests.test_dropout_observation_likelihood_unknown_stays_uninformative) ... ok
+test_founder_prior_from_equal_allele_frequencies (test_genetics.GeneticsTests.test_founder_prior_from_equal_allele_frequencies) ... ok
+test_gamete_distribution (test_genetics.GeneticsTests.test_gamete_distribution) ... ok
+test_generative_str_impossible_authentic_call_uses_background_error (test_genetics.GeneticsTests.test_generative_str_impossible_authentic_call_uses_background_error) ... ok
+test_generative_str_missing_is_uninformative (test_genetics.GeneticsTests.test_generative_str_missing_is_uninformative) ... ok
+test_generative_str_other_participates_in_background_normalization (test_genetics.GeneticsTests.test_generative_str_other_participates_in_background_normalization) ... ok
+test_genotype_key_roundtrip (test_genetics.GeneticsTests.test_genotype_key_roundtrip) ... ok
+test_genotype_prior_from_mapping (test_genetics.GeneticsTests.test_genotype_prior_from_mapping) ... ok
+test_mendelian_aa_x_bb (test_genetics.GeneticsTests.test_mendelian_aa_x_bb) ... ok
+test_mendelian_ab_x_ab (test_genetics.GeneticsTests.test_mendelian_ab_x_ab) ... ok
+test_observation_model_dispatcher_uses_generative_str (test_genetics.GeneticsTests.test_observation_model_dispatcher_uses_generative_str) ... ok
+test_unordered_genotypes (test_genetics.GeneticsTests.test_unordered_genotypes) ... ok
+test_all_primary_profiles_match_reported_repeat_counts (test_repository.RepositoryTests.test_all_primary_profiles_match_reported_repeat_counts) ... ok
+test_historical_aliases_have_one_prior_mass (test_repository.RepositoryTests.test_historical_aliases_have_one_prior_mass) ... ok
+test_reported_population_prior_support (test_repository.RepositoryTests.test_reported_population_prior_support) ... ok
+test_shared_structure_with_different_likelihood_is_rejected (test_repository.RepositoryTests.test_shared_structure_with_different_likelihood_is_rejected) ... ok
+test_unique_structural_normalisation (test_repository.RepositoryTests.test_unique_structural_normalisation) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.135s
+
+OK

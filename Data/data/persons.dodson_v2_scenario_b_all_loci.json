@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "description": "Dodson_v2 scenario_b, primary comparison input derived from Dodson_v2.json.",
+  "persons": [
+    {
+      "id": "Thuya",
+      "label": "Thuya",
+      "kind": "sample",
+      "notes": "Current-paper primary input derived from Dodson_v2.json."
+    },
+    {
+      "id": "Yuya",
+      "label": "Yuya",
+      "kind": "sample",
+      "notes": "Current-paper primary input derived from Dodson_v2.json."
+    },
+    {
+      "id": "Tiye",
+      "label": "Tiye",
+      "kind": "sample",
+      "notes": "Current-paper primary input derived from Dodson_v2.json."
+    },
+    {
+      "id": "Amenhotep",
+      "label": "Amenhotep",
+      "kind": "sample",
+      "notes": "Current-paper primary input derived from Dodson_v2.json."
+    },
+    {
+      "id": "Iuy",
+      "label": "Iuy",
+      "kind": "latent",
+      "notes": "Current-paper primary input derived from Dodson_v2.json."
+    },
+    {
+      "id": "Ay",
+      "label": "Ay",
+      "kind": "latent",
+      "notes": "Current-paper primary input derived from Dodson_v2.json."
+    },
+    {
+      "id": "Nefertiti",
+      "label": "Nefertiti",
+      "kind": "latent",
+      "notes": "Current-paper primary input derived from Dodson_v2.json."
+    },
+    {
+      "id": "KV35YL",
+      "label": "KV35YL",
+      "kind": "sample",
+      "notes": "Current-paper primary input derived from Dodson_v2.json."
+    },
+    {
+      "id": "Akhenaten",
+      "label": "Akhenaten",
+      "kind": "latent",
+      "notes": "Current-paper primary input derived from Dodson_v2.json."
+    },
+    {
+      "id": "Smenkhkare",
+      "label": "Smenkhkare",
+      "kind": "sample",
+      "notes": "Current-paper primary input derived from Dodson_v2.json."
+    },
+    {
+      "id": "Tutankhamun",
+      "label": "Tutankhamun",
+      "kind": "sample",
+      "notes": "Current-paper primary input derived from Dodson_v2.json."
+    },
+    {
+      "id": "Ankhesenamun",
+      "label": "Ankhesenamun",
+      "kind": "sample",
+      "notes": "Current-paper primary input derived from Dodson_v2.json."
+    },
+    {
+      "id": "Fetus1",
+      "label": "Fetus1",
+      "kind": "sample",
+      "notes": "Current-paper primary input derived from Dodson_v2.json."
+    },
+    {
+      "id": "Fetus2",
+      "label": "Fetus2",
+      "kind": "sample",
+      "notes": "Current-paper primary input derived from Dodson_v2.json."
+    }
+  ]
+}

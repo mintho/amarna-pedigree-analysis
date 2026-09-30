@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-29T23:55:49.908958+00:00",
+  "run_config": "Data/models/runs/focused_yuya_thuya_tiye_trio_l1_l2_run.json",
+  "engine": "factors",
+  "loci": [
+    "Locus1",
+    "Locus2"
+  ],
+  "baseline": [
+    {
+      "pedigree": "focused_yuya_thuya_tiye_trio_l1_l2_relationships",
+      "structure_id": "focused_yuya_thuya_tiye_trio_l1_l2_relationships",
+      "founder_scenario": "focused_yuya_thuya_tiye_trio_l1_l2_founders",
+      "identity_hypothesis": "amarna_no_identity",
+      "log_likelihood": -35.83667067861336,
+      "observation_model": {
+        "type": "generative_str",
+        "dropout": 0.0,
+        "background_error": 0.001,
+        "background_source": "fixed_reference_frequencies",
+        "background_frequency_file": "../../data/background_allele_frequencies.json",
+        "missing": "condition_on_call_available"
+      },
+      "loci": [
+        {
+          "locus": "Locus1",
+          "alleles": [
+            "blue",
+            "cyan",
+            "green",
+            "other",
+            "pink",
+            "red",
+            "yellow"
+          ],
+          "observation_model": {
+            "type": "generative_str",
+            "dropout": 0.0,
+            "background_error": 0.001,
+            "background_source": "fixed_reference_frequencies",
+            "background_frequency_file": "../../data/background_allele_frequencies.json",
+            "missing": "condition_on_call_available"
+          },
+          "genotype_states": 28,
+          "persons": 3,
+          "founders": [
+            "Yuya",
+            "Thuya"
+          ],
+          "probability": 0.0006947962539179067,
+          "log_likelihood": -7.271891915209575,
+          "initial_factors": 6,
+          "max_factor_rows": 2380,
+          "elimination_steps": [
+            {
+              "variable": "Tiye",
+              "involved_factors": 2,
+              "result_variables": [
+                "Yuya",
+                "Thuya"
+              ],
+              "result_rows": 784
+            },
+            {
+              "variable": "Yuya",
+              "involved_factors": 3,
+              "result_variables": [
+                "Thuya"
+              ],
+              "result_rows": 28
+            },
+            {
+              "variable": "Thuya",
+              "involved_factors": 3,
+              "result_variables": [],
+              "result_rows": 1
+            }
+          ],
+          "backend": "numpy_exact_contraction",
+          "factor_size_definition": "Maximum stored initial or contracted nonzero rows; internal contraction buffers are not counted."
+        },
+        {
+          "locus": "Locus2",
+          "alleles": [
+            "blue",
+            "cyan",
+            "green",
+            "other",
+            "red"
+          ],
+          "observation_model": {
+            "type": "generative_str",
+            "dropout": 0.0,
+            "background_error": 0.001,
+            "background_source": "fixed_reference_frequencies",
+            "background_frequency_file": "../../data/background_allele_frequencies.json",
+            "missing": "condition_on_call_available"
+          },
+          "genotype_states": 15,
+          "persons": 3,
+          "founders": [
+            "Yuya",
+            "Thuya"
+          ],
+          "probability": 3.9307389866457445e-13,
+          "log_likelihood": -28.564778763403787,
+          "initial_factors": 6,
+          "max_factor_rows": 615,
+          "elimination_steps": [
+            {
+              "variable": "Tiye",
+              "involved_factors": 2,
+              "result_variables": [
+                "Yuya",
+                "Thuya"
+              ],
+              "result_rows": 225
+            },
+            {
+              "variable": "Yuya",
+              "involved_factors": 3,
+              "result_variables": [
+                "Thuya"
+              ],
+              "result_rows": 15
+            },
+            {
+              "variable": "Thuya",
+              "involved_factors": 3,
+              "result_variables": [],
+              "result_rows": 1
+            }
+          ],
+          "backend": "numpy_exact_contraction",
+          "factor_size_definition": "Maximum stored initial or contracted nonzero rows; internal contraction buffers are not counted."
+        }
+      ],
+      "weight_scope": "unique_scored_structure",
+      "rank": 1,
+      "delta_log_likelihood": 0.0,
+      "weight": 0.9999839731398679,
+      "weight_percent": 99.99839731398679
+    },
+    {
+      "pedigree": "focused_yuya_thuya_tiye_trio_l1_l2_independent",
+      "structure_id": "focused_yuya_thuya_tiye_trio_l1_l2_independent",
+      "founder_scenario": "focused_yuya_thuya_tiye_trio_l1_l2_founders",
+      "identity_hypothesis": "amarna_no_identity",
+      "log_likelihood": -46.87789913663017,
+      "observation_model": {
+        "type": "generative_str",
+        "dropout": 0.0,
+        "background_error": 0.001,
+        "background_source": "fixed_reference_frequencies",
+        "background_frequency_file": "../../data/background_allele_frequencies.json",
+        "missing": "condition_on_call_available"
+      },
+      "loci": [
+        {
+          "locus": "Locus1",
+          "alleles": [
+            "blue",
+            "cyan",
+            "green",
+            "other",
+            "pink",
+            "red",
+            "yellow"
+          ],
+          "observation_model": {
+            "type": "generative_str",
+            "dropout": 0.0,
+            "background_error": 0.001,
+            "background_source": "fixed_reference_frequencies",
+            "background_frequency_file": "../../data/background_allele_frequencies.json",
+            "missing": "condition_on_call_available"
+          },
+          "genotype_states": 28,
+          "persons": 3,
+          "founders": [
+            "Yuya",
+            "Thuya",
+            "Tiye"
+          ],
+          "probability": 0.000465194415590926,
+          "log_likelihood": -7.673055141710549,
+          "initial_factors": 6,
+          "max_factor_rows": 28,
+          "elimination_steps": [
+            {
+              "variable": "Yuya",
+              "involved_factors": 2,
+              "result_variables": [],
+              "result_rows": 1
+            },
+            {
+              "variable": "Thuya",
+              "involved_factors": 2,
+              "result_variables": [],
+              "result_rows": 1
+            },
+            {
+              "variable": "Tiye",
+              "involved_factors": 2,
+              "result_variables": [],
+              "result_rows": 1
+            }
+          ],
+          "backend": "numpy_exact_contraction",
+          "factor_size_definition": "Maximum stored initial or contracted nonzero rows; internal contraction buffers are not counted."
+        },
+        {
+          "locus": "Locus2",
+          "alleles": [
+            "blue",
+            "cyan",
+            "green",
+            "other",
+            "red"
+          ],
+          "observation_model": {
+            "type": "generative_str",
+            "dropout": 0.0,
+            "background_error": 0.001,
+            "background_source": "fixed_reference_frequencies",
+            "background_frequency_file": "../../data/background_allele_frequencies.json",
+            "missing": "condition_on_call_available"
+          },
+          "genotype_states": 15,
+          "persons": 3,
+          "founders": [
+            "Yuya",
+            "Thuya",
+            "Tiye"
+          ],
+          "probability": 9.409197600000006e-18,
+          "log_likelihood": -39.20484399491962,
+          "initial_factors": 6,
+          "max_factor_rows": 15,
+          "elimination_steps": [
+            {
+              "variable": "Yuya",
+              "involved_factors": 2,
+              "result_variables": [],
+              "result_rows": 1
+            },
+            {
+              "variable": "Thuya",
+              "involved_factors": 2,
+              "result_variables": [],
+              "result_rows": 1
+            },
+            {
+              "variable": "Tiye",
+              "involved_factors": 2,
+              "result_variables": [],
+              "result_rows": 1
+            }
+          ],
+          "backend": "numpy_exact_contraction",
+          "factor_size_definition": "Maximum stored initial or contracted nonzero rows; internal contraction buffers are not counted."
+        }
+      ],
+      "weight_scope": "unique_scored_structure",
+      "rank": 2,
+      "delta_log_likelihood": -11.04122845801681,
+      "weight": 1.602686013213929e-05,
+      "weight_percent": 0.001602686013213929
+    }
+  ],
+  "leave_one_out": [
+    {
+      "omitted_locus": "Locus1",
+      "retained_loci": [
+        "Locus2"
+      ],
+      "results": [
+        {
+          "pedigree": "focused_yuya_thuya_tiye_trio_l1_l2_relationships",
+          "structure_id": "focused_yuya_thuya_tiye_trio_l1_l2_relationships",
+          "founder_scenario": "focused_yuya_thuya_tiye_trio_l1_l2_founders",
+          "identity_hypothesis": "amarna_no_identity",
+          "log_likelihood": -28.564778763403787,
+          "observation_model": {
+            "type": "generative_str",
+            "dropout": 0.0,
+            "background_error": 0.001,
+            "background_source": "fixed_reference_frequencies",
+            "background_frequency_file": "../../data/background_allele_frequencies.json",
+            "missing": "condition_on_call_available"
+          },
+          "loci": [
+            {
+              "locus": "Locus2",
+              "alleles": [
+                "blue",
+                "cyan",
+                "green",
+                "other",
+                "red"
+              ],
+              "observation_model": {
+                "type": "generative_str",
+                "dropout": 0.0,
+                "background_error": 0.001,
+                "background_source": "fixed_reference_frequencies",
+                "background_frequency_file": "../../data/background_allele_frequencies.json",
+                "missing": "condition_on_call_available"
+              },
+              "genotype_states": 15,
+              "persons": 3,
+              "founders": [
+                "Yuya",
+                "Thuya"
+              ],
+              "probability": 3.9307389866457445e-13,
+              "log_likelihood": -28.564778763403787,
+              "initial_factors": 6,
+              "max_factor_rows": 615,
+              "elimination_steps": [
+                {
+                  "variable": "Tiye",
+                  "involved_factors": 2,
+                  "result_variables": [
+                    "Yuya",
+                    "Thuya"
+                  ],
+                  "result_rows": 225
+                },
+                {
+                  "variable": "Yuya",
+                  "involved_factors": 3,
+                  "result_variables": [
+                    "Thuya"
+                  ],
+                  "result_rows": 15
+                },
+                {
+                  "variable": "Thuya",
+                  "involved_factors": 3,
+                  "result_variables": [],
+                  "result_rows": 1
+                }
+              ],
+              "backend": "numpy_exact_contraction",
+              "factor_size_definition": "Maximum stored initial or contracted nonzero rows; internal contraction buffers are not counted."
+            }
+          ],
+          "weight_scope": "unique_scored_structure",
+          "rank": 1,
+          "delta_log_likelihood": 0.0,
+          "weight": 0.999976063095502,
+          "weight_percent": 99.9976063095502
+        },
+        {
+          "pedigree": "focused_yuya_thuya_tiye_trio_l1_l2_independent",
+          "structure_id": "focused_yuya_thuya_tiye_trio_l1_l2_independent",
+          "founder_scenario": "focused_yuya_thuya_tiye_trio_l1_l2_founders",
+          "identity_hypothesis": "amarna_no_identity",
+          "log_likelihood": -39.20484399491962,
+          "observation_model": {
+            "type": "generative_str",
+            "dropout": 0.0,
+            "background_error": 0.001,
+            "background_source": "fixed_reference_frequencies",
+            "background_frequency_file": "../../data/background_allele_frequencies.json",
+            "missing": "condition_on_call_available"
+          },
+          "loci": [
+            {
+              "locus": "Locus2",
+              "alleles": [
+                "blue",
+                "cyan",
+                "green",
+                "other",
+                "red"
+              ],
+              "observation_model": {
+                "type": "generative_str",
+                "dropout": 0.0,
+                "background_error": 0.001,
+                "background_source": "fixed_reference_frequencies",
+                "background_frequency_file": "../../data/background_allele_frequencies.json",
+                "missing": "condition_on_call_available"
+              },
+              "genotype_states": 15,
+              "persons": 3,
+              "founders": [
+                "Yuya",
+                "Thuya",
+                "Tiye"
+              ],
+              "probability": 9.409197600000006e-18,
+              "log_likelihood": -39.20484399491962,
+              "initial_factors": 6,
+              "max_factor_rows": 15,
+              "elimination_steps": [
+                {
+                  "variable": "Yuya",
+                  "involved_factors": 2,
+                  "result_variables": [],
+                  "result_rows": 1
+                },
+                {
+                  "variable": "Thuya",
+                  "involved_factors": 2,
+                  "result_variables": [],
+                  "result_rows": 1
+                },
+                {
+                  "variable": "Tiye",
+                  "involved_factors": 2,
+                  "result_variables": [],
+                  "result_rows": 1
+                }
+              ],
+              "backend": "numpy_exact_contraction",
+              "factor_size_definition": "Maximum stored initial or contracted nonzero rows; internal contraction buffers are not counted."
+            }
+          ],
+          "weight_scope": "unique_scored_structure",
+          "rank": 2,
+          "delta_log_likelihood": -10.640065231515834,
+          "weight": 2.3936904497860646e-05,
+          "weight_percent": 0.0023936904497860647
+        }
+      ],
+      "changes": [
+        {
+          "model": "focused_yuya_thuya_tiye_trio_l1_l2_relationships / focused_yuya_thuya_tiye_trio_l1_l2_founders / amarna_no_identity",
+          "baseline_rank": 1,
+          "jackknife_rank": 1,
+          "rank_change": 0,
+          "baseline_weight_percent": 99.99839731398679,
+          "jackknife_weight_percent": 99.9976063095502,
+          "weight_percent_change": -0.0007910044365786462,
+          "baseline_log_likelihood": -35.83667067861336,
+          "jackknife_log_likelihood": -28.564778763403787,
+          "log_likelihood_change": 7.271891915209572
+        },
+        {
+          "model": "focused_yuya_thuya_tiye_trio_l1_l2_independent / focused_yuya_thuya_tiye_trio_l1_l2_founders / amarna_no_identity",
+          "baseline_rank": 2,
+          "jackknife_rank": 2,
+          "rank_change": 0,
+          "baseline_weight_percent": 0.001602686013213929,
+          "jackknife_weight_percent": 0.0023936904497860647,
+          "weight_percent_change": 0.0007910044365721357,
+          "baseline_log_likelihood": -46.87789913663017,
+          "jackknife_log_likelihood": -39.20484399491962,
+          "log_likelihood_change": 7.673055141710549
+        }
+      ]
+    },
+    {
+      "omitted_locus": "Locus2",
+      "retained_loci": [
+        "Locus1"
+      ],
+      "results": [
+        {
+          "pedigree": "focused_yuya_thuya_tiye_trio_l1_l2_relationships",
+          "structure_id": "focused_yuya_thuya_tiye_trio_l1_l2_relationships",
+          "founder_scenario": "focused_yuya_thuya_tiye_trio_l1_l2_founders",
+          "identity_hypothesis": "amarna_no_identity",
+          "log_likelihood": -7.271891915209575,
+          "observation_model": {
+            "type": "generative_str",
+            "dropout": 0.0,
+            "background_error": 0.001,
+            "background_source": "fixed_reference_frequencies",
+            "background_frequency_file": "../../data/background_allele_frequencies.json",
+            "missing": "condition_on_call_available"
+          },
+          "loci": [
+            {
+              "locus": "Locus1",
+              "alleles": [
+                "blue",
+                "cyan",
+                "green",
+                "other",
+                "pink",
+                "red",
+                "yellow"
+              ],
+              "observation_model": {
+                "type": "generative_str",
+                "dropout": 0.0,
+                "background_error": 0.001,
+                "background_source": "fixed_reference_frequencies",
+                "background_frequency_file": "../../data/background_allele_frequencies.json",
+                "missing": "condition_on_call_available"
+              },
+              "genotype_states": 28,
+              "persons": 3,
+              "founders": [
+                "Yuya",
+                "Thuya"
+              ],
+              "probability": 0.0006947962539179067,
+              "log_likelihood": -7.271891915209575,
+              "initial_factors": 6,
+              "max_factor_rows": 2380,
+              "elimination_steps": [
+                {
+                  "variable": "Tiye",
+                  "involved_factors": 2,
+                  "result_variables": [
+                    "Yuya",
+                    "Thuya"
+                  ],
+                  "result_rows": 784
+                },
+                {
+                  "variable": "Yuya",
+                  "involved_factors": 3,
+                  "result_variables": [
+                    "Thuya"
+                  ],
+                  "result_rows": 28
+                },
+                {
+                  "variable": "Thuya",
+                  "involved_factors": 3,
+                  "result_variables": [],
+                  "result_rows": 1
+                }
+              ],
+              "backend": "numpy_exact_contraction",
+              "factor_size_definition": "Maximum stored initial or contracted nonzero rows; internal contraction buffers are not counted."
+            }
+          ],
+          "weight_scope": "unique_scored_structure",
+          "rank": 1,
+          "delta_log_likelihood": 0.0,
+          "weight": 0.5989671056682722,
+          "weight_percent": 59.89671056682722
+        },
+        {
+          "pedigree": "focused_yuya_thuya_tiye_trio_l1_l2_independent",
+          "structure_id": "focused_yuya_thuya_tiye_trio_l1_l2_independent",
+          "founder_scenario": "focused_yuya_thuya_tiye_trio_l1_l2_founders",
+          "identity_hypothesis": "amarna_no_identity",
+          "log_likelihood": -7.673055141710549,
+          "observation_model": {
+            "type": "generative_str",
+            "dropout": 0.0,
+            "background_error": 0.001,
+            "background_source": "fixed_reference_frequencies",
+            "background_frequency_file": "../../data/background_allele_frequencies.json",
+            "missing": "condition_on_call_available"
+          },
+          "loci": [
+            {
+              "locus": "Locus1",
+              "alleles": [
+                "blue",
+                "cyan",
+                "green",
+                "other",
+                "pink",
+                "red",
+                "yellow"
+              ],
+              "observation_model": {
+                "type": "generative_str",
+                "dropout": 0.0,
+                "background_error": 0.001,
+                "background_source": "fixed_reference_frequencies",
+                "background_frequency_file": "../../data/background_allele_frequencies.json",
+                "missing": "condition_on_call_available"
+              },
+              "genotype_states": 28,
+              "persons": 3,
+              "founders": [
+                "Yuya",
+                "Thuya",
+                "Tiye"
+              ],
+              "probability": 0.000465194415590926,
+              "log_likelihood": -7.673055141710549,
+              "initial_factors": 6,
+              "max_factor_rows": 28,
+              "elimination_steps": [
+                {
+                  "variable": "Yuya",
+                  "involved_factors": 2,
+                  "result_variables": [],
+                  "result_rows": 1
+                },
+                {
+                  "variable": "Thuya",
+                  "involved_factors": 2,
+                  "result_variables": [],
+                  "result_rows": 1
+                },
+                {
+                  "variable": "Tiye",
+                  "involved_factors": 2,
+                  "result_variables": [],
+                  "result_rows": 1
+                }
+              ],
+              "backend": "numpy_exact_contraction",
+              "factor_size_definition": "Maximum stored initial or contracted nonzero rows; internal contraction buffers are not counted."
+            }
+          ],
+          "weight_scope": "unique_scored_structure",
+          "rank": 2,
+          "delta_log_likelihood": -0.4011632265009739,
+          "weight": 0.40103289433172784,
+          "weight_percent": 40.10328943317278
+        }
+      ],
+      "changes": [
+        {
+          "model": "focused_yuya_thuya_tiye_trio_l1_l2_relationships / focused_yuya_thuya_tiye_trio_l1_l2_founders / amarna_no_identity",
+          "baseline_rank": 1,
+          "jackknife_rank": 1,
+          "rank_change": 0,
+          "baseline_weight_percent": 99.99839731398679,
+          "jackknife_weight_percent": 59.89671056682722,
+          "weight_percent_change": -40.10168674715957,
+          "baseline_log_likelihood": -35.83667067861336,
+          "jackknife_log_likelihood": -7.271891915209575,
+          "log_likelihood_change": 28.564778763403783
+        },
+        {
+          "model": "focused_yuya_thuya_tiye_trio_l1_l2_independent / focused_yuya_thuya_tiye_trio_l1_l2_founders / amarna_no_identity",
+          "baseline_rank": 2,
+          "jackknife_rank": 2,
+          "rank_change": 0,
+          "baseline_weight_percent": 0.001602686013213929,
+          "jackknife_weight_percent": 40.10328943317278,
+          "weight_percent_change": 40.10168674715957,
+          "baseline_log_likelihood": -46.87789913663017,
+          "jackknife_log_likelihood": -7.673055141710549,
+          "log_likelihood_change": 39.20484399491962
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "description": "Unique locus-specific repeat-count coding verified against all ten scored sample profiles.",
+  "source": "observed_str.reported_repeat_counts.json",
+  "loci": {
+    "Locus1": {
+      "blue": 12,
+      "cyan": 13,
+      "green": 10,
+      "pink": 16,
+      "red": 11,
+      "yellow": 9
+    },
+    "Locus2": {
+      "blue": 10,
+      "cyan": 13,
+      "green": 6,
+      "red": 15
+    },
+    "Locus3": {
+      "blue": 26,
+      "cyan": 27,
+      "green": 16,
+      "red": 22,
+      "yellow": 19
+    },
+    "Locus4": {
+      "blue": 26,
+      "cyan": 34,
+      "green": 25,
+      "red": 29,
+      "yellow": 35
+    },
+    "Locus5": {
+      "blue": 11,
+      "cyan": 10,
+      "green": 8,
+      "red": 6,
+      "yellow": 13
+    },
+    "Locus6": {
+      "blue": 19,
+      "cyan": 12,
+      "green": 16,
+      "pink": 10,
+      "red": 22,
+      "yellow": 8
+    },
+    "Locus7": {
+      "blue": 12,
+      "green": 6,
+      "red": 9,
+      "yellow": 7
+    },
+    "Locus8": {
+      "blue": 26,
+      "cyan": 25,
+      "green": 23,
+      "pink": 31,
+      "red": 20,
+      "yellow": 24
+    }
+  }
+}

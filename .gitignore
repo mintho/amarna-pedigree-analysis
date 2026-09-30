@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+reproduced/
+/Data/data/source_cache/
+/Figures/
+/Supplementary_Source/
+/Supplementary_Material.pdf
+/Results/Manuscript_Tables/en/
+/Results/Manuscript_Tables/de/

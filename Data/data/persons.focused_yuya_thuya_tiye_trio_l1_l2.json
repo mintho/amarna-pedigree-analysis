@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "description": "Trio: Yuya and Thuya as parents of Tiye, Locus1/Locus2.",
+  "persons": [
+    {
+      "id": "Yuya",
+      "label": "Yuya",
+      "kind": "sample",
+      "notes": "Focused robustness excerpt used for the focused robustness analysis"
+    },
+    {
+      "id": "Thuya",
+      "label": "Thuya",
+      "kind": "sample",
+      "notes": "Focused robustness excerpt used for the focused robustness analysis"
+    },
+    {
+      "id": "Tiye",
+      "label": "Tiye",
+      "kind": "sample",
+      "notes": "Focused robustness excerpt used for the focused robustness analysis"
+    }
+  ]
+}

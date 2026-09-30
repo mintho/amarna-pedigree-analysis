@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "focused_amenhotep_tiye_children_l1_l2_relationships",
+  "description": "Two children: Amenhotep and Tiye as parents of KV35YL and Akhenaten, Locus1/Locus2.",
+  "relationships": [
+    {
+      "child": "KV35YL",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "Akhenaten",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    }
+  ]
+}

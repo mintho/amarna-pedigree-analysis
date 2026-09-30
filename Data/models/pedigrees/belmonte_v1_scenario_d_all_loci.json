@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "belmonte_v1_scenario_d_all_loci",
+  "description": "Belmonte_v1 scenario_d, primary comparison input derived from Belmonte_v1.json.",
+  "relationships": [
+    {
+      "child": "Tiye",
+      "father": "Yuya",
+      "mother": "Thuya"
+    },
+    {
+      "child": "Nefertiti",
+      "father": "Ay",
+      "mother": "Iuy"
+    },
+    {
+      "child": "Baketaten",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "Akhenaten",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "Smenkhkare",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "Tutankhamun",
+      "father": "Smenkhkare",
+      "mother": "Baketaten"
+    },
+    {
+      "child": "Ankhesenamun",
+      "father": "Akhenaten",
+      "mother": "Nefertiti"
+    },
+    {
+      "child": "Fetus1",
+      "father": "Tutankhamun",
+      "mother": "Ankhesenamun"
+    },
+    {
+      "child": "Fetus2",
+      "father": "Tutankhamun",
+      "mother": "Ankhesenamun"
+    }
+  ]
+}

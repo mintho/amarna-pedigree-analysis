@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "matrix_files": [
+    "Results/Focused_Robustness/focused_yuya_thuya_tiye_trio_l1_l2/matrix.json",
+    "Results/Focused_Robustness/focused_amenhotep_tiye_children_l1_l2/matrix.json",
+    "Results/Focused_Robustness/focused_yuya_kv55_grandparent_l1_l2/matrix.json"
+  ],
+  "runs": [
+    {
+      "matrix_path": "Results/Focused_Robustness/focused_yuya_thuya_tiye_trio_l1_l2/matrix.json",
+      "run_config": "Data/models/runs/focused_yuya_thuya_tiye_trio_l1_l2_run.json",
+      "engine": "factors",
+      "loci": [
+        "Locus1",
+        "Locus2"
+      ],
+      "matrix_dimensions": {
+        "founder_scenarios": 3,
+        "background_error_values": 3,
+        "dropout_values": 3,
+        "total_points": 27
+      },
+      "baseline_best_model": "focused_yuya_thuya_tiye_trio_l1_l2_relationships / amarna_no_identity",
+      "baseline_best_weight_percent": 99.99839731398679,
+      "baseline_best_count": 27,
+      "baseline_best_fraction": 1.0,
+      "rank_flip_count": 0,
+      "rank_flip_fraction": 0.0,
+      "best_model_fractions": {
+        "focused_yuya_thuya_tiye_trio_l1_l2_relationships / amarna_no_identity": 1.0
+      },
+      "max_abs_weight_percent_change": 7.080192106649022,
+      "rank_flip_points": [],
+      "summary": [
+        {
+          "model": "focused_yuya_thuya_tiye_trio_l1_l2_relationships / amarna_no_identity",
+          "baseline_rank": 1,
+          "baseline_weight_percent": 99.99839731398679,
+          "baseline_log_likelihood": -35.83667067861336,
+          "best_count": 27,
+          "best_fraction": 1.0,
+          "best_points": [
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders | background_error=0.0001 | dropout=0",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders | background_error=0.0001 | dropout=0.1",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders | background_error=0.0001 | dropout=0.2",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders | background_error=0.001 | dropout=0",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders | background_error=0.001 | dropout=0.1",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders | background_error=0.001 | dropout=0.2",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders | background_error=0.01 | dropout=0",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders | background_error=0.01 | dropout=0.1",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders | background_error=0.01 | dropout=0.2",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_broad_empirical_priors | background_error=0.0001 | dropout=0",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_broad_empirical_priors | background_error=0.0001 | dropout=0.1",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_broad_empirical_priors | background_error=0.0001 | dropout=0.2",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_broad_empirical_priors | background_error=0.001 | dropout=0",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_broad_empirical_priors | background_error=0.001 | dropout=0.1",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_broad_empirical_priors | background_error=0.001 | dropout=0.2",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_broad_empirical_priors | background_error=0.01 | dropout=0",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_broad_empirical_priors | background_error=0.01 | dropout=0.1",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_broad_empirical_priors | background_error=0.01 | dropout=0.2",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_restricted_endogamous_priors | background_error=0.0001 | dropout=0",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_restricted_endogamous_priors | background_error=0.0001 | dropout=0.1",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_restricted_endogamous_priors | background_error=0.0001 | dropout=0.2",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_restricted_endogamous_priors | background_error=0.001 | dropout=0",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_restricted_endogamous_priors | background_error=0.001 | dropout=0.1",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_restricted_endogamous_priors | background_error=0.001 | dropout=0.2",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_restricted_endogamous_priors | background_error=0.01 | dropout=0",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_restricted_endogamous_priors | background_error=0.01 | dropout=0.1",
+            "focused_yuya_thuya_tiye_trio_l1_l2_founders_restricted_endogamous_priors | background_error=0.01 | dropout=0.2"
+          ],
+          "rank_min": 1,
+          "rank_max": 1,
+          "weight_percent_min": 92.91820520733776,
+          "weight_percent_max": 99.99840246665673,
+          "max_abs_weight_percent_change": 7.080192106649022,
+          "log_likelihood_min": -38.30170102032848,
+          "log_likelihood_max": -15.58387101251883
+        },
+        {
+          "model": "focused_yuya_thuya_tiye_trio_l1_l2_independent / amarna_no_identity",
+          "baseline_rank": 2,
+          "baseline_weight_percent": 0.001602686013213929,
+          "baseline_log_likelihood": -46.87789913663017,
+          "best_count": 0,
+          "best_fraction": 0.0,
+          "best_points": [],
+          "rank_min": 2,
+          "rank_max": 2,
+          "weight_percent_min": 0.0015975333432804877,
+          "weight_percent_max": 7.081794792662229,
+          "max_abs_weight_percent_change": 7.080192106649014,
+          "log_likelihood_min": -49.31068978527916,
+          "log_likelihood_max": -18.181575552641828
+        }
+      ]
+    },
+    {
+      "matrix_path": "Results/Focused_Robustness/focused_amenhotep_tiye_children_l1_l2/matrix.json",
+      "run_config": "Data/models/runs/focused_amenhotep_tiye_children_l1_l2_run.json",
+      "engine": "factors",
+      "loci": [
+        "Locus1",
+        "Locus2"
+      ],
+      "matrix_dimensions": {
+        "founder_scenarios": 3,
+        "background_error_values": 3,
+        "dropout_values": 3,
+        "total_points": 27
+      },
+      "baseline_best_model": "focused_amenhotep_tiye_children_l1_l2_relationships / amarna_no_identity",
+      "baseline_best_weight_percent": 99.99999999999997,
+      "baseline_best_count": 27,
+      "baseline_best_fraction": 1.0,
+      "rank_flip_count": 0,
+      "rank_flip_fraction": 0.0,
+      "best_model_fractions": {
+        "focused_amenhotep_tiye_children_l1_l2_relationships / amarna_no_identity": 1.0
+      },
+      "max_abs_weight_percent_change": 0.02538418916923413,
+      "rank_flip_points": [],
+      "summary": [
+        {
+          "model": "focused_amenhotep_tiye_children_l1_l2_relationships / amarna_no_identity",
+          "baseline_rank": 1,
+          "baseline_weight_percent": 99.99999999999997,
+          "baseline_log_likelihood": -55.2849358229293,
+          "best_count": 27,
+          "best_fraction": 1.0,
+          "best_points": [
+            "focused_amenhotep_tiye_children_l1_l2_founders | background_error=0.0001 | dropout=0",
+            "focused_amenhotep_tiye_children_l1_l2_founders | background_error=0.0001 | dropout=0.1",
+            "focused_amenhotep_tiye_children_l1_l2_founders | background_error=0.0001 | dropout=0.2",
+            "focused_amenhotep_tiye_children_l1_l2_founders | background_error=0.001 | dropout=0",
+            "focused_amenhotep_tiye_children_l1_l2_founders | background_error=0.001 | dropout=0.1",
+            "focused_amenhotep_tiye_children_l1_l2_founders | background_error=0.001 | dropout=0.2",
+            "focused_amenhotep_tiye_children_l1_l2_founders | background_error=0.01 | dropout=0",
+            "focused_amenhotep_tiye_children_l1_l2_founders | background_error=0.01 | dropout=0.1",
+            "focused_amenhotep_tiye_children_l1_l2_founders | background_error=0.01 | dropout=0.2",
+            "focused_amenhotep_tiye_children_l1_l2_founders_broad_empirical_priors | background_error=0.0001 | dropout=0",
+            "focused_amenhotep_tiye_children_l1_l2_founders_broad_empirical_priors | background_error=0.0001 | dropout=0.1",
+            "focused_amenhotep_tiye_children_l1_l2_founders_broad_empirical_priors | background_error=0.0001 | dropout=0.2",
+            "focused_amenhotep_tiye_children_l1_l2_founders_broad_empirical_priors | background_error=0.001 | dropout=0",
+            "focused_amenhotep_tiye_children_l1_l2_founders_broad_empirical_priors | background_error=0.001 | dropout=0.1",
+            "focused_amenhotep_tiye_children_l1_l2_founders_broad_empirical_priors | background_error=0.001 | dropout=0.2",
+            "focused_amenhotep_tiye_children_l1_l2_founders_broad_empirical_priors | background_error=0.01 | dropout=0",
+            "focused_amenhotep_tiye_children_l1_l2_founders_broad_empirical_priors | background_error=0.01 | dropout=0.1",
+            "focused_amenhotep_tiye_children_l1_l2_founders_broad_empirical_priors | background_error=0.01 | dropout=0.2",
+            "focused_amenhotep_tiye_children_l1_l2_founders_restricted_endogamous_priors | background_error=0.0001 | dropout=0",
+            "focused_amenhotep_tiye_children_l1_l2_founders_restricted_endogamous_priors | background_error=0.0001 | dropout=0.1",
+            "focused_amenhotep_tiye_children_l1_l2_founders_restricted_endogamous_priors | background_error=0.0001 | dropout=0.2",
+            "focused_amenhotep_tiye_children_l1_l2_founders_restricted_endogamous_priors | background_error=0.001 | dropout=0",
+            "focused_amenhotep_tiye_children_l1_l2_founders_restricted_endogamous_priors | background_error=0.001 | dropout=0.1",
+            "focused_amenhotep_tiye_children_l1_l2_founders_restricted_endogamous_priors | background_error=0.001 | dropout=0.2",
+            "focused_amenhotep_tiye_children_l1_l2_founders_restricted_endogamous_priors | background_error=0.01 | dropout=0",
+            "focused_amenhotep_tiye_children_l1_l2_founders_restricted_endogamous_priors | background_error=0.01 | dropout=0.1",
+            "focused_amenhotep_tiye_children_l1_l2_founders_restricted_endogamous_priors | background_error=0.01 | dropout=0.2"
+          ],
+          "rank_min": 1,
+          "rank_max": 1,
+          "weight_percent_min": 99.97461581083074,
+          "weight_percent_max": 99.99999999999997,
+          "max_abs_weight_percent_change": 0.025384189169230353,
+          "log_likelihood_min": -58.59055650417522,
+          "log_likelihood_max": -19.047384637693686
+        },
+        {
+          "model": "focused_amenhotep_tiye_children_l1_l2_independent / amarna_no_identity",
+          "baseline_rank": 2,
+          "baseline_weight_percent": 1.9976467300469154e-14,
+          "baseline_log_likelihood": -91.43432745802905,
+          "best_count": 0,
+          "best_fraction": 0.0,
+          "best_points": [],
+          "rank_min": 2,
+          "rank_max": 2,
+          "weight_percent_min": 1.9853745764455536e-14,
+          "weight_percent_max": 0.02538418916925411,
+          "max_abs_weight_percent_change": 0.02538418916923413,
+          "log_likelihood_min": -94.67804832289436,
+          "log_likelihood_max": -27.347808295774282
+        }
+      ]
+    },
+    {
+      "matrix_path": "Results/Focused_Robustness/focused_yuya_kv55_grandparent_l1_l2/matrix.json",
+      "run_config": "Data/models/runs/focused_yuya_kv55_grandparent_l1_l2_run.json",
+      "engine": "factors",
+      "loci": [
+        "Locus1",
+        "Locus2"
+      ],
+      "matrix_dimensions": {
+        "founder_scenarios": 3,
+        "background_error_values": 3,
+        "dropout_values": 3,
+        "total_points": 27
+      },
+      "baseline_best_model": "focused_yuya_kv55_grandparent_l1_l2_relationships / amarna_no_identity",
+      "baseline_best_weight_percent": 99.99999999999991,
+      "baseline_best_count": 27,
+      "baseline_best_fraction": 1.0,
+      "rank_flip_count": 0,
+      "rank_flip_fraction": 0.0,
+      "best_model_fractions": {
+        "focused_yuya_kv55_grandparent_l1_l2_relationships / amarna_no_identity": 1.0
+      },
+      "max_abs_weight_percent_change": 0.05431694041824072,
+      "rank_flip_points": [],
+      "summary": [
+        {
+          "model": "focused_yuya_kv55_grandparent_l1_l2_relationships / amarna_no_identity",
+          "baseline_rank": 1,
+          "baseline_weight_percent": 99.99999999999991,
+          "baseline_log_likelihood": -74.52884196910472,
+          "best_count": 27,
+          "best_fraction": 1.0,
+          "best_points": [
+            "focused_yuya_kv55_grandparent_l1_l2_founders | background_error=0.0001 | dropout=0",
+            "focused_yuya_kv55_grandparent_l1_l2_founders | background_error=0.0001 | dropout=0.1",
+            "focused_yuya_kv55_grandparent_l1_l2_founders | background_error=0.0001 | dropout=0.2",
+            "focused_yuya_kv55_grandparent_l1_l2_founders | background_error=0.001 | dropout=0",
+            "focused_yuya_kv55_grandparent_l1_l2_founders | background_error=0.001 | dropout=0.1",
+            "focused_yuya_kv55_grandparent_l1_l2_founders | background_error=0.001 | dropout=0.2",
+            "focused_yuya_kv55_grandparent_l1_l2_founders | background_error=0.01 | dropout=0",
+            "focused_yuya_kv55_grandparent_l1_l2_founders | background_error=0.01 | dropout=0.1",
+            "focused_yuya_kv55_grandparent_l1_l2_founders | background_error=0.01 | dropout=0.2",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_broad_empirical_priors | background_error=0.0001 | dropout=0",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_broad_empirical_priors | background_error=0.0001 | dropout=0.1",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_broad_empirical_priors | background_error=0.0001 | dropout=0.2",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_broad_empirical_priors | background_error=0.001 | dropout=0",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_broad_empirical_priors | background_error=0.001 | dropout=0.1",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_broad_empirical_priors | background_error=0.001 | dropout=0.2",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_broad_empirical_priors | background_error=0.01 | dropout=0",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_broad_empirical_priors | background_error=0.01 | dropout=0.1",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_broad_empirical_priors | background_error=0.01 | dropout=0.2",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_restricted_endogamous_priors | background_error=0.0001 | dropout=0",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_restricted_endogamous_priors | background_error=0.0001 | dropout=0.1",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_restricted_endogamous_priors | background_error=0.0001 | dropout=0.2",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_restricted_endogamous_priors | background_error=0.001 | dropout=0",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_restricted_endogamous_priors | background_error=0.001 | dropout=0.1",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_restricted_endogamous_priors | background_error=0.001 | dropout=0.2",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_restricted_endogamous_priors | background_error=0.01 | dropout=0",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_restricted_endogamous_priors | background_error=0.01 | dropout=0.1",
+            "focused_yuya_kv55_grandparent_l1_l2_founders_restricted_endogamous_priors | background_error=0.01 | dropout=0.2"
+          ],
+          "rank_min": 1,
+          "rank_max": 1,
+          "weight_percent_min": 99.94568305958168,
+          "weight_percent_max": 99.99999999999991,
+          "max_abs_weight_percent_change": 0.05431694041823221,
+          "log_likelihood_min": -78.65250548384863,
+          "log_likelihood_max": -26.487876300110017
+        },
+        {
+          "model": "focused_yuya_kv55_grandparent_l1_l2_independent / amarna_no_identity",
+          "baseline_rank": 2,
+          "baseline_weight_percent": 9.276981907834418e-14,
+          "baseline_log_likelihood": -109.14266718855748,
+          "best_count": 0,
+          "best_fraction": 0.0,
+          "best_points": [],
+          "rank_min": 2,
+          "rank_max": 2,
+          "weight_percent_min": 9.213376687541456e-14,
+          "weight_percent_max": 0.054316940418333494,
+          "max_abs_weight_percent_change": 0.05431694041824072,
+          "log_likelihood_min": -113.19731826963914,
+          "log_likelihood_max": -34.03899392672923
+        }
+      ]
+    }
+  ]
+}

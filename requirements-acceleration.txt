@@ -1,0 +1,2 @@
+# Optional exact tensor-contraction acceleration; not needed for input checks.
+numpy>=2,<3

@@ -1,0 +1,4497 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-29T23:57:41.681205+00:00",
+  "engine": "factors",
+  "baseline": {
+    "background_error": 0.001,
+    "dropout": 0.2
+  },
+  "background_error_values": [
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "dropout_values": [
+    0.1,
+    0.2,
+    0.3
+  ],
+  "scenarios": [
+    {
+      "scenario": "a",
+      "run_config": "Data/models/runs/scenario_a_primary_models_all_loci_generative_str.json",
+      "loci": [
+        "Locus1",
+        "Locus2",
+        "Locus3",
+        "Locus4",
+        "Locus5",
+        "Locus6",
+        "Locus7",
+        "Locus8"
+      ],
+      "parameter_grid": [
+        {
+          "background_error": 0.0001,
+          "dropout": 0.1,
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -7.469589292758769,
+          "nearest_non_tied_bayes_factor": 1753.8862038675245,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -338.8119990063873,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.9142277704569
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -338.8119990063873,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.9142277704569
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -346.28158829914605,
+              "delta_log_likelihood": -7.469589292758769,
+              "weight_percent": 0.05696733776121525
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -347.2304021096022,
+              "delta_log_likelihood": -8.418403103214928,
+              "weight_percent": 0.022057755676394175
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -348.5564315816527,
+              "delta_log_likelihood": -9.74443257526542,
+              "weight_percent": 0.005856984023575335
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -350.44042933330616,
+              "delta_log_likelihood": -11.628430326918874,
+              "weight_percent": 0.0008901520819145823
+            }
+          ]
+        },
+        {
+          "background_error": 0.0001,
+          "dropout": 0.2,
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -7.469589292758826,
+          "nearest_non_tied_bayes_factor": 1753.886203867624,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -342.01587414596105,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.9142277704569
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -342.01587414596105,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.9142277704569
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -349.4854634387199,
+              "delta_log_likelihood": -7.469589292758826,
+              "weight_percent": 0.05696733776121201
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -350.4342772491759,
+              "delta_log_likelihood": -8.418403103214871,
+              "weight_percent": 0.02205775567639543
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -351.7603067212265,
+              "delta_log_likelihood": -9.744432575265478,
+              "weight_percent": 0.005856984023575002
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -353.6443044728799,
+              "delta_log_likelihood": -11.628430326918874,
+              "weight_percent": 0.0008901520819145823
+            }
+          ]
+        },
+        {
+          "background_error": 0.0001,
+          "dropout": 0.3,
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -7.469589292758769,
+          "nearest_non_tied_bayes_factor": 1753.8862038675245,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -350.26428405778483,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.9142277704569
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -350.26428405778483,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.9142277704569
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -357.7338733505436,
+              "delta_log_likelihood": -7.469589292758769,
+              "weight_percent": 0.05696733776121525
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -358.6826871609997,
+              "delta_log_likelihood": -8.418403103214871,
+              "weight_percent": 0.02205775567639543
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -360.0087166330502,
+              "delta_log_likelihood": -9.744432575265364,
+              "weight_percent": 0.0058569840235756674
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -361.89271438470365,
+              "delta_log_likelihood": -11.628430326918817,
+              "weight_percent": 0.000890152081914633
+            }
+          ]
+        },
+        {
+          "background_error": 0.001,
+          "dropout": 0.1,
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -7.468523790859081,
+          "nearest_non_tied_bayes_factor": 1752.0184300204633,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -338.87405840479903,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.9141593540846
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -338.87405840479903,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.9141593540846
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -346.3425821956581,
+              "delta_log_likelihood": -7.468523790859081,
+              "weight_percent": 0.057028029866625106
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -347.2922304275179,
+              "delta_log_likelihood": -8.418172022718863,
+              "weight_percent": 0.022062838274923488
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -348.6182588743935,
+              "delta_log_likelihood": -9.744200469594489,
+              "weight_percent": 0.005858339609053806
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -350.50104429963363,
+              "delta_log_likelihood": -11.626985894834604,
+              "weight_percent": 0.0008914381647747551
+            }
+          ]
+        },
+        {
+          "background_error": 0.001,
+          "dropout": 0.2,
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -7.468523790859081,
+          "nearest_non_tied_bayes_factor": 1752.0184300204633,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -342.0779335443728,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.9141593540846
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -342.0779335443728,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.9141593540846
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -349.5464573352319,
+              "delta_log_likelihood": -7.468523790859081,
+              "weight_percent": 0.057028029866625106
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -350.49610556709166,
+              "delta_log_likelihood": -8.418172022718863,
+              "weight_percent": 0.022062838274923488
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -351.8221340139673,
+              "delta_log_likelihood": -9.744200469594489,
+              "weight_percent": 0.005858339609053806
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -353.7049194392074,
+              "delta_log_likelihood": -11.626985894834604,
+              "weight_percent": 0.0008914381647747551
+            }
+          ]
+        },
+        {
+          "background_error": 0.001,
+          "dropout": 0.3,
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -7.4685237908591375,
+          "nearest_non_tied_bayes_factor": 1752.0184300205628,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -350.32634345619647,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.91415935408463
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -350.32634345619647,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.91415935408463
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -357.7948672470556,
+              "delta_log_likelihood": -7.4685237908591375,
+              "weight_percent": 0.057028029866621886
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -358.74451547891533,
+              "delta_log_likelihood": -8.418172022718863,
+              "weight_percent": 0.022062838274923488
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -360.070543925791,
+              "delta_log_likelihood": -9.744200469594546,
+              "weight_percent": 0.005858339609053475
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -361.9533293510311,
+              "delta_log_likelihood": -11.626985894834604,
+              "weight_percent": 0.0008914381647747552
+            }
+          ]
+        },
+        {
+          "background_error": 0.01,
+          "dropout": 0.1,
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -7.457778501701625,
+          "nearest_non_tied_bayes_factor": 1733.2932691834021,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -339.49738742982095,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.91346433749825
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -339.49738742982095,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.91346433749825
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -346.9551659315226,
+              "delta_log_likelihood": -7.457778501701625,
+              "weight_percent": 0.05764371564459485
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -347.9131928331342,
+              "delta_log_likelihood": -8.415805403313243,
+              "weight_percent": 0.022114960614867375
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -349.239173720144,
+              "delta_log_likelihood": -9.741786290323034,
+              "weight_percent": 0.00587245892690413
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -351.10978993868815,
+              "delta_log_likelihood": -11.612402508867206,
+              "weight_percent": 0.0009045273153967335
+            }
+          ]
+        },
+        {
+          "background_error": 0.01,
+          "dropout": 0.2,
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -7.457778501701625,
+          "nearest_non_tied_bayes_factor": 1733.2932691834021,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -342.7012625693947,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.91346433749825
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -342.7012625693947,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.91346433749825
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -350.15904107109634,
+              "delta_log_likelihood": -7.457778501701625,
+              "weight_percent": 0.05764371564459485
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -351.11706797270796,
+              "delta_log_likelihood": -8.415805403313243,
+              "weight_percent": 0.022114960614867375
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -352.4430488597178,
+              "delta_log_likelihood": -9.741786290323091,
+              "weight_percent": 0.005872458926903797
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -354.3136650782619,
+              "delta_log_likelihood": -11.612402508867206,
+              "weight_percent": 0.0009045273153967335
+            }
+          ]
+        },
+        {
+          "background_error": 0.01,
+          "dropout": 0.3,
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -7.457778501701739,
+          "nearest_non_tied_bayes_factor": 1733.2932691835993,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -350.94967248121833,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.91346433749825
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -350.94967248121833,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.91346433749825
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -358.40745098292007,
+              "delta_log_likelihood": -7.457778501701739,
+              "weight_percent": 0.0576437156445883
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -359.36547788453174,
+              "delta_log_likelihood": -8.415805403313414,
+              "weight_percent": 0.022114960614863604
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -360.6914587715414,
+              "delta_log_likelihood": -9.741786290323091,
+              "weight_percent": 0.005872458926903797
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -362.56207499008565,
+              "delta_log_likelihood": -11.61240250886732,
+              "weight_percent": 0.0009045273153966305
+            }
+          ]
+        }
+      ],
+      "leave_one_locus": [
+        {
+          "omitted_locus": "Locus1",
+          "retained_loci": [
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -6.487917297989668,
+          "nearest_non_tied_bayes_factor": 657.153282512962,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -308.3330781740154,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.75354721785716
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -308.3330781740154,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.75354721785716
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -314.82099547200505,
+              "delta_log_likelihood": -6.487917297989668,
+              "weight_percent": 0.1517964679966269
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -315.7706437038648,
+              "delta_log_likelihood": -7.437565529849394,
+              "weight_percent": 0.05872657589516978
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -316.4036148629207,
+              "delta_log_likelihood": -8.070536688905293,
+              "weight_percent": 0.031184500929161783
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -318.2863946232555,
+              "delta_log_likelihood": -9.953316449240106,
+              "weight_percent": 0.004745237321885913
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus2",
+          "retained_loci": [
+            "Locus1",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -6.419122984434011,
+          "nearest_non_tied_bayes_factor": 613.4648599000653,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -278.3319936914818,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.6416654663868
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -278.3319936914818,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.6416654663868
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -284.7511166759158,
+              "delta_log_likelihood": -6.419122984434011,
+              "weight_percent": 0.1624244059922497
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -284.85331734995924,
+              "delta_log_likelihood": -6.521323658477456,
+              "weight_percent": 0.14664460780397548
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -285.9970154946987,
+              "delta_log_likelihood": -7.665021803216916,
+              "weight_percent": 0.04672661332599797
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -288.9095959025843,
+              "delta_log_likelihood": -10.577602211102487,
+              "weight_percent": 0.0025389064909833634
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus3",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -7.06869053220646,
+          "nearest_non_tied_bayes_factor": 1174.6089142118767,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -304.86765802301045,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.86196665658802
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -304.86765802301045,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.86196665658802
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -311.9363485552169,
+              "delta_log_likelihood": -7.06869053220646,
+              "weight_percent": 0.0850172048316116
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -312.8859967870767,
+              "delta_log_likelihood": -8.018338764066243,
+              "weight_percent": 0.032891208852431894
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -313.51888678517724,
+              "delta_log_likelihood": -8.651228762166795,
+              "weight_percent": 0.017467035447308925
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -315.40166801554307,
+              "delta_log_likelihood": -10.534009992532617,
+              "weight_percent": 0.002657894280616787
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus4",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -5.899882790451727,
+          "nearest_non_tied_bayes_factor": 364.99468449597623,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -294.5353566981248,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.61078337820396
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -294.5353566981248,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.61078337820396
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -300.43523948857654,
+              "delta_log_likelihood": -5.899882790451727,
+              "weight_percent": 0.27291023022912564
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -301.59983353221924,
+              "delta_log_likelihood": -7.064476834094421,
+              "weight_percent": 0.08516145032479008
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -302.9258582815323,
+              "delta_log_likelihood": -8.390501583407513,
+              "weight_percent": 0.022612980982776306
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -303.9005632599234,
+              "delta_log_likelihood": -9.365206561798573,
+              "weight_percent": 0.008531960259350633
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus5",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -6.913824908659194,
+          "nearest_non_tied_bayes_factor": 1006.08808720382,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -307.02817317938417,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.80945323042285
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -307.02817317938417,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.80945323042285
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -313.94199808804336,
+              "delta_log_likelihood": -6.913824908659194,
+              "weight_percent": 0.09920548160730062
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -314.17530689020293,
+              "delta_log_likelihood": -7.147133710818764,
+              "weight_percent": 0.07856171299563133
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -316.269265299716,
+              "delta_log_likelihood": -9.241092120331814,
+              "weight_percent": 0.009678685138179202
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -317.40750224476045,
+              "delta_log_likelihood": -10.379329065376282,
+              "weight_percent": 0.0031008898360381934
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus6",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -5.389108083597591,
+          "nearest_non_tied_bayes_factor": 219.0079616227755,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -285.3364283810218,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.31498017781124
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -285.3364283810218,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.31498017781124
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -290.7255364646194,
+              "delta_log_likelihood": -5.389108083597591,
+              "weight_percent": 0.45347657428488236
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -291.67518469647916,
+              "delta_log_likelihood": -6.338756315457374,
+              "weight_percent": 0.17543969769450107
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -293.10656133979626,
+              "delta_log_likelihood": -7.770132958774468,
+              "weight_percent": 0.04192652735365133
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -294.1908575321559,
+              "delta_log_likelihood": -8.854429151134127,
+              "weight_percent": 0.014177022855729006
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus7",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -7.1900335044359736,
+          "nearest_non_tied_bayes_factor": 1326.147636691476,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -302.95136555111543,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.89620117364277
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -302.95136555111543,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.89620117364277
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -310.1413990555514,
+              "delta_log_likelihood": -7.1900335044359736,
+              "weight_percent": 0.07532811461540408
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -311.4902402312851,
+              "delta_log_likelihood": -8.53887468016967,
+              "weight_percent": 0.01955072279685537
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -312.416529737041,
+              "delta_log_likelihood": -9.465164185925573,
+              "weight_percent": 0.007742485435077976
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -314.29985596102296,
+              "delta_log_likelihood": -11.348490409907527,
+              "weight_percent": 0.0011775035099064188
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus8",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_a",
+            "hawass_v2_scenario_a"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_a",
+          "nearest_non_tied_delta_log_likelihood": -6.911086434238996,
+          "nearest_non_tied_bayes_factor": 1003.3367097204125,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_a",
+              "log_likelihood": -313.1614811124557,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.84599584263361
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_a",
+              "log_likelihood": -313.1614811124557,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.84599584263361
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_a",
+              "log_likelihood": -320.0725675466947,
+              "delta_log_likelihood": -6.911086434238996,
+              "weight_percent": 0.09951394668939847
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_a",
+              "log_likelihood": -321.0222157785545,
+              "delta_log_likelihood": -7.860734666098779,
+              "weight_percent": 0.03849966616490951
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_a",
+              "log_likelihood": -322.1172062968888,
+              "delta_log_likelihood": -8.955725184433106,
+              "weight_percent": 0.012879785307700698
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_a",
+              "log_likelihood": -323.53799853520616,
+              "delta_log_likelihood": -10.376517422750453,
+              "weight_percent": 0.0031107592043793024
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scenario": "b",
+      "run_config": "Data/models/runs/scenario_b_primary_models_all_loci_generative_str.json",
+      "loci": [
+        "Locus1",
+        "Locus2",
+        "Locus3",
+        "Locus4",
+        "Locus5",
+        "Locus6",
+        "Locus7",
+        "Locus8"
+      ],
+      "parameter_grid": [
+        {
+          "background_error": 0.0001,
+          "dropout": 0.1,
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -7.8522781722621176,
+          "nearest_non_tied_bayes_factor": 2571.5861648152936,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -342.92771766956344,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.94351694009421
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -342.92771766956344,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.94351694009421
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -350.77999584182555,
+              "delta_log_likelihood": -7.8522781722621176,
+              "weight_percent": 0.03886454138987512
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -351.8387941305023,
+              "delta_log_likelihood": -8.911076460938887,
+              "weight_percent": 0.013481036764711584
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -353.1787243822872,
+              "delta_log_likelihood": -10.251006712723779,
+              "weight_percent": 0.00353019730118592
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -354.9388361258786,
+              "delta_log_likelihood": -12.01111845631516,
+              "weight_percent": 0.0006072844500139883
+            }
+          ]
+        },
+        {
+          "background_error": 0.0001,
+          "dropout": 0.2,
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -7.852278172262061,
+          "nearest_non_tied_bayes_factor": 2571.5861648151476,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -346.13159280913726,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.94351694009421
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -346.13159280913726,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.94351694009421
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -353.9838709813993,
+              "delta_log_likelihood": -7.852278172262061,
+              "weight_percent": 0.03886454138987733
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -355.04266927007603,
+              "delta_log_likelihood": -8.911076460938773,
+              "weight_percent": 0.013481036764713118
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -356.38259952186104,
+              "delta_log_likelihood": -10.251006712723779,
+              "weight_percent": 0.00353019730118592
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -358.1427112654524,
+              "delta_log_likelihood": -12.01111845631516,
+              "weight_percent": 0.0006072844500139883
+            }
+          ]
+        },
+        {
+          "background_error": 0.0001,
+          "dropout": 0.3,
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -7.852278172261947,
+          "nearest_non_tied_bayes_factor": 2571.5861648148552,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -354.380002720961,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.94351694009421
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -354.380002720961,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.94351694009421
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -362.23228089322293,
+              "delta_log_likelihood": -7.852278172261947,
+              "weight_percent": 0.03886454138988175
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -363.29107918189976,
+              "delta_log_likelihood": -8.911076460938773,
+              "weight_percent": 0.013481036764713118
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -364.6310094336847,
+              "delta_log_likelihood": -10.251006712723722,
+              "weight_percent": 0.00353019730118612
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -366.3911211772761,
+              "delta_log_likelihood": -12.011118456315103,
+              "weight_percent": 0.0006072844500140229
+            }
+          ]
+        },
+        {
+          "background_error": 0.001,
+          "dropout": 0.1,
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -7.851057623682152,
+          "nearest_non_tied_bayes_factor": 2568.449333690379,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -342.9896619521846,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.943459647795
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -342.9896619521846,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.943459647795
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -350.84071957586673,
+              "delta_log_likelihood": -7.851057623682152,
+              "weight_percent": 0.038911984105287
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -351.90020387332675,
+              "delta_log_likelihood": -8.910541921142169,
+              "weight_percent": 0.013488237109600792
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -353.24019420422843,
+              "delta_log_likelihood": -10.250532252043854,
+              "weight_percent": 0.003531870613772484
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -354.9991740918425,
+              "delta_log_likelihood": -12.009512139657943,
+              "weight_percent": 0.0006082603763517074
+            }
+          ]
+        },
+        {
+          "background_error": 0.001,
+          "dropout": 0.2,
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -7.851057623682152,
+          "nearest_non_tied_bayes_factor": 2568.449333690379,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -346.19353709175834,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.943459647795
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -346.19353709175834,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.943459647795
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -354.0445947154405,
+              "delta_log_likelihood": -7.851057623682152,
+              "weight_percent": 0.038911984105287
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -355.10407901290057,
+              "delta_log_likelihood": -8.910541921142226,
+              "weight_percent": 0.013488237109600024
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -356.4440693438022,
+              "delta_log_likelihood": -10.250532252043854,
+              "weight_percent": 0.003531870613772484
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -358.20304923141634,
+              "delta_log_likelihood": -12.009512139658,
+              "weight_percent": 0.0006082603763516728
+            }
+          ]
+        },
+        {
+          "background_error": 0.001,
+          "dropout": 0.3,
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -7.851057623682152,
+          "nearest_non_tied_bayes_factor": 2568.449333690379,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -354.4419470035821,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.943459647795
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -354.4419470035821,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.943459647795
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -362.2930046272642,
+              "delta_log_likelihood": -7.851057623682152,
+              "weight_percent": 0.038911984105287
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -363.35248892472424,
+              "delta_log_likelihood": -8.910541921142169,
+              "weight_percent": 0.013488237109600792
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -364.6924792556258,
+              "delta_log_likelihood": -10.25053225204374,
+              "weight_percent": 0.0035318706137728853
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -366.45145914324,
+              "delta_log_likelihood": -12.009512139657943,
+              "weight_percent": 0.0006082603763517074
+            }
+          ]
+        },
+        {
+          "background_error": 0.01,
+          "dropout": 0.1,
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -7.8387450754619294,
+          "nearest_non_tied_bayes_factor": 2537.0190678151926,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -343.6118202456422,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.94287748621251
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -343.6118202456422,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.94287748621251
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -351.45056532110414,
+              "delta_log_likelihood": -7.8387450754619294,
+              "weight_percent": 0.03939382196771601
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -352.51694352552676,
+              "delta_log_likelihood": -8.905123279884549,
+              "weight_percent": 0.013561444409805501
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -353.85749733545885,
+              "delta_log_likelihood": -10.245677089816638,
+              "weight_percent": 0.003549039440753441
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -355.6051046806282,
+              "delta_log_likelihood": -11.99328443498598,
+              "weight_percent": 0.0006182079692176506
+            }
+          ]
+        },
+        {
+          "background_error": 0.01,
+          "dropout": 0.2,
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -7.8387450754619294,
+          "nearest_non_tied_bayes_factor": 2537.0190678151926,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -346.815695385216,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.94287748621251
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -346.815695385216,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.94287748621251
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -354.6544404606779,
+              "delta_log_likelihood": -7.8387450754619294,
+              "weight_percent": 0.03939382196771601
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -355.7208186651005,
+              "delta_log_likelihood": -8.905123279884549,
+              "weight_percent": 0.013561444409805501
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -357.06137247503256,
+              "delta_log_likelihood": -10.245677089816581,
+              "weight_percent": 0.003549039440753643
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -358.808979820202,
+              "delta_log_likelihood": -11.993284434986037,
+              "weight_percent": 0.0006182079692176156
+            }
+          ]
+        },
+        {
+          "background_error": 0.01,
+          "dropout": 0.3,
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -7.838745075461873,
+          "nearest_non_tied_bayes_factor": 2537.019067815048,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -355.0641052970397,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.94287748621251
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -355.0641052970397,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.94287748621251
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -362.9028503725016,
+              "delta_log_likelihood": -7.838745075461873,
+              "weight_percent": 0.03939382196771825
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -363.96922857692425,
+              "delta_log_likelihood": -8.905123279884549,
+              "weight_percent": 0.013561444409805501
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -365.3097823868562,
+              "delta_log_likelihood": -10.245677089816525,
+              "weight_percent": 0.003549039440753845
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -367.0573897320257,
+              "delta_log_likelihood": -11.99328443498598,
+              "weight_percent": 0.0006182079692176506
+            }
+          ]
+        }
+      ],
+      "leave_one_locus": [
+        {
+          "omitted_locus": "Locus1",
+          "retained_loci": [
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -6.885544702420873,
+          "nearest_non_tied_bayes_factor": 978.0342622737035,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -312.3130984900315,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.84081052327161
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -312.3130984900315,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.84081052327161
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -319.1986431924524,
+              "delta_log_likelihood": -6.885544702420873,
+              "weight_percent": 0.1020831420477692
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -320.2581274899124,
+              "delta_log_likelihood": -7.94502899988089,
+              "weight_percent": 0.03538554140821327
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -320.90506165570605,
+              "delta_log_likelihood": -8.591963165674542,
+              "weight_percent": 0.018529594119996568
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -322.66403403581774,
+              "delta_log_likelihood": -10.350935545786228,
+              "weight_percent": 0.003191199152407452
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus2",
+          "retained_loci": [
+            "Locus1",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -6.567494507729123,
+          "nearest_non_tied_bayes_factor": 711.5847377223579,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -281.9627804047046,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.71501402623237
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -281.9627804047046,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.71501402623237
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -288.5302749124337,
+              "delta_log_likelihood": -6.567494507729123,
+              "weight_percent": 0.140130906046974
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -288.79438720433683,
+              "delta_log_likelihood": -6.8316067996322545,
+              "weight_percent": 0.10760474411224871
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -289.91579380682776,
+              "delta_log_likelihood": -7.95301340212319,
+              "weight_percent": 0.035059903761632795
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -292.6887587050442,
+              "delta_log_likelihood": -10.725978300339648,
+              "weight_percent": 0.0021904198467760563
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus3",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -7.316638771621228,
+          "nearest_non_tied_bayes_factor": 1505.1363508057889,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -308.83968296883893,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.89650017450703
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -308.83968296883893,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.89650017450703
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -316.15632174046016,
+              "delta_log_likelihood": -7.316638771621228,
+              "weight_percent": 0.06637039901469823
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -317.2158060379202,
+              "delta_log_likelihood": -8.376123069081245,
+              "weight_percent": 0.023006271706598237
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -317.8626575913241,
+              "delta_log_likelihood": -9.022974622485151,
+              "weight_percent": 0.012048200446557345
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -319.6216337581217,
+              "delta_log_likelihood": -10.781950789282746,
+              "weight_percent": 0.002074954325124084
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus4",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -6.381303880165888,
+          "nearest_non_tied_bayes_factor": 590.6974043828916,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -298.26730199699705,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.75300497828067
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -298.26730199699705,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.75300497828067
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -304.64860587716294,
+              "delta_log_likelihood": -6.381303880165888,
+              "weight_percent": 0.16887327460409918
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -305.72203645502543,
+              "delta_log_likelihood": -7.454734458028383,
+              "weight_percent": 0.05772659589462345
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -307.0620240048344,
+              "delta_log_likelihood": -8.794722007837379,
+              "weight_percent": 0.015115647288418363
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -308.1139223153214,
+              "delta_log_likelihood": -9.84662031832437,
+              "weight_percent": 0.0052795039322000034
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus5",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -7.291854362717743,
+          "nearest_non_tied_bayes_factor": 1468.2909182238243,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -311.05439132975886,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.87637609517742
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -311.05439132975886,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.87637609517742
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -318.3462456924766,
+              "delta_log_likelihood": -7.291854362717743,
+              "weight_percent": 0.06802219836379345
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -318.7022016967516,
+              "delta_log_likelihood": -7.647810366992758,
+              "weight_percent": 0.047649783862719564
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -320.8037981475689,
+              "delta_log_likelihood": -9.74940681781004,
+              "weight_percent": 0.005825714444448187
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -321.8117396081521,
+              "delta_log_likelihood": -10.757348278393238,
+              "weight_percent": 0.0021262081516166924
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus6",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -5.771667007502458,
+          "nearest_non_tied_bayes_factor": 321.07251707348246,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -286.57587567563166,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.54745903823613
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -286.57587567563166,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.54745903823613
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -292.3475426831341,
+              "delta_log_likelihood": -5.771667007502458,
+              "weight_percent": 0.3100466522192341
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -293.4070269805942,
+              "delta_log_likelihood": -6.831151304962532,
+              "weight_percent": 0.1074728738800682
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -294.85233979045324,
+              "delta_log_likelihood": -8.276464114821579,
+              "weight_percent": 0.025328384145814165
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -295.81285616977704,
+              "delta_log_likelihood": -9.23698049414537,
+              "weight_percent": 0.009693051518751362
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus7",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -7.481312478884547,
+          "nearest_non_tied_bayes_factor": 1774.5683316286515,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -307.0451588988967,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.92494225760298
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -307.0451588988967,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.92494225760298
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -314.52647137778126,
+              "delta_log_likelihood": -7.481312478884547,
+              "weight_percent": 0.05630943620294098
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -316.01142539612067,
+              "delta_log_likelihood": -8.966266497223955,
+              "weight_percent": 0.012754805575795704
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -316.92549202797375,
+              "delta_log_likelihood": -9.88033312907703,
+              "weight_percent": 0.005113282043656101
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -318.6849185266921,
+              "delta_log_likelihood": -11.6397596277954,
+              "weight_percent": 0.0008802185746444235
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus8",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_b",
+            "hawass_v2_scenario_b"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_b",
+          "nearest_non_tied_delta_log_likelihood": -7.26158765473366,
+          "nearest_non_tied_bayes_factor": 1424.5163829776784,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_b",
+              "log_likelihood": -317.296469877449,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.89578210644889
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_b",
+              "log_likelihood": -317.296469877449,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.89578210644889
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_b",
+              "log_likelihood": -324.55805753218266,
+              "delta_log_likelihood": -7.26158765473366,
+              "weight_percent": 0.0701261026550189
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_b",
+              "log_likelihood": -325.61754182964273,
+              "delta_log_likelihood": -8.321071952193734,
+              "weight_percent": 0.024308128252306972
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_b",
+              "log_likelihood": -326.78131838192706,
+              "delta_log_likelihood": -9.484848504478066,
+              "weight_percent": 0.0075915382443308395
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_b",
+              "log_likelihood": -328.0234815009878,
+              "delta_log_likelihood": -10.727011623538829,
+              "weight_percent": 0.0021921243994509777
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scenario": "c",
+      "run_config": "Data/models/runs/scenario_c_primary_models_all_loci_generative_str.json",
+      "loci": [
+        "Locus1",
+        "Locus2",
+        "Locus3",
+        "Locus4",
+        "Locus5",
+        "Locus6",
+        "Locus7",
+        "Locus8"
+      ],
+      "parameter_grid": [
+        {
+          "background_error": 0.0001,
+          "dropout": 0.1,
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -8.53661816183046,
+          "nearest_non_tied_bayes_factor": 5098.074313549281,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -345.0976697635658,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97894778443438
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -345.0976697635658,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97894778443438
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -353.6342879253963,
+              "delta_log_likelihood": -8.53661816183046,
+              "weight_percent": 0.01961112012798986
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -356.8214314808568,
+              "delta_log_likelihood": -11.723761717290984,
+              "weight_percent": 0.0008097361730630035
+            },
+            {
+              "rank": 4,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -357.73454668291294,
+              "delta_log_likelihood": -12.636876919347117,
+              "weight_percent": 0.00032492464057435065
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -357.79313552910554,
+              "delta_log_likelihood": -12.695465765539723,
+              "weight_percent": 0.0003064346240003061
+            }
+          ]
+        },
+        {
+          "background_error": 0.0001,
+          "dropout": 0.2,
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -8.536618161830404,
+          "nearest_non_tied_bayes_factor": 5098.074313548991,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -348.30154490313953,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97894778443435
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -348.30154490313953,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97894778443435
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -356.83816306496993,
+              "delta_log_likelihood": -8.536618161830404,
+              "weight_percent": 0.019611120127990968
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -360.02530662043057,
+              "delta_log_likelihood": -11.72376171729104,
+              "weight_percent": 0.0008097361730629574
+            },
+            {
+              "rank": 4,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -360.93842182248665,
+              "delta_log_likelihood": -12.636876919347117,
+              "weight_percent": 0.00032492464057435065
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -360.9970106686793,
+              "delta_log_likelihood": -12.69546576553978,
+              "weight_percent": 0.0003064346240002886
+            }
+          ]
+        },
+        {
+          "background_error": 0.0001,
+          "dropout": 0.3,
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -8.536618161830404,
+          "nearest_non_tied_bayes_factor": 5098.074313548991,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -356.54995481496326,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97894778443435
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -356.54995481496326,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97894778443435
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -365.08657297679366,
+              "delta_log_likelihood": -8.536618161830404,
+              "weight_percent": 0.019611120127990968
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -368.2737165322543,
+              "delta_log_likelihood": -11.72376171729104,
+              "weight_percent": 0.0008097361730629574
+            },
+            {
+              "rank": 4,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -369.1868317343103,
+              "delta_log_likelihood": -12.63687691934706,
+              "weight_percent": 0.0003249246405743691
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -369.245420580503,
+              "delta_log_likelihood": -12.695465765539723,
+              "weight_percent": 0.000306434624000306
+            }
+          ]
+        },
+        {
+          "background_error": 0.001,
+          "dropout": 0.1,
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -8.536285134607908,
+          "nearest_non_tied_bayes_factor": 5096.37679869529,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -345.15954599846896,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97893933119104
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -345.15954599846896,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97893933119104
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -353.69583113307687,
+              "delta_log_likelihood": -8.536285134607908,
+              "weight_percent": 0.019617650593807427
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -356.8829296410011,
+              "delta_log_likelihood": -11.723383642532156,
+              "weight_percent": 0.0008100423032614277
+            },
+            {
+              "rank": 4,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -357.79207263766574,
+              "delta_log_likelihood": -12.632526639196783,
+              "weight_percent": 0.000326341205248902
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -357.85435895508533,
+              "delta_log_likelihood": -12.694812956616374,
+              "weight_percent": 0.0003066347066404606
+            }
+          ]
+        },
+        {
+          "background_error": 0.001,
+          "dropout": 0.2,
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -8.536285134607908,
+          "nearest_non_tied_bayes_factor": 5096.37679869529,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -348.3634211380427,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97893933119104
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -348.3634211380427,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97893933119104
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -356.89970627265063,
+              "delta_log_likelihood": -8.536285134607908,
+              "weight_percent": 0.019617650593807427
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -360.0868047805748,
+              "delta_log_likelihood": -11.723383642532099,
+              "weight_percent": 0.0008100423032614736
+            },
+            {
+              "rank": 4,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -360.99594777723956,
+              "delta_log_likelihood": -12.63252663919684,
+              "weight_percent": 0.00032634120524888344
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -361.0582340946591,
+              "delta_log_likelihood": -12.694812956616374,
+              "weight_percent": 0.0003066347066404606
+            }
+          ]
+        },
+        {
+          "background_error": 0.001,
+          "dropout": 0.3,
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -8.536285134607851,
+          "nearest_non_tied_bayes_factor": 5096.376798695001,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -356.61183104986645,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97893933119104
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -356.61183104986645,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97893933119104
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -365.1481161844743,
+              "delta_log_likelihood": -8.536285134607851,
+              "weight_percent": 0.01961765059380854
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -368.33521469239855,
+              "delta_log_likelihood": -11.723383642532099,
+              "weight_percent": 0.0008100423032614736
+            },
+            {
+              "rank": 4,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -369.2443576890632,
+              "delta_log_likelihood": -12.632526639196726,
+              "weight_percent": 0.0003263412052489205
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -369.30664400648277,
+              "delta_log_likelihood": -12.694812956616317,
+              "weight_percent": 0.000306634706640478
+            }
+          ]
+        },
+        {
+          "background_error": 0.01,
+          "dropout": 0.1,
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -8.532913469887376,
+          "nearest_non_tied_bayes_factor": 5079.222460430205,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -345.7810089565591,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97885359062718
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -345.7810089565591,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97885359062718
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -354.3139224264465,
+              "delta_log_likelihood": -8.532913469887376,
+              "weight_percent": 0.01968388948692731
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -357.5005087862236,
+              "delta_log_likelihood": -11.719499829664471,
+              "weight_percent": 0.0008131937758546854
+            },
+            {
+              "rank": 4,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -358.3706043253193,
+              "delta_log_likelihood": -12.589595368760172,
+              "weight_percent": 0.0003406562446885387
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -358.4692059051972,
+              "delta_log_likelihood": -12.688196948638108,
+              "weight_percent": 0.0003086698653591065
+            }
+          ]
+        },
+        {
+          "background_error": 0.01,
+          "dropout": 0.2,
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -8.532913469887319,
+          "nearest_non_tied_bayes_factor": 5079.222460429916,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -348.98488409613293,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97885359062718
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -348.98488409613293,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97885359062718
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -357.51779756602025,
+              "delta_log_likelihood": -8.532913469887319,
+              "weight_percent": 0.019683889486928428
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -360.7043839257974,
+              "delta_log_likelihood": -11.719499829664471,
+              "weight_percent": 0.0008131937758546854
+            },
+            {
+              "rank": 4,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -361.574479464893,
+              "delta_log_likelihood": -12.589595368760058,
+              "weight_percent": 0.0003406562446885774
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -361.673081044771,
+              "delta_log_likelihood": -12.688196948638051,
+              "weight_percent": 0.00030866986535912406
+            }
+          ]
+        },
+        {
+          "background_error": 0.01,
+          "dropout": 0.3,
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -8.532913469887376,
+          "nearest_non_tied_bayes_factor": 5079.222460430205,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -357.2332940079566,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97885359062718
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -357.2332940079566,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97885359062718
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -365.766207477844,
+              "delta_log_likelihood": -8.532913469887376,
+              "weight_percent": 0.01968388948692731
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -368.9527938376211,
+              "delta_log_likelihood": -11.719499829664471,
+              "weight_percent": 0.0008131937758546854
+            },
+            {
+              "rank": 4,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -369.8228893767168,
+              "delta_log_likelihood": -12.589595368760172,
+              "weight_percent": 0.0003406562446885387
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -369.9214909565947,
+              "delta_log_likelihood": -12.688196948638108,
+              "weight_percent": 0.0003086698653591065
+            }
+          ]
+        }
+      ],
+      "leave_one_locus": [
+        {
+          "omitted_locus": "Locus1",
+          "retained_loci": [
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -7.843149409662942,
+          "nearest_non_tied_bayes_factor": 2548.217590580044,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -312.3666994079149,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.95565658615492
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -312.3666994079149,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.95565658615492
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -320.20984881757784,
+              "delta_log_likelihood": -7.843149409662942,
+              "weight_percent": 0.03922571485090576
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -322.70390881566203,
+              "delta_log_likelihood": -10.337209407747139,
+              "weight_percent": 0.0032390255381563615
+            },
+            {
+              "rank": 4,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -323.67530174124477,
+              "delta_log_likelihood": -11.308602333329873,
+              "weight_percent": 0.0012261505150115073
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -324.3060903221667,
+              "delta_log_likelihood": -11.939390914251817,
+              "weight_percent": 0.0006525229410108432
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus2",
+          "retained_loci": [
+            "Locus1",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -7.340533073648032,
+          "nearest_non_tied_bayes_factor": 1541.5336456422758,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -284.15794223772536,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.87201358847442
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -284.15794223772536,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.87201358847442
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -291.4984753113734,
+              "delta_log_likelihood": -7.340533073648032,
+              "weight_percent": 0.06478743676519821
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -291.72405336669436,
+              "delta_log_likelihood": -7.566111128968998,
+              "weight_percent": 0.051703922661204486
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -293.3198894248088,
+              "delta_log_likelihood": -9.161947187083456,
+              "weight_percent": 0.010482399305412109
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -295.65701360281844,
+              "delta_log_likelihood": -11.499071365093073,
+              "weight_percent": 0.0010126527937659353
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus3",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -7.568788398405502,
+          "nearest_non_tied_bayes_factor": 1936.7922388350564,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -310.9612563472092,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.9416654541907
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -310.9612563472092,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.9416654541907
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -318.5300447456147,
+              "delta_log_likelihood": -7.568788398405502,
+              "weight_percent": 0.05160164495201804
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -321.0240040136302,
+              "delta_log_likelihood": -10.06274766642099,
+              "weight_percent": 0.0042613852474416535
+            },
+            {
+              "rank": 4,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -321.99542930101836,
+              "delta_log_likelihood": -11.034172953809161,
+              "weight_percent": 0.0016131180700300033
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -322.62628625020363,
+              "delta_log_likelihood": -11.665029902994434,
+              "weight_percent": 0.0008583975398043951
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus4",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -6.723659095586072,
+          "nearest_non_tied_bayes_factor": 831.8557892638495,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -300.45844075674916,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.8694952668256
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -300.45844075674916,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.8694952668256
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -307.1820998523352,
+              "delta_log_likelihood": -6.723659095586072,
+              "weight_percent": 0.12005626041889433
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -310.4071650973143,
+              "delta_log_likelihood": -9.94872434056515,
+              "weight_percent": 0.004772619066481848
+            },
+            {
+              "rank": 4,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -310.64748578466885,
+              "delta_log_likelihood": -10.18904502791969,
+              "weight_percent": 0.0037530713724179734
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -311.31628706176264,
+              "delta_log_likelihood": -10.857846305013481,
+              "weight_percent": 0.0019227823166116452
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus5",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -7.931595591829364,
+          "nearest_non_tied_bayes_factor": 2783.8651751889333,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -312.6147497541155,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.9600210087177
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -312.6147497541155,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.9600210087177
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -320.54634534594487,
+              "delta_log_likelihood": -7.931595591829364,
+              "weight_percent": 0.0359069188765342
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -323.64485157119645,
+              "delta_log_likelihood": -11.030101817080947,
+              "weight_percent": 0.0016199961586522477
+            },
+            {
+              "rank": 4,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -323.8422707709941,
+              "delta_log_likelihood": -11.227521016878597,
+              "weight_percent": 0.0013297681161071316
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -324.0118879532686,
+              "delta_log_likelihood": -11.397138199153119,
+              "weight_percent": 0.0011223081310109367
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus6",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -6.4568088624440065,
+          "nearest_non_tied_bayes_factor": 637.024975266962,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -289.41472419724016,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.82995776420964
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -289.41472419724016,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.82995776420964
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -295.87153305968417,
+              "delta_log_likelihood": -6.4568088624440065,
+              "weight_percent": 0.15671278464768718
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -299.1640400263301,
+              "delta_log_likelihood": -9.749315829089937,
+              "weight_percent": 0.0058235367499110124
+            },
+            {
+              "rank": 4,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -299.3369198460671,
+              "delta_log_likelihood": -9.922195648826914,
+              "weight_percent": 0.004898984537653116
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -299.9677745642731,
+              "delta_log_likelihood": -10.553050367032938,
+              "weight_percent": 0.002606929855095826
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus7",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -8.02987305187304,
+          "nearest_non_tied_bayes_factor": 3071.3517461709507,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -309.3560943581951,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.96528316557767
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -309.3560943581951,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.96528316557767
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -317.38596741006813,
+              "delta_log_likelihood": -8.02987305187304,
+              "weight_percent": 0.032547650489789796
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -320.5730937714435,
+              "delta_log_likelihood": -11.216999413248402,
+              "weight_percent": 0.0013439040162912545
+            },
+            {
+              "rank": 4,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -321.5444766618548,
+              "delta_log_likelihood": -12.188382303659694,
+              "weight_percent": 0.0005087471891206508
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -322.0190012340374,
+              "delta_log_likelihood": -12.662906875842282,
+              "weight_percent": 0.0003165327271287821
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus8",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_c",
+            "hawass_v2_scenario_c"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_c",
+          "nearest_non_tied_delta_log_likelihood": -7.859588458806172,
+          "nearest_non_tied_bayes_factor": 2590.4540774512643,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_c",
+              "log_likelihood": -319.2140409071498,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.95696443210633
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_c",
+              "log_likelihood": -319.2140409071498,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.95696443210633
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_c",
+              "log_likelihood": -327.073629365956,
+              "delta_log_likelihood": -7.859588458806172,
+              "weight_percent": 0.0385866575679479
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_c",
+              "log_likelihood": -329.7706807436384,
+              "delta_log_likelihood": -10.556639836488614,
+              "weight_percent": 0.002600893864996321
+            },
+            {
+              "rank": 4,
+              "model": "tawfik_v1_scenario_c",
+              "log_likelihood": -330.53912377167285,
+              "delta_log_likelihood": -11.32508286452304,
+              "weight_percent": 0.0012061242893275494
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_c",
+              "log_likelihood": -331.1698708705449,
+              "delta_log_likelihood": -11.955829963395104,
+              "weight_percent": 0.0006418921713910549
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scenario": "d",
+      "run_config": "Data/models/runs/scenario_d_primary_models_all_loci_generative_str.json",
+      "loci": [
+        "Locus1",
+        "Locus2",
+        "Locus3",
+        "Locus4",
+        "Locus5",
+        "Locus6",
+        "Locus7",
+        "Locus8"
+      ],
+      "parameter_grid": [
+        {
+          "background_error": 0.0001,
+          "dropout": 0.1,
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -10.051214290257462,
+          "nearest_non_tied_bayes_factor": 23183.921770291206,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -348.83574373770324,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99560240781264
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -348.83574373770324,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99560240781264
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -358.8869580279607,
+              "delta_log_likelihood": -10.051214290257462,
+              "weight_percent": 0.004313144402339684
+            },
+            {
+              "rank": 3,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -363.04580519752955,
+              "delta_log_likelihood": -14.210061459826306,
+              "weight_percent": 6.739530166386156e-05
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -364.4218408409628,
+              "delta_log_likelihood": -15.586097103259533,
+              "weight_percent": 1.702256239487959e-05
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -370.76557647382754,
+              "delta_log_likelihood": -21.929832736124297,
+              "weight_percent": 2.9920962147377104e-08
+            }
+          ]
+        },
+        {
+          "background_error": 0.0001,
+          "dropout": 0.2,
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -10.051214290257462,
+          "nearest_non_tied_bayes_factor": 23183.921770291206,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -352.039618877277,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99560240781264
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -352.039618877277,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99560240781264
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -362.09083316753447,
+              "delta_log_likelihood": -10.051214290257462,
+              "weight_percent": 0.004313144402339684
+            },
+            {
+              "rank": 3,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -366.2496803371033,
+              "delta_log_likelihood": -14.210061459826306,
+              "weight_percent": 6.739530166386156e-05
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -367.62571598053654,
+              "delta_log_likelihood": -15.586097103259533,
+              "weight_percent": 1.702256239487959e-05
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -373.9694516134013,
+              "delta_log_likelihood": -21.929832736124297,
+              "weight_percent": 2.9920962147377104e-08
+            }
+          ]
+        },
+        {
+          "background_error": 0.0001,
+          "dropout": 0.3,
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -10.05121429025752,
+          "nearest_non_tied_bayes_factor": 23183.921770292523,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -360.2880287891006,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99560240781264
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -360.2880287891006,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99560240781264
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -370.33924307935814,
+              "delta_log_likelihood": -10.05121429025752,
+              "weight_percent": 0.004313144402339438
+            },
+            {
+              "rank": 3,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -374.498090248927,
+              "delta_log_likelihood": -14.210061459826363,
+              "weight_percent": 6.739530166385774e-05
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -375.8741258923602,
+              "delta_log_likelihood": -15.58609710325959,
+              "weight_percent": 1.702256239487862e-05
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -382.217861525225,
+              "delta_log_likelihood": -21.929832736124354,
+              "weight_percent": 2.9920962147375396e-08
+            }
+          ]
+        },
+        {
+          "background_error": 0.001,
+          "dropout": 0.1,
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -10.04923081201349,
+          "nearest_non_tied_bayes_factor": 23137.98254064229,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -348.8956507040223,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99559365011406
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -348.8956507040223,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99559365011406
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -358.94488151603576,
+              "delta_log_likelihood": -10.04923081201349,
+              "weight_percent": 0.004321707541894371
+            },
+            {
+              "rank": 3,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -363.1034051866149,
+              "delta_log_likelihood": -14.207754482592634,
+              "weight_percent": 6.75509546560292e-05
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -364.4794689270146,
+              "delta_log_likelihood": -15.583818222992306,
+              "weight_percent": 1.7061397517359563e-05
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -370.8231164500792,
+              "delta_log_likelihood": -21.927465746056953,
+              "weight_percent": 2.999186602526309e-08
+            }
+          ]
+        },
+        {
+          "background_error": 0.001,
+          "dropout": 0.2,
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -10.049230812013434,
+          "nearest_non_tied_bayes_factor": 23137.982540640976,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -352.0995258435961,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99559365011406
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -352.0995258435961,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99559365011406
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -362.14875665560953,
+              "delta_log_likelihood": -10.049230812013434,
+              "weight_percent": 0.004321707541894615
+            },
+            {
+              "rank": 3,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -366.3072803261887,
+              "delta_log_likelihood": -14.207754482592577,
+              "weight_percent": 6.755095465603303e-05
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -367.6833440665884,
+              "delta_log_likelihood": -15.583818222992306,
+              "weight_percent": 1.7061397517359563e-05
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -374.026991589653,
+              "delta_log_likelihood": -21.927465746056896,
+              "weight_percent": 2.999186602526479e-08
+            }
+          ]
+        },
+        {
+          "background_error": 0.001,
+          "dropout": 0.3,
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -10.04923081201349,
+          "nearest_non_tied_bayes_factor": 23137.98254064229,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -360.3479357554198,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99559365011406
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -360.3479357554198,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99559365011406
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -370.3971665674333,
+              "delta_log_likelihood": -10.04923081201349,
+              "weight_percent": 0.004321707541894371
+            },
+            {
+              "rank": 3,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -374.5556902380123,
+              "delta_log_likelihood": -14.207754482592463,
+              "weight_percent": 6.755095465604072e-05
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -375.93175397841213,
+              "delta_log_likelihood": -15.583818222992306,
+              "weight_percent": 1.7061397517359563e-05
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -382.2754015014767,
+              "delta_log_likelihood": -21.927465746056896,
+              "weight_percent": 2.999186602526479e-08
+            }
+          ]
+        },
+        {
+          "background_error": 0.01,
+          "dropout": 0.1,
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -10.029933212608853,
+          "nearest_non_tied_bayes_factor": 22695.755704298066,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -349.497507294925,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99550751864592
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -349.497507294925,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99550751864592
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -359.52744050753387,
+              "delta_log_likelihood": -10.029933212608853,
+              "weight_percent": 0.0044059122252408205
+            },
+            {
+              "rank": 3,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -363.6827017397432,
+              "delta_log_likelihood": -14.185194444818194,
+              "weight_percent": 6.909216744331367e-05
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -365.0590174287804,
+              "delta_log_likelihood": -15.561510133855393,
+              "weight_percent": 1.7446266721079605e-05
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -371.40180953343054,
+              "delta_log_likelihood": -21.904302238505522,
+              "weight_percent": 3.069466492682393e-08
+            }
+          ]
+        },
+        {
+          "background_error": 0.01,
+          "dropout": 0.2,
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -10.029933212608853,
+          "nearest_non_tied_bayes_factor": 22695.755704298066,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -352.7013824344988,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99550751864592
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -352.7013824344988,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99550751864592
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -362.73131564710764,
+              "delta_log_likelihood": -10.029933212608853,
+              "weight_percent": 0.0044059122252408205
+            },
+            {
+              "rank": 3,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -366.8865768793169,
+              "delta_log_likelihood": -14.185194444818137,
+              "weight_percent": 6.90921674433176e-05
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -368.2628925683542,
+              "delta_log_likelihood": -15.561510133855393,
+              "weight_percent": 1.7446266721079605e-05
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -374.6056846730043,
+              "delta_log_likelihood": -21.904302238505522,
+              "weight_percent": 3.069466492682393e-08
+            }
+          ]
+        },
+        {
+          "background_error": 0.01,
+          "dropout": 0.3,
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -10.029933212608853,
+          "nearest_non_tied_bayes_factor": 22695.755704298066,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -360.94979234632257,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99550751864592
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -360.94979234632257,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99550751864592
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -370.9797255589314,
+              "delta_log_likelihood": -10.029933212608853,
+              "weight_percent": 0.0044059122252408205
+            },
+            {
+              "rank": 3,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -375.1349867911406,
+              "delta_log_likelihood": -14.185194444818023,
+              "weight_percent": 6.909216744332546e-05
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -376.5113024801779,
+              "delta_log_likelihood": -15.561510133855336,
+              "weight_percent": 1.7446266721080598e-05
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -382.854094584828,
+              "delta_log_likelihood": -21.90430223850541,
+              "weight_percent": 3.069466492682742e-08
+            }
+          ]
+        }
+      ],
+      "leave_one_locus": [
+        {
+          "omitted_locus": "Locus1",
+          "retained_loci": [
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -9.41726214227765,
+          "nearest_non_tied_bayes_factor": 12298.863543785403,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -316.79566167288084,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99155147191024
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -316.79566167288084,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99155147191024
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -326.2129238151585,
+              "delta_log_likelihood": -9.41726214227765,
+              "weight_percent": 0.008130145611903778
+            },
+            {
+              "rank": 3,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -329.67837246122326,
+              "delta_log_likelihood": -12.882710788342422,
+              "weight_percent": 0.0002541400433266995
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -331.0544726102884,
+              "delta_log_likelihood": -14.258810937407588,
+              "weight_percent": 6.418601279324076e-05
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -338.0911587492019,
+              "delta_log_likelihood": -21.295497076321055,
+              "weight_percent": 5.6421735065216586e-08
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus2",
+          "retained_loci": [
+            "Locus1",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -8.842644204874034,
+          "nearest_non_tied_bayes_factor": 6923.2750160713285,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -285.59708455364,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.9791221067181
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -285.59708455364,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.9791221067181
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -294.43972875851404,
+              "delta_log_likelihood": -8.842644204874034,
+              "weight_percent": 0.01444101554172437
+            },
+            {
+              "rank": 3,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -295.32085963654526,
+              "delta_log_likelihood": -9.723775082905263,
+              "weight_percent": 0.005983116471757291
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -298.5880385456764,
+              "delta_log_likelihood": -12.990953992036395,
+              "weight_percent": 0.00022803929285416784
+            },
+            {
+              "rank": 5,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -298.59825245147937,
+              "delta_log_likelihood": -13.001167897839366,
+              "weight_percent": 0.00022572197557371262
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus3",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -8.282458623598075,
+          "nearest_non_tied_bayes_factor": 3953.903602131245,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -314.22456285229606,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97372493807106
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -314.22456285229606,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97372493807106
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -322.50702147589413,
+              "delta_log_likelihood": -8.282458623598075,
+              "weight_percent": 0.025284815968751213
+            },
+            {
+              "rank": 3,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -325.97240318140945,
+              "delta_log_likelihood": -11.747840329113387,
+              "weight_percent": 0.0007904304177548087
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -327.3484647139109,
+              "delta_log_likelihood": -13.123901861614854,
+              "weight_percent": 0.0001996400703914437
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -334.3852564099376,
+              "delta_log_likelihood": -20.160693557641537,
+              "weight_percent": 1.7547203406452857e-07
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus4",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus5",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -8.246847468606859,
+          "nearest_non_tied_bayes_factor": 3815.5781112468853,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -301.72106088649315,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97287606152152
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -301.72106088649315,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.97287606152152
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -309.9679083551,
+              "delta_log_likelihood": -8.246847468606859,
+              "weight_percent": 0.026201239536110973
+            },
+            {
+              "rank": 3,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -313.43329013886097,
+              "delta_log_likelihood": -11.71222925236782,
+              "weight_percent": 0.0008190787355276709
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -315.50249437180395,
+              "delta_log_likelihood": -13.7814334853108,
+              "weight_percent": 0.00010343837062606927
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -321.84611930038045,
+              "delta_log_likelihood": -20.125058413887302,
+              "weight_percent": 1.8183620928032514e-07
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus5",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus6",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -9.596216487242714,
+          "nearest_non_tied_bayes_factor": 14709.024371706053,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -316.4132616240441,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99294241800253
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -316.4132616240441,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99294241800253
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -326.0094781112868,
+              "delta_log_likelihood": -9.596216487242714,
+              "weight_percent": 0.00679806762781267
+            },
+            {
+              "rank": 3,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -329.47502179912476,
+              "delta_log_likelihood": -13.061760175080678,
+              "weight_percent": 0.00021248045136601767
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -330.9867189763607,
+              "delta_log_likelihood": -14.573457352316609,
+              "weight_percent": 4.685945550146956e-05
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -336.57991560577864,
+              "delta_log_likelihood": -20.166653981734555,
+              "weight_percent": 1.7446278682611484e-07
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus6",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus7",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -7.187493314126414,
+          "nearest_non_tied_bayes_factor": 1322.7832442233596,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -293.84392403838064,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.91931139369228
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -293.84392403838064,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.91931139369228
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -301.03141735250705,
+              "delta_log_likelihood": -7.187493314126414,
+              "weight_percent": 0.07553717650268356
+            },
+            {
+              "rank": 3,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -304.3301655728892,
+              "delta_log_likelihood": -10.486241534508565,
+              "weight_percent": 0.002789540030692776
+            },
+            {
+              "rank": 4,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -304.49680221274326,
+              "delta_log_likelihood": -10.652878174362627,
+              "weight_percent": 0.002361365560048897
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -312.90965228655045,
+              "delta_log_likelihood": -19.06572824816982,
+              "weight_percent": 5.242142962321343e-07
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus7",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus8"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -9.399069791417503,
+          "nearest_non_tied_bayes_factor": 12077.141243057404,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -312.8800310039728,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99155845679785
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -312.8800310039728,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99155845679785
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -322.2791007953903,
+              "delta_log_likelihood": -9.399069791417503,
+              "weight_percent": 0.00827940623069871
+            },
+            {
+              "rank": 3,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -326.4376058433454,
+              "delta_log_likelihood": -13.557574839372592,
+              "weight_percent": 0.00012941463642289914
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -327.8137161369202,
+              "delta_log_likelihood": -14.933685132947403,
+              "weight_percent": 3.2684834449098714e-05
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -334.584026279717,
+              "delta_log_likelihood": -21.703995275744205,
+              "weight_percent": 3.7500577325146296e-08
+            }
+          ]
+        },
+        {
+          "omitted_locus": "Locus8",
+          "retained_loci": [
+            "Locus1",
+            "Locus2",
+            "Locus3",
+            "Locus4",
+            "Locus5",
+            "Locus6",
+            "Locus7"
+          ],
+          "top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "expected_top_labels": [
+            "belmonte_v1_scenario_d",
+            "hawass_v2_scenario_d"
+          ],
+          "shared_structure_top": true,
+          "tie_delta_log_likelihood": 0.0,
+          "nearest_non_tied_model": "phizackerley_v2_scenario_d",
+          "nearest_non_tied_delta_log_likelihood": -9.37262365195079,
+          "nearest_non_tied_bayes_factor": 11761.933861647056,
+          "ranking": [
+            {
+              "rank": 1,
+              "model": "hawass_v2_scenario_d",
+              "log_likelihood": -323.22109427346516,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99120042191913
+            },
+            {
+              "rank": 1,
+              "model": "belmonte_v1_scenario_d",
+              "log_likelihood": -323.22109427346516,
+              "delta_log_likelihood": 0.0,
+              "weight_percent": 99.99120042191913
+            },
+            {
+              "rank": 2,
+              "model": "phizackerley_v2_scenario_d",
+              "log_likelihood": -332.59371792541594,
+              "delta_log_likelihood": -9.37262365195079,
+              "weight_percent": 0.008501255116555901
+            },
+            {
+              "rank": 3,
+              "model": "tawfik_v1_scenario_d",
+              "log_likelihood": -336.05921419513413,
+              "delta_log_likelihood": -12.838119921668977,
+              "weight_percent": 0.0002657278919570009
+            },
+            {
+              "rank": 4,
+              "model": "dodson_v2_scenario_d",
+              "log_likelihood": -338.15933753826914,
+              "delta_log_likelihood": -14.938243264803987,
+              "weight_percent": 3.2536075187229653e-05
+            },
+            {
+              "rank": 5,
+              "model": "variant_e1_scenario_d",
+              "log_likelihood": -344.4719528594594,
+              "delta_log_likelihood": -21.25085858599425,
+              "weight_percent": 5.8997167677515826e-08
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

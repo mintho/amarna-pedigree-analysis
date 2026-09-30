@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "tawfik_v1_scenario_c_all_loci",
+  "description": "Tawfik_v1 scenario_c, primary comparison input derived from Tawfik_v1.json.",
+  "relationships": [
+    {
+      "child": "Tiye",
+      "father": "Yuya",
+      "mother": "Thuya"
+    },
+    {
+      "child": "Ay",
+      "father": "Yuya",
+      "mother": "Thuya"
+    },
+    {
+      "child": "Nefertiti",
+      "father": "Ay",
+      "mother": "Iuy"
+    },
+    {
+      "child": "Meritaten",
+      "father": "Akhenaten",
+      "mother": "Nefertiti"
+    },
+    {
+      "child": "Akhenaten",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "Thutmose",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "M1",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "Smenkhkare",
+      "father": "Thutmose",
+      "mother": "M1"
+    },
+    {
+      "child": "Tutankhamun",
+      "father": "Smenkhkare",
+      "mother": "Meritaten"
+    },
+    {
+      "child": "Ankhesenamun",
+      "father": "Akhenaten",
+      "mother": "Nefertiti"
+    },
+    {
+      "child": "Fetus1",
+      "father": "Tutankhamun",
+      "mother": "Ankhesenamun"
+    },
+    {
+      "child": "Fetus2",
+      "father": "Tutankhamun",
+      "mother": "Ankhesenamun"
+    }
+  ]
+}

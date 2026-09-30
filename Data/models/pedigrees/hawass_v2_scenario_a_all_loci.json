@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "hawass_v2_scenario_a_all_loci",
+  "description": "Hawass_v2 scenario_a, alle Loci, primary comparison input derived from Hawass_v2.json.",
+  "relationships": [
+    {
+      "child": "Tiye",
+      "father": "Yuya",
+      "mother": "Thuya"
+    },
+    {
+      "child": "Ay",
+      "father": "Yuya",
+      "mother": "Thuya"
+    },
+    {
+      "child": "P1",
+      "father": "Ay",
+      "mother": "Iuy"
+    },
+    {
+      "child": "KV35YL",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "P2",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "Akhenaten",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "Tutankhamun",
+      "father": "Akhenaten",
+      "mother": "KV35YL"
+    },
+    {
+      "child": "KV21A",
+      "father": "P2",
+      "mother": "P1"
+    },
+    {
+      "child": "Fetus1",
+      "father": "Tutankhamun",
+      "mother": "KV21A"
+    },
+    {
+      "child": "Fetus2",
+      "father": "Tutankhamun",
+      "mother": "KV21A"
+    }
+  ]
+}

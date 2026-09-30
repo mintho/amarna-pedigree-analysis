@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "focused_yuya_thuya_tiye_trio_l1_l2_run",
+  "description": "Focused robustness run for focused_yuya_thuya_tiye_trio_l1_l2.",
+  "persons": "../../data/persons.focused_yuya_thuya_tiye_trio_l1_l2.json",
+  "observations": "../../data/observed_str.focused_yuya_thuya_tiye_trio_l1_l2.json",
+  "pedigrees": [
+    "../pedigrees/focused_yuya_thuya_tiye_trio_l1_l2_relationships.json",
+    "../pedigrees/focused_yuya_thuya_tiye_trio_l1_l2_independent.json"
+  ],
+  "founder_scenarios": [
+    "../founder_scenarios/focused_yuya_thuya_tiye_trio_l1_l2_founders.json"
+  ],
+  "identity_hypotheses": [
+    "../identity_hypotheses/amarna_no_identity.json"
+  ],
+  "observation_model": {
+    "type": "generative_str",
+    "dropout": 0.0,
+    "background_error": 0.001,
+    "background_source": "fixed_reference_frequencies",
+    "missing": "condition_on_call_available",
+    "background_frequency_file": "../../data/background_allele_frequencies.json"
+  }
+}

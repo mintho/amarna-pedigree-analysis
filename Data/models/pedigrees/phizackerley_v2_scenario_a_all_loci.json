@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "phizackerley_v2_scenario_a_all_loci",
+  "description": "Phizackerley_v2 scenario_a, alle Loci, primary comparison input derived from Phizackerley_v2.json.",
+  "relationships": [
+    {
+      "child": "Tiye",
+      "father": "Yuya",
+      "mother": "Thuya"
+    },
+    {
+      "child": "Ay",
+      "father": "Yuya",
+      "mother": "Thuya"
+    },
+    {
+      "child": "Nefertiti",
+      "father": "Ay",
+      "mother": "Iuy"
+    },
+    {
+      "child": "Meritaten",
+      "father": "Akhenaten",
+      "mother": "Nefertiti"
+    },
+    {
+      "child": "Akhenaten",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "Smenkhkare",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "Tutankhamun",
+      "father": "Smenkhkare",
+      "mother": "Meritaten"
+    },
+    {
+      "child": "Ankhesenamun",
+      "father": "Akhenaten",
+      "mother": "Nefertiti"
+    },
+    {
+      "child": "Fetus1",
+      "father": "Tutankhamun",
+      "mother": "Ankhesenamun"
+    },
+    {
+      "child": "Fetus2",
+      "father": "Tutankhamun",
+      "mother": "Ankhesenamun"
+    }
+  ]
+}

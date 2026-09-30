@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "variant_e1_scenario_c_all_loci",
+  "description": "Variant_E1 scenario_c, primary comparison input derived from Variant_E1.json.",
+  "relationships": [
+    {
+      "child": "Tiye",
+      "father": "Yuya",
+      "mother": "Thuya"
+    },
+    {
+      "child": "Ay",
+      "father": "Yuya",
+      "mother": "Thuya"
+    },
+    {
+      "child": "Nefertiti",
+      "father": "Ay",
+      "mother": "Iuy"
+    },
+    {
+      "child": "KV35YL",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "Akhenaten",
+      "father": "Amenhotep",
+      "mother": "Tiye"
+    },
+    {
+      "child": "Smenkhkare",
+      "father": "Akhenaten",
+      "mother": "Nefertiti"
+    },
+    {
+      "child": "Tutankhamun",
+      "father": "Smenkhkare",
+      "mother": "KV35YL"
+    },
+    {
+      "child": "Ankhesenamun",
+      "father": "Akhenaten",
+      "mother": "Nefertiti"
+    },
+    {
+      "child": "Fetus1",
+      "father": "Tutankhamun",
+      "mother": "Ankhesenamun"
+    },
+    {
+      "child": "Fetus2",
+      "father": "Tutankhamun",
+      "mother": "Ankhesenamun"
+    }
+  ]
+}

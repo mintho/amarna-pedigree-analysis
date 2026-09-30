@@ -1,0 +1,1777 @@
+{
+  "schema_version": 1,
+  "id": "duesseldorf_egypt_archive_2012",
+  "created_at_utc": "2026-09-30T00:13:08.015272+00:00",
+  "description": "STR allele frequencies extracted from the archived Duesseldorf/Huckenbeck-Scheil database. Egyptian populations are used where available; Locus3/D2S1338 uses the Israeli fallback specified by the paper. Frequencies are stored by original STR allele labels, not by the diagram colour labels used in the Amarna scripts.",
+  "source": {
+    "database_url": "https://web.archive.org/web/20120920010159/http://www.uni-duesseldorf.de/WWW/MedFak/Serology/database.html",
+    "authors": "Wolfgang Huckenbeck and Hans-Georg Scheil",
+    "institution": "Universitaetsklinikum Duesseldorf",
+    "archive_timestamp": "2012-09-20 01:01:59 UTC"
+  },
+  "parameters": {
+    "population_selection_order": [
+      "Egypt (pooled)",
+      "Egypt",
+      "Egypt (Cairo area)",
+      "Egypt (Caucasians from the Cairo area)",
+      "Egypt (Central, El-Minia)",
+      "Egypt (El-Minia)",
+      "Egypt (El-Minia City)"
+    ],
+    "locus_specific_population_selection": {
+      "Locus1": [
+        "Egypt (pooled)",
+        "Egypt",
+        "Egypt (Cairo area)",
+        "Egypt (Caucasians from the Cairo area)",
+        "Egypt (Central, El-Minia)",
+        "Egypt (El-Minia)",
+        "Egypt (El-Minia City)"
+      ],
+      "Locus2": [
+        "Egypt (pooled)",
+        "Egypt",
+        "Egypt (Cairo area)",
+        "Egypt (Caucasians from the Cairo area)",
+        "Egypt (Central, El-Minia)",
+        "Egypt (El-Minia)",
+        "Egypt (El-Minia City)"
+      ],
+      "Locus3": [
+        "Israel (Jews)"
+      ],
+      "Locus4": [
+        "Egypt (pooled)",
+        "Egypt",
+        "Egypt (Cairo area)",
+        "Egypt (Caucasians from the Cairo area)",
+        "Egypt (Central, El-Minia)",
+        "Egypt (El-Minia)",
+        "Egypt (El-Minia City)"
+      ],
+      "Locus5": [
+        "Egypt (pooled)",
+        "Egypt",
+        "Egypt (Cairo area)",
+        "Egypt (Caucasians from the Cairo area)",
+        "Egypt (Central, El-Minia)",
+        "Egypt (El-Minia)",
+        "Egypt (El-Minia City)"
+      ],
+      "Locus6": [
+        "Egypt (pooled)",
+        "Egypt",
+        "Egypt (Cairo area)",
+        "Egypt (Caucasians from the Cairo area)",
+        "Egypt (Central, El-Minia)",
+        "Egypt (El-Minia)",
+        "Egypt (El-Minia City)"
+      ],
+      "Locus7": [
+        "Egypt (pooled)",
+        "Egypt",
+        "Egypt (Cairo area)",
+        "Egypt (Caucasians from the Cairo area)",
+        "Egypt (Central, El-Minia)",
+        "Egypt (El-Minia)",
+        "Egypt (El-Minia City)"
+      ],
+      "Locus8": [
+        "Egypt (pooled)",
+        "Egypt",
+        "Egypt (Cairo area)",
+        "Egypt (Caucasians from the Cairo area)",
+        "Egypt (Central, El-Minia)",
+        "Egypt (El-Minia)",
+        "Egypt (El-Minia City)"
+      ]
+    },
+    "paper_match_tolerance": 5e-05
+  },
+  "loci": {
+    "Locus1": {
+      "label": "L1",
+      "marker": "D13S317",
+      "archive_url": "https://web.archive.org/web/20120920010159/http://www.uni-duesseldorf.de/WWW/MedFak/Serology/DNA-Systeme/d13s317.htm",
+      "selected_population": "Egypt (pooled)",
+      "selected_reference": "",
+      "selected_sample_size": 260,
+      "population_selection_order": [
+        "Egypt (pooled)",
+        "Egypt",
+        "Egypt (Cairo area)",
+        "Egypt (Caucasians from the Cairo area)",
+        "Egypt (Central, El-Minia)",
+        "Egypt (El-Minia)",
+        "Egypt (El-Minia City)"
+      ],
+      "population_selection_note": "Egyptian frequencies selected where available.",
+      "available_egypt_populations": [
+        {
+          "population": "Egypt (pooled)",
+          "reference": "",
+          "sample_size": 260
+        },
+        {
+          "population": "Egypt (Central, El-Minia)",
+          "reference": "(33)",
+          "sample_size": 120
+        },
+        {
+          "population": "Egypt (Cairo area)",
+          "reference": "(27)",
+          "sample_size": 140
+        }
+      ],
+      "duesseldorf_allele_frequencies": {
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0018,
+        "8": 0.1341,
+        "9": 0.0788,
+        "10": 0.0631,
+        "11": 0.2928,
+        "12": 0.2855,
+        "13": 0.1056,
+        "14": 0.0343,
+        "14.2": 0.0,
+        "15": 0.0022,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0,
+        "19": 0.0
+      },
+      "paper_color_mapping_audit": [
+        {
+          "color": "yellow",
+          "paper_length": "9",
+          "paper_prior_raw": 0.0788,
+          "duesseldorf_frequency_at_paper_length": 0.0788,
+          "duesseldorf_alleles_with_same_frequency": [
+            "9"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "blue",
+          "paper_length": "12",
+          "paper_prior_raw": 0.2855,
+          "duesseldorf_frequency_at_paper_length": 0.2855,
+          "duesseldorf_alleles_with_same_frequency": [
+            "12"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "red",
+          "paper_length": "11",
+          "paper_prior_raw": 0.2928,
+          "duesseldorf_frequency_at_paper_length": 0.2928,
+          "duesseldorf_alleles_with_same_frequency": [
+            "11"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "cyan",
+          "paper_length": "13",
+          "paper_prior_raw": 0.1056,
+          "duesseldorf_frequency_at_paper_length": 0.1056,
+          "duesseldorf_alleles_with_same_frequency": [
+            "13"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "green",
+          "paper_length": "10",
+          "paper_prior_raw": 0.0631,
+          "duesseldorf_frequency_at_paper_length": 0.0631,
+          "duesseldorf_alleles_with_same_frequency": [
+            "10"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "pink",
+          "paper_length": "16",
+          "paper_prior_raw": 0.0,
+          "duesseldorf_frequency_at_paper_length": 0.0,
+          "duesseldorf_alleles_with_same_frequency": [
+            "5",
+            "6",
+            "14.2",
+            "16",
+            "17",
+            "18",
+            "19"
+          ],
+          "status": "matches_paper_length"
+        }
+      ]
+    },
+    "Locus2": {
+      "label": "L2",
+      "marker": "D7S820",
+      "archive_url": "https://web.archive.org/web/20120920010159/http://www.uni-duesseldorf.de/WWW/MedFak/Serology/DNA-Systeme/D7S820.html",
+      "selected_population": "Egypt (pooled)",
+      "selected_reference": "",
+      "selected_sample_size": 260,
+      "population_selection_order": [
+        "Egypt (pooled)",
+        "Egypt",
+        "Egypt (Cairo area)",
+        "Egypt (Caucasians from the Cairo area)",
+        "Egypt (Central, El-Minia)",
+        "Egypt (El-Minia)",
+        "Egypt (El-Minia City)"
+      ],
+      "population_selection_note": "Egyptian frequencies selected where available.",
+      "available_egypt_populations": [
+        {
+          "population": "Egypt (pooled)",
+          "reference": "",
+          "sample_size": 260
+        },
+        {
+          "population": "Egypt (Cairo area)",
+          "reference": "(32)",
+          "sample_size": 140
+        },
+        {
+          "population": "Egypt (El-Minia)",
+          "reference": "(35)",
+          "sample_size": 120
+        }
+      ],
+      "duesseldorf_allele_frequencies": {
+        "5": 0.0,
+        "6/6.2/6.3": 0.0,
+        "7/7.2": 0.0151,
+        "8/8.1": 0.1459,
+        "9/9.1": 0.0979,
+        "10/10.3": 0.2985,
+        "11": 0.3016,
+        "12": 0.1278,
+        "13": 0.0132,
+        "14": 0.0,
+        "15": 0.0,
+        "17": 0.0,
+        "S": 1.0
+      },
+      "paper_color_mapping_audit": [
+        {
+          "color": "green",
+          "paper_length": "6",
+          "paper_prior_raw": 0.0,
+          "duesseldorf_frequency_at_paper_length": null,
+          "duesseldorf_alleles_with_same_frequency": [
+            "5",
+            "6/6.2/6.3",
+            "14",
+            "15",
+            "17"
+          ],
+          "status": "matches_different_duesseldorf_allele"
+        },
+        {
+          "color": "blue",
+          "paper_length": "10",
+          "paper_prior_raw": 0.2985,
+          "duesseldorf_frequency_at_paper_length": null,
+          "duesseldorf_alleles_with_same_frequency": [
+            "10/10.3"
+          ],
+          "status": "matches_different_duesseldorf_allele"
+        },
+        {
+          "color": "red",
+          "paper_length": "15",
+          "paper_prior_raw": 0.0,
+          "duesseldorf_frequency_at_paper_length": 0.0,
+          "duesseldorf_alleles_with_same_frequency": [
+            "5",
+            "6/6.2/6.3",
+            "14",
+            "15",
+            "17"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "cyan",
+          "paper_length": "13",
+          "paper_prior_raw": 0.0132,
+          "duesseldorf_frequency_at_paper_length": 0.0132,
+          "duesseldorf_alleles_with_same_frequency": [
+            "13"
+          ],
+          "status": "matches_paper_length"
+        }
+      ]
+    },
+    "Locus3": {
+      "label": "L3",
+      "marker": "D2S1338",
+      "archive_url": "https://web.archive.org/web/20120920010159/http://www.uni-duesseldorf.de/WWW/MedFak/Serology/DNA-Systeme/D2S1338.html",
+      "selected_population": "Israel (Jews)",
+      "selected_reference": "(14)",
+      "selected_sample_size": 163,
+      "population_selection_order": [
+        "Israel (Jews)"
+      ],
+      "population_selection_note": "Paper page 6 states that Egyptian-specific D2S1338 frequencies were unavailable and modern Israeli frequencies from the same database were used.",
+      "available_egypt_populations": [],
+      "duesseldorf_allele_frequencies": {
+        "10": 0.0,
+        "12": 0.0,
+        "12.2": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0,
+        "16": 0.0399,
+        "17": 0.2822,
+        "18": 0.0675,
+        "19": 0.1043,
+        "19.2": 0.0,
+        "20": 0.138,
+        "21": 0.0491,
+        "22": 0.0245,
+        "22.2": 0.0,
+        "23": 0.0951,
+        "24": 0.1135,
+        "25": 0.0675,
+        "26": 0.0153,
+        "27": 0.0031,
+        "28": 0.0,
+        "29": 0.0
+      },
+      "paper_color_mapping_audit": [
+        {
+          "color": "yellow",
+          "paper_length": "19",
+          "paper_prior_raw": 0.1043,
+          "duesseldorf_frequency_at_paper_length": 0.1043,
+          "duesseldorf_alleles_with_same_frequency": [
+            "19"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "blue",
+          "paper_length": "26",
+          "paper_prior_raw": 0.0153,
+          "duesseldorf_frequency_at_paper_length": 0.0153,
+          "duesseldorf_alleles_with_same_frequency": [
+            "26"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "red",
+          "paper_length": "22",
+          "paper_prior_raw": 0.0245,
+          "duesseldorf_frequency_at_paper_length": 0.0245,
+          "duesseldorf_alleles_with_same_frequency": [
+            "22"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "cyan",
+          "paper_length": "27",
+          "paper_prior_raw": 0.0031,
+          "duesseldorf_frequency_at_paper_length": 0.0031,
+          "duesseldorf_alleles_with_same_frequency": [
+            "27"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "green",
+          "paper_length": "16",
+          "paper_prior_raw": 0.0399,
+          "duesseldorf_frequency_at_paper_length": 0.0399,
+          "duesseldorf_alleles_with_same_frequency": [
+            "16"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "pink",
+          "paper_length": "17",
+          "paper_prior_raw": 0.2822,
+          "duesseldorf_frequency_at_paper_length": 0.2822,
+          "duesseldorf_alleles_with_same_frequency": [
+            "17"
+          ],
+          "status": "matches_paper_length"
+        }
+      ]
+    },
+    "Locus4": {
+      "label": "L4",
+      "marker": "D21S11",
+      "archive_url": "https://web.archive.org/web/20120920010159/http://www.uni-duesseldorf.de/WWW/MedFak/Serology/DNA-Systeme/d21s11.html",
+      "selected_population": "Egypt (Cairo area)",
+      "selected_reference": "(39)",
+      "selected_sample_size": 140,
+      "population_selection_order": [
+        "Egypt (pooled)",
+        "Egypt",
+        "Egypt (Cairo area)",
+        "Egypt (Caucasians from the Cairo area)",
+        "Egypt (Central, El-Minia)",
+        "Egypt (El-Minia)",
+        "Egypt (El-Minia City)"
+      ],
+      "population_selection_note": "Egyptian frequencies selected where available.",
+      "available_egypt_populations": [
+        {
+          "population": "Egypt (Cairo area)",
+          "reference": "(39)",
+          "sample_size": 140
+        }
+      ],
+      "duesseldorf_allele_frequencies": {
+        "24": 0.0,
+        "24.2": 0.0,
+        "25": 0.004,
+        "25.2": 0.0,
+        "26": 0.0,
+        "26.2": 0.0,
+        "27": 0.021,
+        "27.2": 0.0,
+        "28": 0.082,
+        "28.2": 0.0,
+        "29": 0.325,
+        "29.2": 0.0,
+        "29.3": 0.0,
+        "30": 0.207,
+        "30.2": 0.032,
+        "30.3": 0.0,
+        "31": 0.071,
+        "31.2": 0.111,
+        "32": 0.021,
+        "32.2": 0.086,
+        "33": 0.004,
+        "33.1": 0.0,
+        "33.2": 0.018,
+        "34": 0.004,
+        "34.2": 0.004,
+        "35": 0.011,
+        "35.2": 0.0,
+        "36": 0.0,
+        "36.2": 0.0,
+        "38": 0.0
+      },
+      "paper_color_mapping_audit": [
+        {
+          "color": "yellow",
+          "paper_length": "35",
+          "paper_prior_raw": 0.011,
+          "duesseldorf_frequency_at_paper_length": 0.011,
+          "duesseldorf_alleles_with_same_frequency": [
+            "35"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "blue",
+          "paper_length": "26",
+          "paper_prior_raw": 0.0,
+          "duesseldorf_frequency_at_paper_length": 0.0,
+          "duesseldorf_alleles_with_same_frequency": [
+            "24",
+            "24.2",
+            "25.2",
+            "26",
+            "26.2",
+            "27.2",
+            "28.2",
+            "29.2",
+            "29.3",
+            "30.3",
+            "33.1",
+            "35.2",
+            "36",
+            "36.2",
+            "38"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "red",
+          "paper_length": "29",
+          "paper_prior_raw": 0.325,
+          "duesseldorf_frequency_at_paper_length": 0.325,
+          "duesseldorf_alleles_with_same_frequency": [
+            "29"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "cyan",
+          "paper_length": "34",
+          "paper_prior_raw": 0.004,
+          "duesseldorf_frequency_at_paper_length": 0.004,
+          "duesseldorf_alleles_with_same_frequency": [
+            "25",
+            "33",
+            "34",
+            "34.2"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "green",
+          "paper_length": "25",
+          "paper_prior_raw": 0.004,
+          "duesseldorf_frequency_at_paper_length": 0.004,
+          "duesseldorf_alleles_with_same_frequency": [
+            "25",
+            "33",
+            "34",
+            "34.2"
+          ],
+          "status": "matches_paper_length"
+        }
+      ]
+    },
+    "Locus5": {
+      "label": "L5",
+      "marker": "D16S539",
+      "archive_url": "https://web.archive.org/web/20120920010159/http://www.uni-duesseldorf.de/WWW/MedFak/Serology/DNA-Systeme/D16S539.html",
+      "selected_population": "Egypt (Central, El-Minia)",
+      "selected_reference": "(14)",
+      "selected_sample_size": 120,
+      "population_selection_order": [
+        "Egypt (pooled)",
+        "Egypt",
+        "Egypt (Cairo area)",
+        "Egypt (Caucasians from the Cairo area)",
+        "Egypt (Central, El-Minia)",
+        "Egypt (El-Minia)",
+        "Egypt (El-Minia City)"
+      ],
+      "population_selection_note": "Egyptian frequencies selected where available.",
+      "available_egypt_populations": [
+        {
+          "population": "Egypt (Central, El-Minia)",
+          "reference": "(14)",
+          "sample_size": 120
+        }
+      ],
+      "duesseldorf_allele_frequencies": {
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.033,
+        "8.2": 0.0,
+        "9": 0.188,
+        "10": 0.067,
+        "11": 0.308,
+        "12": 0.263,
+        "12.2": 0.0,
+        "13": 0.125,
+        "14": 0.013,
+        "15": 0.004,
+        "16": 0.0,
+        "16.2": 0.0,
+        "17": 0.0,
+        "18": 0.0
+      },
+      "paper_color_mapping_audit": [
+        {
+          "color": "yellow",
+          "paper_length": "13",
+          "paper_prior_raw": 0.125,
+          "duesseldorf_frequency_at_paper_length": 0.125,
+          "duesseldorf_alleles_with_same_frequency": [
+            "13"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "blue",
+          "paper_length": "11",
+          "paper_prior_raw": 0.308,
+          "duesseldorf_frequency_at_paper_length": 0.308,
+          "duesseldorf_alleles_with_same_frequency": [
+            "11"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "red",
+          "paper_length": "6",
+          "paper_prior_raw": 0.0,
+          "duesseldorf_frequency_at_paper_length": 0.0,
+          "duesseldorf_alleles_with_same_frequency": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8.2",
+            "12.2",
+            "16",
+            "16.2",
+            "17",
+            "18"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "cyan",
+          "paper_length": "10",
+          "paper_prior_raw": 0.067,
+          "duesseldorf_frequency_at_paper_length": 0.067,
+          "duesseldorf_alleles_with_same_frequency": [
+            "10"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "green",
+          "paper_length": "8",
+          "paper_prior_raw": 0.033,
+          "duesseldorf_frequency_at_paper_length": 0.033,
+          "duesseldorf_alleles_with_same_frequency": [
+            "8"
+          ],
+          "status": "matches_paper_length"
+        }
+      ]
+    },
+    "Locus6": {
+      "label": "L6",
+      "marker": "D18S51",
+      "archive_url": "https://web.archive.org/web/20120920010159/http://www.uni-duesseldorf.de/WWW/MedFak/Serology/DNA-Systeme/D18S51.html",
+      "selected_population": "Egypt (Cairo area)",
+      "selected_reference": "(26)",
+      "selected_sample_size": 140,
+      "population_selection_order": [
+        "Egypt (pooled)",
+        "Egypt",
+        "Egypt (Cairo area)",
+        "Egypt (Caucasians from the Cairo area)",
+        "Egypt (Central, El-Minia)",
+        "Egypt (El-Minia)",
+        "Egypt (El-Minia City)"
+      ],
+      "population_selection_note": "Egyptian frequencies selected where available.",
+      "available_egypt_populations": [
+        {
+          "population": "Egypt (Cairo area)",
+          "reference": "(26)",
+          "sample_size": 140
+        }
+      ],
+      "duesseldorf_allele_frequencies": {
+        "<10": 0.0,
+        "10": 0.011,
+        "10.2": 0.0,
+        "11": 0.029,
+        "11.2": 0.0,
+        "12": 0.236,
+        "12.2": 0.0,
+        "13": 0.136,
+        "13.2": 0.0,
+        "14": 0.171,
+        "14.2": 0.0,
+        "15": 0.129,
+        "15.1": 0.0,
+        "15.2": 0.0,
+        "16": 0.093,
+        "16.2": 0.0,
+        "17": 0.111,
+        "18": 0.057,
+        "18.2": 0.0,
+        "19": 0.011,
+        "19.2": 0.0,
+        "20": 0.004,
+        "21": 0.014,
+        "21.2": 0.0,
+        "22": 0.0,
+        "23": 0.0,
+        "23.2": 0.0,
+        "24": 0.0,
+        "25": 0.0,
+        "26": 0.0,
+        "33": 0.0,
+        "42": 0.0
+      },
+      "paper_color_mapping_audit": [
+        {
+          "color": "yellow",
+          "paper_length": "8",
+          "paper_prior_raw": 0.0,
+          "duesseldorf_frequency_at_paper_length": null,
+          "duesseldorf_alleles_with_same_frequency": [
+            "<10",
+            "10.2",
+            "11.2",
+            "12.2",
+            "13.2",
+            "14.2",
+            "15.1",
+            "15.2",
+            "16.2",
+            "18.2",
+            "19.2",
+            "21.2",
+            "22",
+            "23",
+            "23.2",
+            "24",
+            "25",
+            "26",
+            "33",
+            "42"
+          ],
+          "status": "matches_different_duesseldorf_allele"
+        },
+        {
+          "color": "blue",
+          "paper_length": "19",
+          "paper_prior_raw": 0.011,
+          "duesseldorf_frequency_at_paper_length": 0.011,
+          "duesseldorf_alleles_with_same_frequency": [
+            "10",
+            "19"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "red",
+          "paper_length": "22",
+          "paper_prior_raw": 0.0,
+          "duesseldorf_frequency_at_paper_length": 0.0,
+          "duesseldorf_alleles_with_same_frequency": [
+            "<10",
+            "10.2",
+            "11.2",
+            "12.2",
+            "13.2",
+            "14.2",
+            "15.1",
+            "15.2",
+            "16.2",
+            "18.2",
+            "19.2",
+            "21.2",
+            "22",
+            "23",
+            "23.2",
+            "24",
+            "25",
+            "26",
+            "33",
+            "42"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "cyan",
+          "paper_length": "12",
+          "paper_prior_raw": 0.236,
+          "duesseldorf_frequency_at_paper_length": 0.236,
+          "duesseldorf_alleles_with_same_frequency": [
+            "12"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "green",
+          "paper_length": "16",
+          "paper_prior_raw": 0.093,
+          "duesseldorf_frequency_at_paper_length": 0.093,
+          "duesseldorf_alleles_with_same_frequency": [
+            "16"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "pink",
+          "paper_length": "10",
+          "paper_prior_raw": 0.011,
+          "duesseldorf_frequency_at_paper_length": 0.011,
+          "duesseldorf_alleles_with_same_frequency": [
+            "10",
+            "19"
+          ],
+          "status": "matches_paper_length"
+        }
+      ]
+    },
+    "Locus7": {
+      "label": "L7",
+      "marker": "CSF1PO",
+      "archive_url": "https://web.archive.org/web/20120920010159/http://www.uni-duesseldorf.de/WWW/MedFak/Serology/DNA-Systeme/csf.html",
+      "selected_population": "Egypt (pooled)",
+      "selected_reference": "",
+      "selected_sample_size": 219,
+      "population_selection_order": [
+        "Egypt (pooled)",
+        "Egypt",
+        "Egypt (Cairo area)",
+        "Egypt (Caucasians from the Cairo area)",
+        "Egypt (Central, El-Minia)",
+        "Egypt (El-Minia)",
+        "Egypt (El-Minia City)"
+      ],
+      "population_selection_note": "Egyptian frequencies selected where available.",
+      "available_egypt_populations": [
+        {
+          "population": "Egypt (pooled)",
+          "reference": "",
+          "sample_size": 219
+        },
+        {
+          "population": "Egypt (Cairo area)",
+          "reference": "(53)",
+          "sample_size": 100
+        },
+        {
+          "population": "Egypt (Central, El-Minia)",
+          "reference": "(95)",
+          "sample_size": 119
+        }
+      ],
+      "duesseldorf_allele_frequencies": {
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0071,
+        "8": 0.0114,
+        "9": 0.016,
+        "10": 0.2786,
+        "10.2": 0.0,
+        "10.3": 0.0,
+        "11": 0.3198,
+        "11.3": 0.0,
+        "12": 0.2901,
+        "13": 0.066,
+        "13.1": 0.0,
+        "13.2": 0.0,
+        "13.3": 0.0,
+        "14": 0.0093,
+        "15": 0.0023,
+        "16": 0.0,
+        "17": 0.0,
+        "18": 0.0
+      },
+      "paper_color_mapping_audit": [
+        {
+          "color": "yellow",
+          "paper_length": "7",
+          "paper_prior_raw": 0.0071,
+          "duesseldorf_frequency_at_paper_length": 0.0071,
+          "duesseldorf_alleles_with_same_frequency": [
+            "7"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "blue",
+          "paper_length": "12",
+          "paper_prior_raw": 0.2901,
+          "duesseldorf_frequency_at_paper_length": 0.2901,
+          "duesseldorf_alleles_with_same_frequency": [
+            "12"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "red",
+          "paper_length": "9",
+          "paper_prior_raw": 0.016,
+          "duesseldorf_frequency_at_paper_length": 0.016,
+          "duesseldorf_alleles_with_same_frequency": [
+            "9"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "green",
+          "paper_length": "6",
+          "paper_prior_raw": 0.0,
+          "duesseldorf_frequency_at_paper_length": 0.0,
+          "duesseldorf_alleles_with_same_frequency": [
+            "4",
+            "5",
+            "6",
+            "10.2",
+            "10.3",
+            "11.3",
+            "13.1",
+            "13.2",
+            "13.3",
+            "16",
+            "17",
+            "18"
+          ],
+          "status": "matches_paper_length"
+        }
+      ]
+    },
+    "Locus8": {
+      "label": "L8",
+      "marker": "FGA",
+      "archive_url": "https://web.archive.org/web/20120920010159/http://www.uni-duesseldorf.de/WWW/MedFak/Serology/DNA-Systeme/fga.htm",
+      "selected_population": "Egypt (pooled)",
+      "selected_reference": "",
+      "selected_sample_size": 390,
+      "population_selection_order": [
+        "Egypt (pooled)",
+        "Egypt",
+        "Egypt (Cairo area)",
+        "Egypt (Caucasians from the Cairo area)",
+        "Egypt (Central, El-Minia)",
+        "Egypt (El-Minia)",
+        "Egypt (El-Minia City)"
+      ],
+      "population_selection_note": "Egyptian frequencies selected where available.",
+      "available_egypt_populations": [
+        {
+          "population": "Egypt (pooled)",
+          "reference": "",
+          "sample_size": 390
+        },
+        {
+          "population": "Egypt",
+          "reference": "(12)",
+          "sample_size": 100
+        },
+        {
+          "population": "Egypt (Caucasians from the Cairo area)",
+          "reference": "(77)",
+          "sample_size": 140
+        },
+        {
+          "population": "Egypt (El-Minia City)",
+          "reference": "(95)",
+          "sample_size": 150
+        }
+      ],
+      "duesseldorf_allele_frequencies": {
+        "<18": 0.0031,
+        "18": 0.0192,
+        "18.2": 0.0,
+        "19": 0.0745,
+        "19.2": 0.0008,
+        "20": 0.1084,
+        "20.2": 0.0039,
+        "21": 0.1475,
+        "21.2/21.3": 0.0037,
+        "22": 0.1473,
+        "22.2/22.3": 0.0027,
+        "23": 0.1628,
+        "23.2/23.3": 0.0,
+        "24": 0.1713,
+        "24.2/24.3": 0.0,
+        "25": 0.0762,
+        "25.2": 0.0027,
+        "26": 0.0396,
+        "26.2": 0.0,
+        "27": 0.0142,
+        "27.2": 0.0,
+        "28": 0.0169,
+        "28.1/28.2": 0.0,
+        "29": 0.0024,
+        ">29": 0.0035
+      },
+      "paper_color_mapping_audit": [
+        {
+          "color": "yellow",
+          "paper_length": "24",
+          "paper_prior_raw": 0.1713,
+          "duesseldorf_frequency_at_paper_length": 0.1713,
+          "duesseldorf_alleles_with_same_frequency": [
+            "24"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "blue",
+          "paper_length": "26",
+          "paper_prior_raw": 0.0396,
+          "duesseldorf_frequency_at_paper_length": 0.0396,
+          "duesseldorf_alleles_with_same_frequency": [
+            "26"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "red",
+          "paper_length": "20",
+          "paper_prior_raw": 0.1084,
+          "duesseldorf_frequency_at_paper_length": 0.1084,
+          "duesseldorf_alleles_with_same_frequency": [
+            "20"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "cyan",
+          "paper_length": "25",
+          "paper_prior_raw": 0.0762,
+          "duesseldorf_frequency_at_paper_length": 0.0762,
+          "duesseldorf_alleles_with_same_frequency": [
+            "25"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "green",
+          "paper_length": "23",
+          "paper_prior_raw": 0.1628,
+          "duesseldorf_frequency_at_paper_length": 0.1628,
+          "duesseldorf_alleles_with_same_frequency": [
+            "23"
+          ],
+          "status": "matches_paper_length"
+        },
+        {
+          "color": "pink",
+          "paper_length": "31",
+          "paper_prior_raw": 0.0035,
+          "duesseldorf_frequency_at_paper_length": null,
+          "duesseldorf_alleles_with_same_frequency": [
+            ">29"
+          ],
+          "status": "matches_different_duesseldorf_allele"
+        }
+      ]
+    }
+  },
+  "allele_frequencies": {
+    "Locus1": {
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0018,
+      "8": 0.1341,
+      "9": 0.0788,
+      "10": 0.0631,
+      "11": 0.2928,
+      "12": 0.2855,
+      "13": 0.1056,
+      "14": 0.0343,
+      "14.2": 0.0,
+      "15": 0.0022,
+      "16": 0.0,
+      "17": 0.0,
+      "18": 0.0,
+      "19": 0.0
+    },
+    "Locus2": {
+      "5": 0.0,
+      "6/6.2/6.3": 0.0,
+      "7/7.2": 0.0151,
+      "8/8.1": 0.1459,
+      "9/9.1": 0.0979,
+      "10/10.3": 0.2985,
+      "11": 0.3016,
+      "12": 0.1278,
+      "13": 0.0132,
+      "14": 0.0,
+      "15": 0.0,
+      "17": 0.0,
+      "S": 1.0
+    },
+    "Locus3": {
+      "10": 0.0,
+      "12": 0.0,
+      "12.2": 0.0,
+      "13": 0.0,
+      "14": 0.0,
+      "15": 0.0,
+      "16": 0.0399,
+      "17": 0.2822,
+      "18": 0.0675,
+      "19": 0.1043,
+      "19.2": 0.0,
+      "20": 0.138,
+      "21": 0.0491,
+      "22": 0.0245,
+      "22.2": 0.0,
+      "23": 0.0951,
+      "24": 0.1135,
+      "25": 0.0675,
+      "26": 0.0153,
+      "27": 0.0031,
+      "28": 0.0,
+      "29": 0.0
+    },
+    "Locus4": {
+      "24": 0.0,
+      "24.2": 0.0,
+      "25": 0.004,
+      "25.2": 0.0,
+      "26": 0.0,
+      "26.2": 0.0,
+      "27": 0.021,
+      "27.2": 0.0,
+      "28": 0.082,
+      "28.2": 0.0,
+      "29": 0.325,
+      "29.2": 0.0,
+      "29.3": 0.0,
+      "30": 0.207,
+      "30.2": 0.032,
+      "30.3": 0.0,
+      "31": 0.071,
+      "31.2": 0.111,
+      "32": 0.021,
+      "32.2": 0.086,
+      "33": 0.004,
+      "33.1": 0.0,
+      "33.2": 0.018,
+      "34": 0.004,
+      "34.2": 0.004,
+      "35": 0.011,
+      "35.2": 0.0,
+      "36": 0.0,
+      "36.2": 0.0,
+      "38": 0.0
+    },
+    "Locus5": {
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0,
+      "8": 0.033,
+      "8.2": 0.0,
+      "9": 0.188,
+      "10": 0.067,
+      "11": 0.308,
+      "12": 0.263,
+      "12.2": 0.0,
+      "13": 0.125,
+      "14": 0.013,
+      "15": 0.004,
+      "16": 0.0,
+      "16.2": 0.0,
+      "17": 0.0,
+      "18": 0.0
+    },
+    "Locus6": {
+      "<10": 0.0,
+      "10": 0.011,
+      "10.2": 0.0,
+      "11": 0.029,
+      "11.2": 0.0,
+      "12": 0.236,
+      "12.2": 0.0,
+      "13": 0.136,
+      "13.2": 0.0,
+      "14": 0.171,
+      "14.2": 0.0,
+      "15": 0.129,
+      "15.1": 0.0,
+      "15.2": 0.0,
+      "16": 0.093,
+      "16.2": 0.0,
+      "17": 0.111,
+      "18": 0.057,
+      "18.2": 0.0,
+      "19": 0.011,
+      "19.2": 0.0,
+      "20": 0.004,
+      "21": 0.014,
+      "21.2": 0.0,
+      "22": 0.0,
+      "23": 0.0,
+      "23.2": 0.0,
+      "24": 0.0,
+      "25": 0.0,
+      "26": 0.0,
+      "33": 0.0,
+      "42": 0.0
+    },
+    "Locus7": {
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0071,
+      "8": 0.0114,
+      "9": 0.016,
+      "10": 0.2786,
+      "10.2": 0.0,
+      "10.3": 0.0,
+      "11": 0.3198,
+      "11.3": 0.0,
+      "12": 0.2901,
+      "13": 0.066,
+      "13.1": 0.0,
+      "13.2": 0.0,
+      "13.3": 0.0,
+      "14": 0.0093,
+      "15": 0.0023,
+      "16": 0.0,
+      "17": 0.0,
+      "18": 0.0
+    },
+    "Locus8": {
+      "<18": 0.0031,
+      "18": 0.0192,
+      "18.2": 0.0,
+      "19": 0.0745,
+      "19.2": 0.0008,
+      "20": 0.1084,
+      "20.2": 0.0039,
+      "21": 0.1475,
+      "21.2/21.3": 0.0037,
+      "22": 0.1473,
+      "22.2/22.3": 0.0027,
+      "23": 0.1628,
+      "23.2/23.3": 0.0,
+      "24": 0.1713,
+      "24.2/24.3": 0.0,
+      "25": 0.0762,
+      "25.2": 0.0027,
+      "26": 0.0396,
+      "26.2": 0.0,
+      "27": 0.0142,
+      "27.2": 0.0,
+      "28": 0.0169,
+      "28.1/28.2": 0.0,
+      "29": 0.0024,
+      ">29": 0.0035
+    }
+  },
+  "audit": {
+    "Locus1": [
+      {
+        "color": "yellow",
+        "paper_length": "9",
+        "paper_prior_raw": 0.0788,
+        "duesseldorf_frequency_at_paper_length": 0.0788,
+        "duesseldorf_alleles_with_same_frequency": [
+          "9"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "blue",
+        "paper_length": "12",
+        "paper_prior_raw": 0.2855,
+        "duesseldorf_frequency_at_paper_length": 0.2855,
+        "duesseldorf_alleles_with_same_frequency": [
+          "12"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "red",
+        "paper_length": "11",
+        "paper_prior_raw": 0.2928,
+        "duesseldorf_frequency_at_paper_length": 0.2928,
+        "duesseldorf_alleles_with_same_frequency": [
+          "11"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "cyan",
+        "paper_length": "13",
+        "paper_prior_raw": 0.1056,
+        "duesseldorf_frequency_at_paper_length": 0.1056,
+        "duesseldorf_alleles_with_same_frequency": [
+          "13"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "green",
+        "paper_length": "10",
+        "paper_prior_raw": 0.0631,
+        "duesseldorf_frequency_at_paper_length": 0.0631,
+        "duesseldorf_alleles_with_same_frequency": [
+          "10"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "pink",
+        "paper_length": "16",
+        "paper_prior_raw": 0.0,
+        "duesseldorf_frequency_at_paper_length": 0.0,
+        "duesseldorf_alleles_with_same_frequency": [
+          "5",
+          "6",
+          "14.2",
+          "16",
+          "17",
+          "18",
+          "19"
+        ],
+        "status": "matches_paper_length"
+      }
+    ],
+    "Locus2": [
+      {
+        "color": "green",
+        "paper_length": "6",
+        "paper_prior_raw": 0.0,
+        "duesseldorf_frequency_at_paper_length": null,
+        "duesseldorf_alleles_with_same_frequency": [
+          "5",
+          "6/6.2/6.3",
+          "14",
+          "15",
+          "17"
+        ],
+        "status": "matches_different_duesseldorf_allele"
+      },
+      {
+        "color": "blue",
+        "paper_length": "10",
+        "paper_prior_raw": 0.2985,
+        "duesseldorf_frequency_at_paper_length": null,
+        "duesseldorf_alleles_with_same_frequency": [
+          "10/10.3"
+        ],
+        "status": "matches_different_duesseldorf_allele"
+      },
+      {
+        "color": "red",
+        "paper_length": "15",
+        "paper_prior_raw": 0.0,
+        "duesseldorf_frequency_at_paper_length": 0.0,
+        "duesseldorf_alleles_with_same_frequency": [
+          "5",
+          "6/6.2/6.3",
+          "14",
+          "15",
+          "17"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "cyan",
+        "paper_length": "13",
+        "paper_prior_raw": 0.0132,
+        "duesseldorf_frequency_at_paper_length": 0.0132,
+        "duesseldorf_alleles_with_same_frequency": [
+          "13"
+        ],
+        "status": "matches_paper_length"
+      }
+    ],
+    "Locus3": [
+      {
+        "color": "yellow",
+        "paper_length": "19",
+        "paper_prior_raw": 0.1043,
+        "duesseldorf_frequency_at_paper_length": 0.1043,
+        "duesseldorf_alleles_with_same_frequency": [
+          "19"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "blue",
+        "paper_length": "26",
+        "paper_prior_raw": 0.0153,
+        "duesseldorf_frequency_at_paper_length": 0.0153,
+        "duesseldorf_alleles_with_same_frequency": [
+          "26"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "red",
+        "paper_length": "22",
+        "paper_prior_raw": 0.0245,
+        "duesseldorf_frequency_at_paper_length": 0.0245,
+        "duesseldorf_alleles_with_same_frequency": [
+          "22"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "cyan",
+        "paper_length": "27",
+        "paper_prior_raw": 0.0031,
+        "duesseldorf_frequency_at_paper_length": 0.0031,
+        "duesseldorf_alleles_with_same_frequency": [
+          "27"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "green",
+        "paper_length": "16",
+        "paper_prior_raw": 0.0399,
+        "duesseldorf_frequency_at_paper_length": 0.0399,
+        "duesseldorf_alleles_with_same_frequency": [
+          "16"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "pink",
+        "paper_length": "17",
+        "paper_prior_raw": 0.2822,
+        "duesseldorf_frequency_at_paper_length": 0.2822,
+        "duesseldorf_alleles_with_same_frequency": [
+          "17"
+        ],
+        "status": "matches_paper_length"
+      }
+    ],
+    "Locus4": [
+      {
+        "color": "yellow",
+        "paper_length": "35",
+        "paper_prior_raw": 0.011,
+        "duesseldorf_frequency_at_paper_length": 0.011,
+        "duesseldorf_alleles_with_same_frequency": [
+          "35"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "blue",
+        "paper_length": "26",
+        "paper_prior_raw": 0.0,
+        "duesseldorf_frequency_at_paper_length": 0.0,
+        "duesseldorf_alleles_with_same_frequency": [
+          "24",
+          "24.2",
+          "25.2",
+          "26",
+          "26.2",
+          "27.2",
+          "28.2",
+          "29.2",
+          "29.3",
+          "30.3",
+          "33.1",
+          "35.2",
+          "36",
+          "36.2",
+          "38"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "red",
+        "paper_length": "29",
+        "paper_prior_raw": 0.325,
+        "duesseldorf_frequency_at_paper_length": 0.325,
+        "duesseldorf_alleles_with_same_frequency": [
+          "29"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "cyan",
+        "paper_length": "34",
+        "paper_prior_raw": 0.004,
+        "duesseldorf_frequency_at_paper_length": 0.004,
+        "duesseldorf_alleles_with_same_frequency": [
+          "25",
+          "33",
+          "34",
+          "34.2"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "green",
+        "paper_length": "25",
+        "paper_prior_raw": 0.004,
+        "duesseldorf_frequency_at_paper_length": 0.004,
+        "duesseldorf_alleles_with_same_frequency": [
+          "25",
+          "33",
+          "34",
+          "34.2"
+        ],
+        "status": "matches_paper_length"
+      }
+    ],
+    "Locus5": [
+      {
+        "color": "yellow",
+        "paper_length": "13",
+        "paper_prior_raw": 0.125,
+        "duesseldorf_frequency_at_paper_length": 0.125,
+        "duesseldorf_alleles_with_same_frequency": [
+          "13"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "blue",
+        "paper_length": "11",
+        "paper_prior_raw": 0.308,
+        "duesseldorf_frequency_at_paper_length": 0.308,
+        "duesseldorf_alleles_with_same_frequency": [
+          "11"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "red",
+        "paper_length": "6",
+        "paper_prior_raw": 0.0,
+        "duesseldorf_frequency_at_paper_length": 0.0,
+        "duesseldorf_alleles_with_same_frequency": [
+          "4",
+          "5",
+          "6",
+          "7",
+          "8.2",
+          "12.2",
+          "16",
+          "16.2",
+          "17",
+          "18"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "cyan",
+        "paper_length": "10",
+        "paper_prior_raw": 0.067,
+        "duesseldorf_frequency_at_paper_length": 0.067,
+        "duesseldorf_alleles_with_same_frequency": [
+          "10"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "green",
+        "paper_length": "8",
+        "paper_prior_raw": 0.033,
+        "duesseldorf_frequency_at_paper_length": 0.033,
+        "duesseldorf_alleles_with_same_frequency": [
+          "8"
+        ],
+        "status": "matches_paper_length"
+      }
+    ],
+    "Locus6": [
+      {
+        "color": "yellow",
+        "paper_length": "8",
+        "paper_prior_raw": 0.0,
+        "duesseldorf_frequency_at_paper_length": null,
+        "duesseldorf_alleles_with_same_frequency": [
+          "<10",
+          "10.2",
+          "11.2",
+          "12.2",
+          "13.2",
+          "14.2",
+          "15.1",
+          "15.2",
+          "16.2",
+          "18.2",
+          "19.2",
+          "21.2",
+          "22",
+          "23",
+          "23.2",
+          "24",
+          "25",
+          "26",
+          "33",
+          "42"
+        ],
+        "status": "matches_different_duesseldorf_allele"
+      },
+      {
+        "color": "blue",
+        "paper_length": "19",
+        "paper_prior_raw": 0.011,
+        "duesseldorf_frequency_at_paper_length": 0.011,
+        "duesseldorf_alleles_with_same_frequency": [
+          "10",
+          "19"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "red",
+        "paper_length": "22",
+        "paper_prior_raw": 0.0,
+        "duesseldorf_frequency_at_paper_length": 0.0,
+        "duesseldorf_alleles_with_same_frequency": [
+          "<10",
+          "10.2",
+          "11.2",
+          "12.2",
+          "13.2",
+          "14.2",
+          "15.1",
+          "15.2",
+          "16.2",
+          "18.2",
+          "19.2",
+          "21.2",
+          "22",
+          "23",
+          "23.2",
+          "24",
+          "25",
+          "26",
+          "33",
+          "42"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "cyan",
+        "paper_length": "12",
+        "paper_prior_raw": 0.236,
+        "duesseldorf_frequency_at_paper_length": 0.236,
+        "duesseldorf_alleles_with_same_frequency": [
+          "12"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "green",
+        "paper_length": "16",
+        "paper_prior_raw": 0.093,
+        "duesseldorf_frequency_at_paper_length": 0.093,
+        "duesseldorf_alleles_with_same_frequency": [
+          "16"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "pink",
+        "paper_length": "10",
+        "paper_prior_raw": 0.011,
+        "duesseldorf_frequency_at_paper_length": 0.011,
+        "duesseldorf_alleles_with_same_frequency": [
+          "10",
+          "19"
+        ],
+        "status": "matches_paper_length"
+      }
+    ],
+    "Locus7": [
+      {
+        "color": "yellow",
+        "paper_length": "7",
+        "paper_prior_raw": 0.0071,
+        "duesseldorf_frequency_at_paper_length": 0.0071,
+        "duesseldorf_alleles_with_same_frequency": [
+          "7"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "blue",
+        "paper_length": "12",
+        "paper_prior_raw": 0.2901,
+        "duesseldorf_frequency_at_paper_length": 0.2901,
+        "duesseldorf_alleles_with_same_frequency": [
+          "12"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "red",
+        "paper_length": "9",
+        "paper_prior_raw": 0.016,
+        "duesseldorf_frequency_at_paper_length": 0.016,
+        "duesseldorf_alleles_with_same_frequency": [
+          "9"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "green",
+        "paper_length": "6",
+        "paper_prior_raw": 0.0,
+        "duesseldorf_frequency_at_paper_length": 0.0,
+        "duesseldorf_alleles_with_same_frequency": [
+          "4",
+          "5",
+          "6",
+          "10.2",
+          "10.3",
+          "11.3",
+          "13.1",
+          "13.2",
+          "13.3",
+          "16",
+          "17",
+          "18"
+        ],
+        "status": "matches_paper_length"
+      }
+    ],
+    "Locus8": [
+      {
+        "color": "yellow",
+        "paper_length": "24",
+        "paper_prior_raw": 0.1713,
+        "duesseldorf_frequency_at_paper_length": 0.1713,
+        "duesseldorf_alleles_with_same_frequency": [
+          "24"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "blue",
+        "paper_length": "26",
+        "paper_prior_raw": 0.0396,
+        "duesseldorf_frequency_at_paper_length": 0.0396,
+        "duesseldorf_alleles_with_same_frequency": [
+          "26"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "red",
+        "paper_length": "20",
+        "paper_prior_raw": 0.1084,
+        "duesseldorf_frequency_at_paper_length": 0.1084,
+        "duesseldorf_alleles_with_same_frequency": [
+          "20"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "cyan",
+        "paper_length": "25",
+        "paper_prior_raw": 0.0762,
+        "duesseldorf_frequency_at_paper_length": 0.0762,
+        "duesseldorf_alleles_with_same_frequency": [
+          "25"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "green",
+        "paper_length": "23",
+        "paper_prior_raw": 0.1628,
+        "duesseldorf_frequency_at_paper_length": 0.1628,
+        "duesseldorf_alleles_with_same_frequency": [
+          "23"
+        ],
+        "status": "matches_paper_length"
+      },
+      {
+        "color": "pink",
+        "paper_length": "31",
+        "paper_prior_raw": 0.0035,
+        "duesseldorf_frequency_at_paper_length": null,
+        "duesseldorf_alleles_with_same_frequency": [
+          ">29"
+        ],
+        "status": "matches_different_duesseldorf_allele"
+      }
+    ]
+  }
+}

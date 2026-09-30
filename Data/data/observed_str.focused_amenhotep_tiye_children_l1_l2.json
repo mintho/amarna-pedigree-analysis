@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "description": "Observed STR data for focused_amenhotep_tiye_children_l1_l2.",
+  "loci": [
+    "Locus1",
+    "Locus2"
+  ],
+  "observations": {
+    "Amenhotep": {
+      "Locus1": {
+        "alleles": [
+          "green",
+          "pink"
+        ],
+        "source": "focused robustness excerpt"
+      },
+      "Locus2": {
+        "alleles": [
+          "red",
+          "green"
+        ],
+        "source": "focused robustness excerpt"
+      }
+    },
+    "Tiye": {
+      "Locus1": {
+        "alleles": [
+          "red",
+          "blue"
+        ],
+        "source": "focused robustness excerpt"
+      },
+      "Locus2": {
+        "alleles": [
+          "red",
+          "blue"
+        ],
+        "source": "focused robustness excerpt"
+      }
+    },
+    "KV35YL": {
+      "Locus1": {
+        "alleles": [
+          "green",
+          "blue"
+        ],
+        "source": "focused robustness excerpt"
+      },
+      "Locus2": {
+        "alleles": [
+          "blue",
+          "green"
+        ],
+        "source": "focused robustness excerpt"
+      }
+    },
+    "Akhenaten": {
+      "Locus1": {
+        "alleles": [
+          "green",
+          "blue"
+        ],
+        "source": "focused robustness excerpt"
+      },
+      "Locus2": {
+        "alleles": [
+          "red",
+          "red"
+        ],
+        "source": "focused robustness excerpt"
+      }
+    }
+  }
+}

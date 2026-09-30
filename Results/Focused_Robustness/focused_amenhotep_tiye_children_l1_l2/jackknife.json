@@ -1,0 +1,710 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-29T23:55:51.203519+00:00",
+  "run_config": "Data/models/runs/focused_amenhotep_tiye_children_l1_l2_run.json",
+  "engine": "factors",
+  "loci": [
+    "Locus1",
+    "Locus2"
+  ],
+  "baseline": [
+    {
+      "pedigree": "focused_amenhotep_tiye_children_l1_l2_relationships",
+      "structure_id": "focused_amenhotep_tiye_children_l1_l2_relationships",
+      "founder_scenario": "focused_amenhotep_tiye_children_l1_l2_founders",
+      "identity_hypothesis": "amarna_no_identity",
+      "log_likelihood": -55.2849358229293,
+      "observation_model": {
+        "type": "generative_str",
+        "dropout": 0.0,
+        "background_error": 0.001,
+        "background_source": "fixed_reference_frequencies",
+        "background_frequency_file": "../../data/background_allele_frequencies.json",
+        "missing": "condition_on_call_available"
+      },
+      "loci": [
+        {
+          "locus": "Locus1",
+          "alleles": [
+            "blue",
+            "cyan",
+            "green",
+            "other",
+            "pink",
+            "red",
+            "yellow"
+          ],
+          "observation_model": {
+            "type": "generative_str",
+            "dropout": 0.0,
+            "background_error": 0.001,
+            "background_source": "fixed_reference_frequencies",
+            "background_frequency_file": "../../data/background_allele_frequencies.json",
+            "missing": "condition_on_call_available"
+          },
+          "genotype_states": 28,
+          "persons": 4,
+          "founders": [
+            "Amenhotep",
+            "Tiye"
+          ],
+          "probability": 1.3149557234162501e-08,
+          "log_likelihood": -18.146877749295392,
+          "initial_factors": 8,
+          "max_factor_rows": 2380,
+          "elimination_steps": [
+            {
+              "variable": "KV35YL",
+              "involved_factors": 2,
+              "result_variables": [
+                "Amenhotep",
+                "Tiye"
+              ],
+              "result_rows": 784
+            },
+            {
+              "variable": "Akhenaten",
+              "involved_factors": 2,
+              "result_variables": [
+                "Amenhotep",
+                "Tiye"
+              ],
+              "result_rows": 784
+            },
+            {
+              "variable": "Amenhotep",
+              "involved_factors": 4,
+              "result_variables": [
+                "Tiye"
+              ],
+              "result_rows": 28
+            },
+            {
+              "variable": "Tiye",
+              "involved_factors": 3,
+              "result_variables": [],
+              "result_rows": 1
+            }
+          ],
+          "backend": "numpy_exact_contraction",
+          "factor_size_definition": "Maximum stored initial or contracted nonzero rows; internal contraction buffers are not counted."
+        },
+        {
+          "locus": "Locus2",
+          "alleles": [
+            "blue",
+            "cyan",
+            "green",
+            "other",
+            "red"
+          ],
+          "observation_model": {
+            "type": "generative_str",
+            "dropout": 0.0,
+            "background_error": 0.001,
+            "background_source": "fixed_reference_frequencies",
+            "background_frequency_file": "../../data/background_allele_frequencies.json",
+            "missing": "condition_on_call_available"
+          },
+          "genotype_states": 15,
+          "persons": 4,
+          "founders": [
+            "Amenhotep",
+            "Tiye"
+          ],
+          "probability": 7.432694967249965e-17,
+          "log_likelihood": -37.13805807363391,
+          "initial_factors": 8,
+          "max_factor_rows": 615,
+          "elimination_steps": [
+            {
+              "variable": "KV35YL",
+              "involved_factors": 2,
+              "result_variables": [
+                "Amenhotep",
+                "Tiye"
+              ],
+              "result_rows": 225
+            },
+            {
+              "variable": "Akhenaten",
+              "involved_factors": 2,
+              "result_variables": [
+                "Amenhotep",
+                "Tiye"
+              ],
+              "result_rows": 225
+            },
+            {
+              "variable": "Amenhotep",
+              "involved_factors": 4,
+              "result_variables": [
+                "Tiye"
+              ],
+              "result_rows": 15
+            },
+            {
+              "variable": "Tiye",
+              "involved_factors": 3,
+              "result_variables": [],
+              "result_rows": 1
+            }
+          ],
+          "backend": "numpy_exact_contraction",
+          "factor_size_definition": "Maximum stored initial or contracted nonzero rows; internal contraction buffers are not counted."
+        }
+      ],
+      "weight_scope": "unique_scored_structure",
+      "rank": 1,
+      "delta_log_likelihood": 0.0,
+      "weight": 0.9999999999999998,
+      "weight_percent": 99.99999999999997
+    },
+    {
+      "pedigree": "focused_amenhotep_tiye_children_l1_l2_independent",
+      "structure_id": "focused_amenhotep_tiye_children_l1_l2_independent",
+      "founder_scenario": "focused_amenhotep_tiye_children_l1_l2_founders",
+      "identity_hypothesis": "amarna_no_identity",
+      "log_likelihood": -91.43432745802905,
+      "observation_model": {
+        "type": "generative_str",
+        "dropout": 0.0,
+        "background_error": 0.001,
+        "background_source": "fixed_reference_frequencies",
+        "background_frequency_file": "../../data/background_allele_frequencies.json",
+        "missing": "condition_on_call_available"
+      },
+      "loci": [
+        {
+          "locus": "Locus1",
+          "alleles": [
+            "blue",
+            "cyan",
+            "green",
+            "other",
+            "pink",
+            "red",
+            "yellow"
+          ],
+          "observation_model": {
+            "type": "generative_str",
+            "dropout": 0.0,
+            "background_error": 0.001,
+            "background_source": "fixed_reference_frequencies",
+            "background_frequency_file": "../../data/background_allele_frequencies.json",
+            "missing": "condition_on_call_available"
+          },
+          "genotype_states": 28,
+          "persons": 4,
+          "founders": [
+            "Amenhotep",
+            "Tiye",
+            "KV35YL",
+            "Akhenaten"
+          ],
+          "probability": 2.7390342981671103e-10,
+          "log_likelihood": -22.018245517588554,
+          "initial_factors": 8,
+          "max_factor_rows": 28,
+          "elimination_steps": [
+            {
+              "variable": "Amenhotep",
+              "involved_factors": 2,
+              "result_variables": [],
+              "result_rows": 1
+            },
+            {
+              "variable": "Tiye",
+              "involved_factors": 2,
+              "result_variables": [],
+              "result_rows": 1
+            },
+            {
+              "variable": "KV35YL",
+              "involved_factors": 2,
+              "result_variables": [],
+              "result_rows": 1
+            },
+            {
+              "variable": "Akhenaten",
+              "involved_factors": 2,
+              "result_variables": [],
+              "result_rows": 1
+            }
+          ],
+          "backend": "numpy_exact_contraction",
+          "factor_size_definition": "Maximum stored initial or contracted nonzero rows; internal contraction buffers are not counted."
+        },
+        {
+          "locus": "Locus2",
+          "alleles": [
+            "blue",
+            "cyan",
+            "green",
+            "other",
+            "red"
+          ],
+          "observation_model": {
+            "type": "generative_str",
+            "dropout": 0.0,
+            "background_error": 0.001,
+            "background_source": "fixed_reference_frequencies",
+            "background_frequency_file": "../../data/background_allele_frequencies.json",
+            "missing": "condition_on_call_available"
+          },
+          "genotype_states": 15,
+          "persons": 4,
+          "founders": [
+            "Amenhotep",
+            "Tiye",
+            "KV35YL",
+            "Akhenaten"
+          ],
+          "probability": 7.128180000000008e-31,
+          "log_likelihood": -69.41608194044049,
+          "initial_factors": 8,
+          "max_factor_rows": 15,
+          "elimination_steps": [
+            {
+              "variable": "Amenhotep",
+              "involved_factors": 2,
+              "result_variables": [],
+              "result_rows": 1
+            },
+            {
+              "variable": "Tiye",
+              "involved_factors": 2,
+              "result_variables": [],
+              "result_rows": 1
+            },
+            {
+              "variable": "KV35YL",
+              "involved_factors": 2,
+              "result_variables": [],
+              "result_rows": 1
+            },
+            {
+              "variable": "Akhenaten",
+              "involved_factors": 2,
+              "result_variables": [],
+              "result_rows": 1
+            }
+          ],
+          "backend": "numpy_exact_contraction",
+          "factor_size_definition": "Maximum stored initial or contracted nonzero rows; internal contraction buffers are not counted."
+        }
+      ],
+      "weight_scope": "unique_scored_structure",
+      "rank": 2,
+      "delta_log_likelihood": -36.14939163509975,
+      "weight": 1.9976467300469153e-16,
+      "weight_percent": 1.9976467300469154e-14
+    }
+  ],
+  "leave_one_out": [
+    {
+      "omitted_locus": "Locus1",
+      "retained_loci": [
+        "Locus2"
+      ],
+      "results": [
+        {
+          "pedigree": "focused_amenhotep_tiye_children_l1_l2_relationships",
+          "structure_id": "focused_amenhotep_tiye_children_l1_l2_relationships",
+          "founder_scenario": "focused_amenhotep_tiye_children_l1_l2_founders",
+          "identity_hypothesis": "amarna_no_identity",
+          "log_likelihood": -37.13805807363391,
+          "observation_model": {
+            "type": "generative_str",
+            "dropout": 0.0,
+            "background_error": 0.001,
+            "background_source": "fixed_reference_frequencies",
+            "background_frequency_file": "../../data/background_allele_frequencies.json",
+            "missing": "condition_on_call_available"
+          },
+          "loci": [
+            {
+              "locus": "Locus2",
+              "alleles": [
+                "blue",
+                "cyan",
+                "green",
+                "other",
+                "red"
+              ],
+              "observation_model": {
+                "type": "generative_str",
+                "dropout": 0.0,
+                "background_error": 0.001,
+                "background_source": "fixed_reference_frequencies",
+                "background_frequency_file": "../../data/background_allele_frequencies.json",
+                "missing": "condition_on_call_available"
+              },
+              "genotype_states": 15,
+              "persons": 4,
+              "founders": [
+                "Amenhotep",
+                "Tiye"
+              ],
+              "probability": 7.432694967249965e-17,
+              "log_likelihood": -37.13805807363391,
+              "initial_factors": 8,
+              "max_factor_rows": 615,
+              "elimination_steps": [
+                {
+                  "variable": "KV35YL",
+                  "involved_factors": 2,
+                  "result_variables": [
+                    "Amenhotep",
+                    "Tiye"
+                  ],
+                  "result_rows": 225
+                },
+                {
+                  "variable": "Akhenaten",
+                  "involved_factors": 2,
+                  "result_variables": [
+                    "Amenhotep",
+                    "Tiye"
+                  ],
+                  "result_rows": 225
+                },
+                {
+                  "variable": "Amenhotep",
+                  "involved_factors": 4,
+                  "result_variables": [
+                    "Tiye"
+                  ],
+                  "result_rows": 15
+                },
+                {
+                  "variable": "Tiye",
+                  "involved_factors": 3,
+                  "result_variables": [],
+                  "result_rows": 1
+                }
+              ],
+              "backend": "numpy_exact_contraction",
+              "factor_size_definition": "Maximum stored initial or contracted nonzero rows; internal contraction buffers are not counted."
+            }
+          ],
+          "weight_scope": "unique_scored_structure",
+          "rank": 1,
+          "delta_log_likelihood": 0.0,
+          "weight": 0.9999999999999905,
+          "weight_percent": 99.99999999999905
+        },
+        {
+          "pedigree": "focused_amenhotep_tiye_children_l1_l2_independent",
+          "structure_id": "focused_amenhotep_tiye_children_l1_l2_independent",
+          "founder_scenario": "focused_amenhotep_tiye_children_l1_l2_founders",
+          "identity_hypothesis": "amarna_no_identity",
+          "log_likelihood": -69.41608194044049,
+          "observation_model": {
+            "type": "generative_str",
+            "dropout": 0.0,
+            "background_error": 0.001,
+            "background_source": "fixed_reference_frequencies",
+            "background_frequency_file": "../../data/background_allele_frequencies.json",
+            "missing": "condition_on_call_available"
+          },
+          "loci": [
+            {
+              "locus": "Locus2",
+              "alleles": [
+                "blue",
+                "cyan",
+                "green",
+                "other",
+                "red"
+              ],
+              "observation_model": {
+                "type": "generative_str",
+                "dropout": 0.0,
+                "background_error": 0.001,
+                "background_source": "fixed_reference_frequencies",
+                "background_frequency_file": "../../data/background_allele_frequencies.json",
+                "missing": "condition_on_call_available"
+              },
+              "genotype_states": 15,
+              "persons": 4,
+              "founders": [
+                "Amenhotep",
+                "Tiye",
+                "KV35YL",
+                "Akhenaten"
+              ],
+              "probability": 7.128180000000008e-31,
+              "log_likelihood": -69.41608194044049,
+              "initial_factors": 8,
+              "max_factor_rows": 15,
+              "elimination_steps": [
+                {
+                  "variable": "Amenhotep",
+                  "involved_factors": 2,
+                  "result_variables": [],
+                  "result_rows": 1
+                },
+                {
+                  "variable": "Tiye",
+                  "involved_factors": 2,
+                  "result_variables": [],
+                  "result_rows": 1
+                },
+                {
+                  "variable": "KV35YL",
+                  "involved_factors": 2,
+                  "result_variables": [],
+                  "result_rows": 1
+                },
+                {
+                  "variable": "Akhenaten",
+                  "involved_factors": 2,
+                  "result_variables": [],
+                  "result_rows": 1
+                }
+              ],
+              "backend": "numpy_exact_contraction",
+              "factor_size_definition": "Maximum stored initial or contracted nonzero rows; internal contraction buffers are not counted."
+            }
+          ],
+          "weight_scope": "unique_scored_structure",
+          "rank": 2,
+          "delta_log_likelihood": -32.278023866806585,
+          "weight": 9.59030342481189e-15,
+          "weight_percent": 9.59030342481189e-13
+        }
+      ],
+      "changes": [
+        {
+          "model": "focused_amenhotep_tiye_children_l1_l2_independent / focused_amenhotep_tiye_children_l1_l2_founders / amarna_no_identity",
+          "baseline_rank": 2,
+          "jackknife_rank": 2,
+          "rank_change": 0,
+          "baseline_weight_percent": 1.9976467300469154e-14,
+          "jackknife_weight_percent": 9.59030342481189e-13,
+          "weight_percent_change": 9.390538751807197e-13,
+          "baseline_log_likelihood": -91.43432745802905,
+          "jackknife_log_likelihood": -69.41608194044049,
+          "log_likelihood_change": 22.018245517588554
+        },
+        {
+          "model": "focused_amenhotep_tiye_children_l1_l2_relationships / focused_amenhotep_tiye_children_l1_l2_founders / amarna_no_identity",
+          "baseline_rank": 1,
+          "jackknife_rank": 1,
+          "rank_change": 0,
+          "baseline_weight_percent": 99.99999999999997,
+          "jackknife_weight_percent": 99.99999999999905,
+          "weight_percent_change": -9.237055564881302e-13,
+          "baseline_log_likelihood": -55.2849358229293,
+          "jackknife_log_likelihood": -37.13805807363391,
+          "log_likelihood_change": 18.146877749295392
+        }
+      ]
+    },
+    {
+      "omitted_locus": "Locus2",
+      "retained_loci": [
+        "Locus1"
+      ],
+      "results": [
+        {
+          "pedigree": "focused_amenhotep_tiye_children_l1_l2_relationships",
+          "structure_id": "focused_amenhotep_tiye_children_l1_l2_relationships",
+          "founder_scenario": "focused_amenhotep_tiye_children_l1_l2_founders",
+          "identity_hypothesis": "amarna_no_identity",
+          "log_likelihood": -18.146877749295392,
+          "observation_model": {
+            "type": "generative_str",
+            "dropout": 0.0,
+            "background_error": 0.001,
+            "background_source": "fixed_reference_frequencies",
+            "background_frequency_file": "../../data/background_allele_frequencies.json",
+            "missing": "condition_on_call_available"
+          },
+          "loci": [
+            {
+              "locus": "Locus1",
+              "alleles": [
+                "blue",
+                "cyan",
+                "green",
+                "other",
+                "pink",
+                "red",
+                "yellow"
+              ],
+              "observation_model": {
+                "type": "generative_str",
+                "dropout": 0.0,
+                "background_error": 0.001,
+                "background_source": "fixed_reference_frequencies",
+                "background_frequency_file": "../../data/background_allele_frequencies.json",
+                "missing": "condition_on_call_available"
+              },
+              "genotype_states": 28,
+              "persons": 4,
+              "founders": [
+                "Amenhotep",
+                "Tiye"
+              ],
+              "probability": 1.3149557234162501e-08,
+              "log_likelihood": -18.146877749295392,
+              "initial_factors": 8,
+              "max_factor_rows": 2380,
+              "elimination_steps": [
+                {
+                  "variable": "KV35YL",
+                  "involved_factors": 2,
+                  "result_variables": [
+                    "Amenhotep",
+                    "Tiye"
+                  ],
+                  "result_rows": 784
+                },
+                {
+                  "variable": "Akhenaten",
+                  "involved_factors": 2,
+                  "result_variables": [
+                    "Amenhotep",
+                    "Tiye"
+                  ],
+                  "result_rows": 784
+                },
+                {
+                  "variable": "Amenhotep",
+                  "involved_factors": 4,
+                  "result_variables": [
+                    "Tiye"
+                  ],
+                  "result_rows": 28
+                },
+                {
+                  "variable": "Tiye",
+                  "involved_factors": 3,
+                  "result_variables": [],
+                  "result_rows": 1
+                }
+              ],
+              "backend": "numpy_exact_contraction",
+              "factor_size_definition": "Maximum stored initial or contracted nonzero rows; internal contraction buffers are not counted."
+            }
+          ],
+          "weight_scope": "unique_scored_structure",
+          "rank": 1,
+          "delta_log_likelihood": 0.0,
+          "weight": 0.9795951702267279,
+          "weight_percent": 97.9595170226728
+        },
+        {
+          "pedigree": "focused_amenhotep_tiye_children_l1_l2_independent",
+          "structure_id": "focused_amenhotep_tiye_children_l1_l2_independent",
+          "founder_scenario": "focused_amenhotep_tiye_children_l1_l2_founders",
+          "identity_hypothesis": "amarna_no_identity",
+          "log_likelihood": -22.018245517588554,
+          "observation_model": {
+            "type": "generative_str",
+            "dropout": 0.0,
+            "background_error": 0.001,
+            "background_source": "fixed_reference_frequencies",
+            "background_frequency_file": "../../data/background_allele_frequencies.json",
+            "missing": "condition_on_call_available"
+          },
+          "loci": [
+            {
+              "locus": "Locus1",
+              "alleles": [
+                "blue",
+                "cyan",
+                "green",
+                "other",
+                "pink",
+                "red",
+                "yellow"
+              ],
+              "observation_model": {
+                "type": "generative_str",
+                "dropout": 0.0,
+                "background_error": 0.001,
+                "background_source": "fixed_reference_frequencies",
+                "background_frequency_file": "../../data/background_allele_frequencies.json",
+                "missing": "condition_on_call_available"
+              },
+              "genotype_states": 28,
+              "persons": 4,
+              "founders": [
+                "Amenhotep",
+                "Tiye",
+                "KV35YL",
+                "Akhenaten"
+              ],
+              "probability": 2.7390342981671103e-10,
+              "log_likelihood": -22.018245517588554,
+              "initial_factors": 8,
+              "max_factor_rows": 28,
+              "elimination_steps": [
+                {
+                  "variable": "Amenhotep",
+                  "involved_factors": 2,
+                  "result_variables": [],
+                  "result_rows": 1
+                },
+                {
+                  "variable": "Tiye",
+                  "involved_factors": 2,
+                  "result_variables": [],
+                  "result_rows": 1
+                },
+                {
+                  "variable": "KV35YL",
+                  "involved_factors": 2,
+                  "result_variables": [],
+                  "result_rows": 1
+                },
+                {
+                  "variable": "Akhenaten",
+                  "involved_factors": 2,
+                  "result_variables": [],
+                  "result_rows": 1
+                }
+              ],
+              "backend": "numpy_exact_contraction",
+              "factor_size_definition": "Maximum stored initial or contracted nonzero rows; internal contraction buffers are not counted."
+            }
+          ],
+          "weight_scope": "unique_scored_structure",
+          "rank": 2,
+          "delta_log_likelihood": -3.8713677682931618,
+          "weight": 0.02040482977327216,
+          "weight_percent": 2.040482977327216
+        }
+      ],
+      "changes": [
+        {
+          "model": "focused_amenhotep_tiye_children_l1_l2_independent / focused_amenhotep_tiye_children_l1_l2_founders / amarna_no_identity",
+          "baseline_rank": 2,
+          "jackknife_rank": 2,
+          "rank_change": 0,
+          "baseline_weight_percent": 1.9976467300469154e-14,
+          "jackknife_weight_percent": 2.040482977327216,
+          "weight_percent_change": 2.040482977327196,
+          "baseline_log_likelihood": -91.43432745802905,
+          "jackknife_log_likelihood": -22.018245517588554,
+          "log_likelihood_change": 69.41608194044049
+        },
+        {
+          "model": "focused_amenhotep_tiye_children_l1_l2_relationships / focused_amenhotep_tiye_children_l1_l2_founders / amarna_no_identity",
+          "baseline_rank": 1,
+          "jackknife_rank": 1,
+          "rank_change": 0,
+          "baseline_weight_percent": 99.99999999999997,
+          "jackknife_weight_percent": 97.9595170226728,
+          "weight_percent_change": -2.040482977327173,
+          "baseline_log_likelihood": -55.2849358229293,
+          "jackknife_log_likelihood": -18.146877749295392,
+          "log_likelihood_change": 37.13805807363391
+        }
+      ]
+    }
+  ]
+}

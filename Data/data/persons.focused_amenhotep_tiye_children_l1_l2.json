@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "description": "Two children: Amenhotep and Tiye as parents of KV35YL and Akhenaten, Locus1/Locus2.",
+  "persons": [
+    {
+      "id": "Amenhotep",
+      "label": "Amenhotep",
+      "kind": "sample",
+      "notes": "Focused robustness excerpt used for the focused robustness analysis"
+    },
+    {
+      "id": "Tiye",
+      "label": "Tiye",
+      "kind": "sample",
+      "notes": "Focused robustness excerpt used for the focused robustness analysis"
+    },
+    {
+      "id": "KV35YL",
+      "label": "KV35YL",
+      "kind": "sample",
+      "notes": "Focused robustness excerpt used for the focused robustness analysis"
+    },
+    {
+      "id": "Akhenaten",
+      "label": "Akhenaten",
+      "kind": "sample",
+      "notes": "Focused robustness excerpt used for the focused robustness analysis"
+    }
+  ]
+}

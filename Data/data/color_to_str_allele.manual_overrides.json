@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "description": "Manual review resolutions for locus-specific Amarna color to Duesseldorf STR allele mapping. Values were provided as STR lengths by the user and mapped to the corresponding Duesseldorf table allele labels.",
+  "overrides": {
+    "Locus2": {
+      "green": {
+        "provided_length": "6",
+        "selected_str_allele": "6/6.2/6.3",
+        "reason": "D7S820 Duesseldorf table groups allele 6 in column 6/6.2/6.3."
+      },
+      "red": {
+        "provided_length": "15",
+        "selected_str_allele": "15",
+        "reason": "Manual color legend resolution."
+      }
+    },
+    "Locus4": {
+      "green": {
+        "provided_length": "25",
+        "selected_str_allele": "25",
+        "reason": "Manual color legend resolution among equal-frequency D21S11 alleles."
+      }
+    },
+    "Locus5": {
+      "red": {
+        "provided_length": "6",
+        "selected_str_allele": "6",
+        "reason": "Manual color legend resolution."
+      }
+    },
+    "Locus6": {
+      "yellow": {
+        "provided_length": "8",
+        "selected_str_allele": "<10",
+        "reason": "D18S51 Duesseldorf table groups allele 8 under <10."
+      },
+      "red": {
+        "provided_length": "22",
+        "selected_str_allele": "22",
+        "reason": "Manual color legend resolution."
+      },
+      "pink": {
+        "provided_length": "10",
+        "selected_str_allele": "10",
+        "reason": "Manual color legend resolution among equal-frequency D18S51 alleles."
+      },
+      "blue": {
+        "provided_length": "19",
+        "selected_str_allele": "19",
+        "reason": "Verified from the reported Thuya, Tiye and KV55 profiles; equal source frequency at allele 10 does not make it the same observed allele."
+      }
+    },
+    "Locus7": {
+      "green": {
+        "provided_length": "6",
+        "selected_str_allele": "6",
+        "reason": "Manual color legend resolution."
+      }
+    }
+  }
+}
